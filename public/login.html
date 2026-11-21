@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accesso — Catalogo IDIR</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0f1117; color: #e2e8f0;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+  }
+  .card {
+    background: #1a1d2e; border: 1px solid #2d3451;
+    border-radius: 20px; padding: 48px 40px; width: 100%; max-width: 400px;
+    text-align: center;
+  }
+  .logo { font-size: 48px; margin-bottom: 16px; }
+  h1 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+  p { color: #8892a4; font-size: 14px; margin-bottom: 32px; }
+  input {
+    width: 100%; background: #0f1117; border: 1px solid #2d3451;
+    border-radius: 10px; padding: 14px 18px; color: #e2e8f0;
+    font-size: 15px; outline: none; margin-bottom: 16px;
+    transition: border-color 0.2s; letter-spacing: 2px;
+    text-align: center;
+  }
+  input:focus { border-color: #4f8ef7; }
+  input::placeholder { letter-spacing: 0; color: #4a5568; }
+  button {
+    width: 100%; background: linear-gradient(135deg, #4f8ef7, #a259ff);
+    border: none; border-radius: 10px; padding: 14px;
+    color: white; font-size: 15px; font-weight: 700;
+    cursor: pointer; transition: opacity 0.2s;
+  }
+  button:hover { opacity: 0.9; }
+  .error { color: #f87171; font-size: 13px; margin-top: 12px; display: none; }
+  .sub { color: #4a5568; font-size: 11px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">🔧</div>
+  <h1>Catalogo Ricambi IDIR</h1>
+  <p>Meccanica 360 — Accesso riservato</p>
+  <input type="password" id="pwd" placeholder="Inserisci password" onkeydown="if(event.key==='Enter')login()">
+  <button onclick="login()">Accedi</button>
+  <div class="error" id="err">Password errata. Riprova.</div>
+  <div class="sub">Accesso riservato — Meccanica 360</div>
+</div>
+<script>
+function login() {
+  const pwd = document.getElementById('pwd').value;
+  fetch('/auth', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({password: pwd})
+  })
+  .then(r => r.json())
+  .then(d => {
+    if (d.ok) window.location.href = '/';
+    else { document.getElementById('err').style.display = 'block'; document.getElementById('pwd').value = ''; }
+  });
+}
+</script>
+</body>
+</html>
