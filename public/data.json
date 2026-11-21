@@ -1,0 +1,3400 @@
+{
+  "stats": {
+    "totale_codici": 347,
+    "totale_qty": 610,
+    "totale_ordini": 221,
+    "spesa_totale": 9352.82
+  },
+  "pezzi": [
+    {
+      "codice": "1987302206",
+      "brand": "BS",
+      "descrizione": "LAMPADA, LUCE FRENO SUPPLEMENTARE LAMPADA 12V5W W5W PURE LIGHT",
+      "qta_totale": 30,
+      "n_ordini": 1,
+      "importo_totale": 8.94,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FC263",
+      "brand": "SEV",
+      "descrizione": "FILTRO ABITACOLO FCA",
+      "qta_totale": 18,
+      "n_ordini": 7,
+      "importo_totale": 71.7,
+      "veicoli": []
+    },
+    {
+      "codice": "F026407407",
+      "brand": "BS",
+      "descrizione": "FILTRO OLIO CITROEN JUMPER III/OPEL MOVANO 2.2D2023>",
+      "qta_totale": 12,
+      "n_ordini": 4,
+      "importo_totale": 89.3,
+      "veicoli": [
+        "CITROEN JUMPER",
+        "OPEL MOVANO"
+      ]
+    },
+    {
+      "codice": "SVP23841",
+      "brand": "SEV",
+      "descrizione": "PATTINI FRENO CITROEN JUMPER 2011>> FIATDUCATO 2011>>",
+      "qta_totale": 11,
+      "n_ordini": 8,
+      "importo_totale": 147.51,
+      "veicoli": [
+        "CITROEN JUMPER"
+      ]
+    },
+    {
+      "codice": "SVP23820",
+      "brand": "SEV",
+      "descrizione": "PATTINI FRENO CITROEN JUMPER II FIAT DUCATOIII",
+      "qta_totale": 10,
+      "n_ordini": 6,
+      "importo_totale": 121.5,
+      "veicoli": [
+        "CITROEN JUMPER",
+        "FIAT DUCATOIII"
+      ]
+    },
+    {
+      "codice": "8ZO 366 100-991",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 9,
+      "n_ordini": 4,
+      "importo_totale": 31.58,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZO 366 100-001",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 8,
+      "n_ordini": 3,
+      "importo_totale": 15.36,
+      "veicoli": []
+    },
+    {
+      "codice": "ADV182118",
+      "brand": "BLU",
+      "descrizione": "FILTRO OLIO AUDI A1 (8X) 1.0 TFSI A1 (8X) 1.4T",
+      "qta_totale": 6,
+      "n_ordini": 6,
+      "importo_totale": 22.99,
+      "veicoli": [
+        "AUDI A1"
+      ]
+    },
+    {
+      "codice": "FBW050",
+      "brand": "FER",
+      "descrizione": "PULITORE FRENO",
+      "qta_totale": 6,
+      "n_ordini": 4,
+      "importo_totale": 0.0,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FO991",
+      "brand": "SEV",
+      "descrizione": "FILTRO OLIO VAG",
+      "qta_totale": 6,
+      "n_ordini": 2,
+      "importo_totale": 12.88,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZC 366 120-581",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 6,
+      "n_ordini": 5,
+      "importo_totale": 30.44,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZC 366 120-751",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 6,
+      "n_ordini": 6,
+      "importo_totale": 51.0,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZC 366 120-701",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 6,
+      "n_ordini": 2,
+      "importo_totale": 20.7,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 130-211",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 5,
+      "n_ordini": 4,
+      "importo_totale": 32.43,
+      "veicoli": []
+    },
+    {
+      "codice": "0242145571",
+      "brand": "BS",
+      "descrizione": "Candela CANDELA ACCENSIONE YR5DII33S FIAT 500ABARTH/TIPO 1.4T-JET",
+      "qta_totale": 4,
+      "n_ordini": 1,
+      "importo_totale": 33.92,
+      "veicoli": [
+        "FIAT 500ABARTH"
+      ]
+    },
+    {
+      "codice": "C 32 191",
+      "brand": "MAN",
+      "descrizione": "FILTRO ARIA VW (VOLKSWAGEN) CARAVELLE(MULTIVAN/CALIFORN.) T5",
+      "qta_totale": 4,
+      "n_ordini": 2,
+      "importo_totale": 31.32,
+      "veicoli": []
+    },
+    {
+      "codice": "ADV182523",
+      "brand": "BLU",
+      "descrizione": "FILTRO ABITACOLO AUDI Q7 QUATTRO (4L) 3.0 TDIV6 24V",
+      "qta_totale": 4,
+      "n_ordini": 2,
+      "importo_totale": 29.31,
+      "veicoli": [
+        "AUDI Q7"
+      ]
+    },
+    {
+      "codice": "0241145528",
+      "brand": "BS",
+      "descrizione": "CANDELA ACCENSIONE YA5KIP80 AUDI A1/Q2 VW GOLFVII /POLO V",
+      "qta_totale": 4,
+      "n_ordini": 1,
+      "importo_totale": 23.44,
+      "veicoli": [
+        "AUDI A1",
+        "VW GOLFVII"
+      ]
+    },
+    {
+      "codice": "8DB 355 005-531",
+      "brand": "HEL",
+      "descrizione": "PASTIGLIE FRENO ANT. MERCEDES-BENZ;VOLKSWAGEN CRAFTER 30-5",
+      "qta_totale": 4,
+      "n_ordini": 4,
+      "importo_totale": 86.26,
+      "veicoli": [
+        "MERCEDES-BENZ"
+      ]
+    },
+    {
+      "codice": "8DD 355 117-621",
+      "brand": "HEL",
+      "descrizione": "Disco Freno ANT. DODGE; FREIGHTLINER;MERCEDES-BENZ; VOLKSWA",
+      "qta_totale": 4,
+      "n_ordini": 3,
+      "importo_totale": 94.73,
+      "veicoli": [
+        "MERCEDES-BENZ"
+      ]
+    },
+    {
+      "codice": "ADV182275",
+      "brand": "BLU",
+      "descrizione": "FILTRO ARIA MAN (LCV) TGE 2.100 2.0 TDI 16VTGE",
+      "qta_totale": 4,
+      "n_ordini": 2,
+      "importo_totale": 25.85,
+      "veicoli": []
+    },
+    {
+      "codice": "0242229576",
+      "brand": "BS",
+      "descrizione": "CANDELA D ACCENSIONE CANDELA FR8LCX KIA CEE D1.4/1.6",
+      "qta_totale": 4,
+      "n_ordini": 1,
+      "importo_totale": 5.8,
+      "veicoli": []
+    },
+    {
+      "codice": "0986494845",
+      "brand": "BS",
+      "descrizione": "Pastiglie sport PATTINI FRENO ANT.WVA22034 FORDTRANSIT 2014>(ruote gemellate)",
+      "qta_totale": 4,
+      "n_ordini": 3,
+      "importo_totale": 94.44,
+      "veicoli": []
+    },
+    {
+      "codice": "23-0340",
+      "brand": "MET",
+      "descrizione": "DISCO FRENO DISCHI FRENO CITROEN HCV / FIAT HCV / OPELHCV / PEUGEOT HCV Boxer I Bus (230P) : 1.",
+      "qta_totale": 4,
+      "n_ordini": 2,
+      "importo_totale": 85.32,
+      "veicoli": [
+        "CITROEN HCV",
+        "FIAT HCV",
+        "PEUGEOT HCV"
+      ]
+    },
+    {
+      "codice": "ADV182282",
+      "brand": "BLU",
+      "descrizione": "FILTRO ARIA AUDI A1 SPORTBACK (GB) 1.5 35TFSI",
+      "qta_totale": 3,
+      "n_ordini": 3,
+      "importo_totale": 22.9,
+      "veicoli": [
+        "AUDI A1"
+      ]
+    },
+    {
+      "codice": "1987432540",
+      "brand": "BS",
+      "descrizione": "FILTRO ABITACOLO AUDI A3/Q2 VW GOLF VII/T-ROC2015>",
+      "qta_totale": 3,
+      "n_ordini": 2,
+      "importo_totale": 19.23,
+      "veicoli": [
+        "AUDI A3",
+        "VW GOLF"
+      ]
+    },
+    {
+      "codice": "ADM52262",
+      "brand": "BLU",
+      "descrizione": ". FILTRO ARIA FORD PKW C-MAX 1.0 ECOBOOST C-MAX1",
+      "qta_totale": 3,
+      "n_ordini": 3,
+      "importo_totale": 16.68,
+      "veicoli": [
+        "FORD PKW"
+      ]
+    },
+    {
+      "codice": "SV05FC371",
+      "brand": "SEV",
+      "descrizione": "FILTRO ABITACOLO FCA",
+      "qta_totale": 3,
+      "n_ordini": 3,
+      "importo_totale": 7.53,
+      "veicoli": []
+    },
+    {
+      "codice": "LS296",
+      "brand": "PUR",
+      "descrizione": "FILTRO OLIO FILTRO ALFA ROMEO 145 (930) 146 (930) 147(937) 1",
+      "qta_totale": 3,
+      "n_ordini": 3,
+      "importo_totale": 7.14,
+      "veicoli": [
+        "ALFA ROMEO"
+      ]
+    },
+    {
+      "codice": "8ZO 366 100-041",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 3,
+      "n_ordini": 3,
+      "importo_totale": 6.21,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZC 366 120-331",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 3,
+      "n_ordini": 1,
+      "importo_totale": 15.99,
+      "veicoli": []
+    },
+    {
+      "codice": "C 25 091",
+      "brand": "MAN",
+      "descrizione": "FILTRO ARIA CITROEN",
+      "qta_totale": 3,
+      "n_ordini": 1,
+      "importo_totale": 87.72,
+      "veicoli": []
+    },
+    {
+      "codice": "8DB 355 011-531",
+      "brand": "HEL",
+      "descrizione": "Pastiglie Freno POST. VOLKSWAGEN MULTIVAN V(7HM, 7HN, 7HF,",
+      "qta_totale": 3,
+      "n_ordini": 3,
+      "importo_totale": 63.66,
+      "veicoli": []
+    },
+    {
+      "codice": "ADL142514",
+      "brand": "BLU",
+      "descrizione": ". FILTRO ABITACOLO CITRON JUMPER II 2.3 HDI16V JUMPE",
+      "qta_totale": 3,
+      "n_ordini": 2,
+      "importo_totale": 11.69,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZF 366 112-291",
+      "brand": "HEL",
+      "descrizione": "FILTRO CARBURANTE",
+      "qta_totale": 3,
+      "n_ordini": 3,
+      "importo_totale": 47.67,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 136-871",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 3,
+      "n_ordini": 1,
+      "importo_totale": 13.2,
+      "veicoli": []
+    },
+    {
+      "codice": "0242145636",
+      "brand": "BS",
+      "descrizione": "CANDELA ACCENSIONE AR5NIP FORD FIESTA VII/FOCUSIV OPEL CORSA E",
+      "qta_totale": 3,
+      "n_ordini": 1,
+      "importo_totale": 28.07,
+      "veicoli": [
+        "FORD FIESTA",
+        "OPEL CORSA"
+      ]
+    },
+    {
+      "codice": "0242229699",
+      "brand": "BS",
+      "descrizione": "CANDELA D ACCENSIONE CANDELA FQR8LEU2 ALFA/OPEL(+57)",
+      "qta_totale": 3,
+      "n_ordini": 1,
+      "importo_totale": 8.62,
+      "veicoli": []
+    },
+    {
+      "codice": "0242140543",
+      "brand": "BS",
+      "descrizione": "CANDELA ACCENSIONE ZR6SPP3320 CITROEN C3II/C4 II 1.2 THP 2014>",
+      "qta_totale": 3,
+      "n_ordini": 1,
+      "importo_totale": 13.67,
+      "veicoli": [
+        "CITROEN C3II"
+      ]
+    },
+    {
+      "codice": "ADV182513",
+      "brand": "BLU",
+      "descrizione": "FILTRO ABITACOLO AUDI A3 (8V) 1.0 TFSI A3(8V) 1.2 T",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 13.52,
+      "veicoli": [
+        "AUDI A3"
+      ]
+    },
+    {
+      "codice": "38HY011",
+      "brand": "RED",
+      "descrizione": "FILTRO OLIO ATOS-GETZ NO OEM * HYUNDAI i10 III (AC3,AI3) 2020",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 3.04,
+      "veicoli": []
+    },
+    {
+      "codice": "PA620",
+      "brand": "GRF",
+      "descrizione": "POMPA ACQUA FIAT: Brava, Bravo 1.6 16v (95-01) - Dobl1.6 16v",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 64.22,
+      "veicoli": []
+    },
+    {
+      "codice": "530 0222 10",
+      "brand": "INA",
+      "descrizione": "KIT DISTRIBUZIONE LANCIA DELTA II (836) 1.6i.e. 16V (836AO) (01.1996 -> 08.1999)",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 77.38,
+      "veicoli": [
+        "LANCIA DELTA"
+      ]
+    },
+    {
+      "codice": "ADF122102",
+      "brand": "BLU",
+      "descrizione": ". FILTRO OLIO CITRON BERLINGO FIRST 1.4BERLINGO",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 4.86,
+      "veicoli": []
+    },
+    {
+      "codice": "AHC245-2",
+      "brand": "PUR",
+      "descrizione": ". PEUGEOT 308 SW",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 16.6,
+      "veicoli": [
+        "PEUGEOT 308"
+      ]
+    },
+    {
+      "codice": "0242135518",
+      "brand": "BS",
+      "descrizione": "CANDELA ZR7SI332S CITROEN C4/DS4 BMW MINICOOPER PEUGEOT 207 1.4/1.6",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 12.02,
+      "veicoli": [
+        "BMW MINICOOPER",
+        "CITROEN C4",
+        "PEUGEOT 207"
+      ]
+    },
+    {
+      "codice": "SV390336",
+      "brand": "SEV",
+      "descrizione": "BOBINA ACCENSIONE VW GOLF V 03-08 1.4 16V,1.4 FSI, 1.4 TSI, 1.6 FSI, GOLF VI 08",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 26.78,
+      "veicoli": [
+        "VW GOLF"
+      ]
+    },
+    {
+      "codice": "LS867B",
+      "brand": "PUR",
+      "descrizione": "FILTRO OLIO FILTRO ARO 240-244 CITROEN AX (ZA-_)BERLINGO (MF",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 5.72,
+      "veicoli": [
+        "CITROEN AX"
+      ]
+    },
+    {
+      "codice": "713 6680 60",
+      "brand": "FAG",
+      "descrizione": "KIT RUOTA SMART FORTWO Coupe (451) 1.0(451.331, 451.380) /01.2007<--",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 71.98,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 130-471",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 8.93,
+      "veicoli": []
+    },
+    {
+      "codice": "0986479313",
+      "brand": "BS",
+      "descrizione": ". disco freno ant.vent.280mm citroenjumper/fiat ducato",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 56.94,
+      "veicoli": [
+        "FIAT DUCATO"
+      ]
+    },
+    {
+      "codice": "22-0708-0",
+      "brand": "MET",
+      "descrizione": ". PATTINI FRENO PEUGEOT BOXER Flatbed / Chassis2.2 HDi 100",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 25.94,
+      "veicoli": [
+        "PEUGEOT BOXER"
+      ]
+    },
+    {
+      "codice": "ADL142309",
+      "brand": "BLU",
+      "descrizione": "FILTRO CARBURANTE ALFA ROMEO GIULIA II 2.2JTD 16V GI",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 33.77,
+      "veicoli": [
+        "ALFA ROMEO"
+      ]
+    },
+    {
+      "codice": "ADV182125",
+      "brand": "BLU",
+      "descrizione": "FILTRO OLIO AUDI A1 (8X) 1.6 TDI 16V A1SPORTBA",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 5.03,
+      "veicoli": [
+        "AUDI A1"
+      ]
+    },
+    {
+      "codice": "8DB 355 010-581",
+      "brand": "HEL",
+      "descrizione": "PASTIGLIE FRENO ANT. AUDI; SEAT; SKODA;VOLKSWAGEN A1 (8X1,",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 25.46,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FOS969",
+      "brand": "SEV",
+      "descrizione": "FILTRO OLIO VAG",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 4.94,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZC 366 120-221",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 11.42,
+      "veicoli": []
+    },
+    {
+      "codice": "22-1321-0",
+      "brand": "MET",
+      "descrizione": "PASTIGLIE FRENO MULTIVAN VII T7 (STM, STN) :1.4 E-HYBRID;1.5 TSI;2.0 TSI",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 61.76,
+      "veicoli": []
+    },
+    {
+      "codice": "0986479A93",
+      "brand": "BS",
+      "descrizione": "Disco Freno DISCO FRENO POST.PIENO 301,00MMMASTER III",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 59.76,
+      "veicoli": []
+    },
+    {
+      "codice": "38NI011",
+      "brand": "RED",
+      "descrizione": "FILTRO OLIO AUTO II 2015",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 3.25,
+      "veicoli": []
+    },
+    {
+      "codice": "39625",
+      "brand": "ABS",
+      "descrizione": "Indicatori di usura Crafter/Sprinter Series(W906)/Sprinter Series (W907)/Sprinter Series (W910)/Viano(W639)/Vito-Series (W639) (03-22)",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 2.29,
+      "veicoli": []
+    },
+    {
+      "codice": "C 20 043",
+      "brand": "MAN",
+      "descrizione": "FILTRO ARIA FIAT DUCATO 2021-(250/251/252/254/290)",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 43.29,
+      "veicoli": [
+        "FIAT DUCATO"
+      ]
+    },
+    {
+      "codice": "8DD 355 118-181",
+      "brand": "HEL",
+      "descrizione": "Disco Freno ANT. FORD B-MAX (JK); B-MAX Van;FIESTA Hatchbac",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 42.04,
+      "veicoli": [
+        "FORD B"
+      ]
+    },
+    {
+      "codice": "626 3075 00",
+      "brand": "LUK",
+      "descrizione": "REPSET C/ CUSC. MECC. CITRON JUMPERPLATFORM/CHASSIS 2.0 BLUEHDI 130 DA 04.2016",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 298.04,
+      "veicoli": []
+    },
+    {
+      "codice": "8DD 355 103-151",
+      "brand": "HEL",
+      "descrizione": "DISCO FRENO ANT.; POST. ABARTH; ALFA ROMEO;FIAT; FORD; LANC",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 17.46,
+      "veicoli": [
+        "ALFA ROMEO"
+      ]
+    },
+    {
+      "codice": "SV05FA1276",
+      "brand": "SEV",
+      "descrizione": "FILTRO ARIA PSA",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 13.16,
+      "veicoli": []
+    },
+    {
+      "codice": "CS862",
+      "brand": "PUR",
+      "descrizione": "Filtro gasolio TRANSIT, Transit 2.0 TDCI (290,310,330,350)",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 37.26,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FA1221",
+      "brand": "SEV",
+      "descrizione": "FILTRO ARIA FCA",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 4.66,
+      "veicoli": []
+    },
+    {
+      "codice": "ADV182110",
+      "brand": "BLU",
+      "descrizione": ". FILTRO OLIO AUDI A1 (8X) 1.6 TDI 16V A1 (8X)2.",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 4.15,
+      "veicoli": [
+        "AUDI A1"
+      ]
+    },
+    {
+      "codice": "ADW192515",
+      "brand": "BLU",
+      "descrizione": "SET FILTRO ABITACOLO",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 12.48,
+      "veicoli": []
+    },
+    {
+      "codice": "0986478343",
+      "brand": "BS",
+      "descrizione": "DISCO FRENO disco freno ant.257,5mm alfa145/146 fiat bravo/punto",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 23.66,
+      "veicoli": [
+        "FIAT BRAVO"
+      ]
+    },
+    {
+      "codice": "8ZC 366 120-051",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 4.87,
+      "veicoli": []
+    },
+    {
+      "codice": "ADP152102",
+      "brand": "BLU",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 7.18,
+      "veicoli": []
+    },
+    {
+      "codice": "DDF1201",
+      "brand": "FER",
+      "descrizione": "DISCO FRENO MOSKVICH ASLK 2140 AUTO (K12) II (BM0/1_,CM0/1_) II TRE VOLUMI (LM0/1_) II",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 30.86,
+      "veicoli": []
+    },
+    {
+      "codice": "SV03D0336IP",
+      "brand": "SEV",
+      "descrizione": "DISCO FRENO",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 47.92,
+      "veicoli": []
+    },
+    {
+      "codice": "0092S40020",
+      "brand": "BS",
+      "descrizione": "BATTERIA AVVIAMENTO BATTERIA 12V 52AH 470A(207X190X175) PS DX (ped.72pz)",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 98.28,
+      "veicoli": []
+    },
+    {
+      "codice": "26JE021",
+      "brand": "RED",
+      "descrizione": "DISCO FRENO ANTERIORE JEEP RENEGADE SUV (BU, B1, BV)2018",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 50.32,
+      "veicoli": []
+    },
+    {
+      "codice": "ADZ94324",
+      "brand": "BLU",
+      "descrizione": ". DISCO FRENO ISUZU N-SERIES NKR55 N-SERIESNKR77",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 83.01,
+      "veicoli": []
+    },
+    {
+      "codice": "J1312035",
+      "brand": "HBJ",
+      "descrizione": "OIL FILTER TOYOTA PROACE MAX VAN (MFY_, MFQ_)2.2 D4D 140 (MFY4) 2",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 11.37,
+      "veicoli": [
+        "TOYOTA PROACE"
+      ]
+    },
+    {
+      "codice": "SV05FC392",
+      "brand": "SEV",
+      "descrizione": "FILTRO ABITACOLO VAG",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 8.78,
+      "veicoli": []
+    },
+    {
+      "codice": "8DD 355 103-971",
+      "brand": "HEL",
+      "descrizione": "DISCO FRENO ANT. ABARTH; ALFA ROMEO;CHRYSLER; CITROEN; FIAT",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 28.74,
+      "veicoli": [
+        "ALFA ROMEO"
+      ]
+    },
+    {
+      "codice": "A1965",
+      "brand": "PUR",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 14.66,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FA1266",
+      "brand": "SEV",
+      "descrizione": "FILTRO ARIA MERCEDES",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 11.78,
+      "veicoli": []
+    },
+    {
+      "codice": "FT32461",
+      "brand": "FAS",
+      "descrizione": "SENSORE USURA PASTIGLIE FRENO MERCEDES SPRINTER 06>906 POSTERIORE ATE",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 2.25,
+      "veicoli": [
+        "MERCEDES SPRINTER"
+      ]
+    },
+    {
+      "codice": "0986479294",
+      "brand": "BS",
+      "descrizione": "DISCO FRENO ANT.VENT.300,0MM MERCEDES SPRINTER2006>",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 60.78,
+      "veicoli": [
+        "MERCEDES SPRINTER2006"
+      ]
+    },
+    {
+      "codice": "8ZA 366 130-171",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 12.73,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZO 366 100-011",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 6.49,
+      "veicoli": []
+    },
+    {
+      "codice": "0092S40040",
+      "brand": "BS",
+      "descrizione": "BATTERIA AVVIAMENTO BATTERIA 60A PS DX(242X175X175) (ped.63pz)",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 142.1,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FA1141",
+      "brand": "SEV",
+      "descrizione": "FILTRO ARIA PSA",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 5.78,
+      "veicoli": []
+    },
+    {
+      "codice": "11-14 610 0043",
+      "brand": "MEY",
+      "descrizione": "BOCC. BRAC. CITRON C2 / C3 I / PLURIEL(02/02-), C3 II (09/09-), C3 III (07/16-)",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 15.78,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 130-071",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 9.01,
+      "veicoli": []
+    },
+    {
+      "codice": "0986479C17",
+      "brand": "BS",
+      "descrizione": "DISCO FRENO",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 42.36,
+      "veicoli": []
+    },
+    {
+      "codice": "SV03D0031IP",
+      "brand": "SEV",
+      "descrizione": "DISCO FRENO",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 39.88,
+      "veicoli": []
+    },
+    {
+      "codice": "0986479399",
+      "brand": "BS",
+      "descrizione": ". disco freno post.pieno280,0mm citroenjumper/fiat ducato",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 57.26,
+      "veicoli": [
+        "FIAT DUCATO"
+      ]
+    },
+    {
+      "codice": "8DD 355 108-981",
+      "brand": "HEL",
+      "descrizione": "DISCO FRENO POST. CITROEN; FIAT; PEUGEOTBOXER BOX; BOXER BO",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 46.2,
+      "veicoli": []
+    },
+    {
+      "codice": "12015267B",
+      "brand": "COP",
+      "descrizione": "ANELLO TENUTA, DIFFERENZIALE B1BASLSFRSX736x56x10/13,5",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 5.46,
+      "veicoli": []
+    },
+    {
+      "codice": "8DD 355 113-731",
+      "brand": "HEL",
+      "descrizione": "Disco Freno POST. CITROEN; FIAT; PEUGEOTBOXER Box; BOXER Bu",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 43.52,
+      "veicoli": []
+    },
+    {
+      "codice": "SV03D0580IP",
+      "brand": "SEV",
+      "descrizione": "DISCO FRENO",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 65.56,
+      "veicoli": []
+    },
+    {
+      "codice": "SV03D0096IP",
+      "brand": "SEV",
+      "descrizione": "DISCO FRENO",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 45.4,
+      "veicoli": []
+    },
+    {
+      "codice": "8DD 355 117-481",
+      "brand": "HEL",
+      "descrizione": "DISCO FRENO POST. IVECO DAILY CITYS BUS;DAILY IV BOX BODY /",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 57.6,
+      "veicoli": []
+    },
+    {
+      "codice": "22-1276-0",
+      "brand": "MET",
+      "descrizione": "MERCEDES BENZ HCV Sprinter III 4-tPlatform/Chassis (907, 910) : 411 CDI (907.141, 907.143, 907.145,907.241, 907.2;414 CDI (907.143, 907.145, 907.243, 907.245);414 CDI(910.141, 910.143);414 CDI Trazione integrale (907.143, 907.145,907.;416 CDI",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 46.52,
+      "veicoli": [
+        "MERCEDES BENZ"
+      ]
+    },
+    {
+      "codice": "8ZO 366 100-801",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 6.98,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZO 366 100-711",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 5.45,
+      "veicoli": []
+    },
+    {
+      "codice": "8DD 355 122-861",
+      "brand": "HEL",
+      "descrizione": "DISCO FRENO POST. MERCEDES-BENZ GLE (W166);GLE COUPE (C292)",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 46.22,
+      "veicoli": [
+        "MERCEDES-BENZ"
+      ]
+    },
+    {
+      "codice": "SV03D0029IP",
+      "brand": "SEV",
+      "descrizione": "DISCO FRENO",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 42.02,
+      "veicoli": []
+    },
+    {
+      "codice": "8DD 355 125-421",
+      "brand": "HEL",
+      "descrizione": "Disco Freno ANT. CITROEN; FIAT; PEUGEOT BOXERBox; BOXER Bus",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 61.28,
+      "veicoli": [
+        "PEUGEOT BOXERBOX"
+      ]
+    },
+    {
+      "codice": "23-0884C",
+      "brand": "MET",
+      "descrizione": "DISCHI FRENO CITROEN HCV / FIAT HCV / PEUGEOTHCV Boxer III Bus : 2.0 BlueHDi 110;2.",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 67.59,
+      "veicoli": [
+        "CITROEN HCV",
+        "FIAT HCV"
+      ]
+    },
+    {
+      "codice": "0092S4E051",
+      "brand": "BS",
+      "descrizione": "BATTERIA 12V EFB 60AH 640A(242X175X190) PS DX(ped63pz)",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 148.28,
+      "veicoli": []
+    },
+    {
+      "codice": "DDF1574",
+      "brand": "FER",
+      "descrizione": "FIAT DUCATO 35, 35 MAXI 6.06>",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 52.21,
+      "veicoli": [
+        "FIAT DUCATO"
+      ]
+    },
+    {
+      "codice": "SV03D0299IP",
+      "brand": "SEV",
+      "descrizione": "DISCO FRENO",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 60.8,
+      "veicoli": []
+    },
+    {
+      "codice": "FT31069",
+      "brand": "FAS",
+      "descrizione": "DISCO FRENO FIAT DUCATO 02> POSTERIORE SX/DX PIENA10/14Q 280x16x72x82",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 45.92,
+      "veicoli": [
+        "FIAT DUCATO"
+      ]
+    },
+    {
+      "codice": "22-1173-0",
+      "brand": "MET",
+      "descrizione": "Crafter II Bus (SY_, SC_) : 2.0 TDI;2.0 TDI4motion / Crafter II Platform/Chassis (SZ_) : 2.0 TDI;2.0 TDI4motion;2.0 TDI RWD / Crafter II Van (SY_, SX_) : 2.0 TDI;2.0 TDI4motion;2.0 TDI RWD;e-Crafter / Grand California Camper (SCB, SCC) :2.0 TD",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 57.95,
+      "veicoli": []
+    },
+    {
+      "codice": "8DD 355 113-711",
+      "brand": "HEL",
+      "descrizione": "DISCO FRENO POST. CITROEN; FIAT; PEUGEOTBOXER BOX; BOXER BU",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 46.38,
+      "veicoli": []
+    },
+    {
+      "codice": "390282",
+      "brand": "UNI",
+      "descrizione": "SUPP.AMM.ANT. STILO",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 19.07,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZC 366 124-591",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 5.12,
+      "veicoli": []
+    },
+    {
+      "codice": "22207",
+      "brand": "VEM",
+      "descrizione": "TIRANTE SOSP. ANT -",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 10.53,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 131-041",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 2,
+      "n_ordini": 1,
+      "importo_totale": 7.32,
+      "veicoli": []
+    },
+    {
+      "codice": "AH392",
+      "brand": "PUR",
+      "descrizione": "FILTRO ABITACOLO AUDI A3",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.23,
+      "veicoli": [
+        "AUDI A3"
+      ]
+    },
+    {
+      "codice": "F026407143",
+      "brand": "BS",
+      "descrizione": "FILTRO OLIO AUDI A1/A3/Q3 VW GOLF VII1.2/1.4/1.6 TSI 2014>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 4.35,
+      "veicoli": [
+        "AUDI A1",
+        "VW GOLF"
+      ]
+    },
+    {
+      "codice": "ADV182216",
+      "brand": "BLU",
+      "descrizione": "FILTRO ARIA AUDI A1 SPORTBACK (GB) 2.0 40TFSI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 6.07,
+      "veicoli": [
+        "AUDI A1"
+      ]
+    },
+    {
+      "codice": "L1177",
+      "brand": "PUR",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.74,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FA1567",
+      "brand": "SEV",
+      "descrizione": "FILTRO ARIA VAG",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.05,
+      "veicoli": []
+    },
+    {
+      "codice": "530 0550 32",
+      "brand": "INA",
+      "descrizione": "KIT DISTRIBUZIONE + WP VW GOLF VI (5K1) 1.6TDI (02.2009 -> 11.2012)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 96.47,
+      "veicoli": [
+        "VW GOLF"
+      ]
+    },
+    {
+      "codice": "ADT32131",
+      "brand": "BLU",
+      "descrizione": "FILTRO OLIO CITRON BERLINGO II 1.6 HDIBERLING",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.15,
+      "veicoli": []
+    },
+    {
+      "codice": "0258027151",
+      "brand": "BS",
+      "descrizione": "SONDA LAMBDA DI REGOLAZIONE OPEL CORSA F1.2/CITROEN C3 2019>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 72.06,
+      "veicoli": [
+        "CITROEN C3",
+        "OPEL CORSA"
+      ]
+    },
+    {
+      "codice": "530 0605 30",
+      "brand": "INA",
+      "descrizione": "KIT DISTRIBUZIONE + WP FORD FOCUS III 1.6EcoBoost (07.2010 -> )",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 71.99,
+      "veicoli": [
+        "FORD FOCUS"
+      ]
+    },
+    {
+      "codice": "LS1042",
+      "brand": "PUR",
+      "descrizione": "FILTRO OLIO FIAT 500X 1.4, 1.4 4x4, Egea 1.4, Tipo III1.4 T-Jet",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.31,
+      "veicoli": [
+        "FIAT 500X"
+      ]
+    },
+    {
+      "codice": "ADL142219",
+      "brand": "BLU",
+      "descrizione": ". FILTRO ARIA ALFA ROMEO GIULIETTA II 1.4 16VGIU",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 8.48,
+      "veicoli": [
+        "ALFA ROMEO"
+      ]
+    },
+    {
+      "codice": "SV05FC330",
+      "brand": "SEV",
+      "descrizione": "FILTRO ABITACOLO FCA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.99,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FO330",
+      "brand": "SEV",
+      "descrizione": "FILTRO OLIO FCA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 1.75,
+      "veicoli": []
+    },
+    {
+      "codice": "36FT003",
+      "brand": "RED",
+      "descrizione": "FILTRO ARIA OPEL COMBO Cassone/Limousine spaziosa(X12) 2016",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.39,
+      "veicoli": [
+        "OPEL COMBO"
+      ]
+    },
+    {
+      "codice": "ADZ92507",
+      "brand": "BLU",
+      "descrizione": ". FILTRO ABITACOLO ABARTH GRANDE PUNTO (19) 1.4TUR",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.44,
+      "veicoli": []
+    },
+    {
+      "codice": "5PK1745",
+      "brand": "GAT",
+      "descrizione": "MICRO-V BELT",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 8.37,
+      "veicoli": []
+    },
+    {
+      "codice": "ADL142517",
+      "brand": "BLU",
+      "descrizione": "FILTRO ABITACOLO FIAT 500 L 0.9 500 L 1.3 JTD16V 50",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.19,
+      "veicoli": [
+        "FIAT 500"
+      ]
+    },
+    {
+      "codice": "0092S4E081",
+      "brand": "BS",
+      "descrizione": "BATTERIA 12V 70AH 760A(278X175X190) PS DX EFB(ped48pz)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 87.17,
+      "veicoli": []
+    },
+    {
+      "codice": "W 7023",
+      "brand": "MAN",
+      "descrizione": "FILTRO OLIO HYUNDAI I10",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.9,
+      "veicoli": []
+    },
+    {
+      "codice": "ADG02557",
+      "brand": "BLU",
+      "descrizione": ". FILTRO ABITACOLO HYUNDAI CANTUS 1.4 CRDI 16VCANTUS",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.67,
+      "veicoli": []
+    },
+    {
+      "codice": "ADG022148",
+      "brand": "BLU",
+      "descrizione": "FILTRO ARIA HYUNDAI I20 II 1.0 I20 II 1.1CRDI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.68,
+      "veicoli": []
+    },
+    {
+      "codice": "ADM52122",
+      "brand": "BLU",
+      "descrizione": ". FILTRO OLIO FORD PKW B-MAX 1.4 PFI DURATEC16V",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.31,
+      "veicoli": [
+        "FORD PKW"
+      ]
+    },
+    {
+      "codice": "SV05FC391",
+      "brand": "SEV",
+      "descrizione": "FILTRO ABITACOLO VAG",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.8,
+      "veicoli": []
+    },
+    {
+      "codice": "713 6403 30",
+      "brand": "FAG",
+      "descrizione": "KIT RUOTA FIAT DUCATO Bus (230) 2.8D/02.1998-04.2002",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 47.26,
+      "veicoli": [
+        "FIAT DUCATO"
+      ]
+    },
+    {
+      "codice": "ADA102110",
+      "brand": "BLU",
+      "descrizione": ". FILTRO OLIO DODGE SPRINTER (VA) 2.7 CDI V624V",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.82,
+      "veicoli": []
+    },
+    {
+      "codice": "534 0396 10",
+      "brand": "INA",
+      "descrizione": "TENDICINGHIA SCIOLTO VW GOLF VI (5K1) 1.4 TSI(10.2008 -> 11.2012)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 20.73,
+      "veicoli": [
+        "VW GOLF"
+      ]
+    },
+    {
+      "codice": "534 0374 10",
+      "brand": "INA",
+      "descrizione": "TENDICINGHIA SCIOLTO VW GOLF VI (5K1) 1.4 TSI(10.2008 -> 11.2012)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 23.38,
+      "veicoli": [
+        "VW GOLF"
+      ]
+    },
+    {
+      "codice": "PA1379",
+      "brand": "GRF",
+      "descrizione": "Pompa acqua VAG A1 I (8X1, 2, A): 1.4 TFSi / AlhambraII (710) : 1.4 TSi / Eos I : 1.4 16v TSi / Fabia II (5J2), SW : 1.4 TSi06>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 123.29,
+      "veicoli": []
+    },
+    {
+      "codice": "VKM 31116",
+      "brand": "SKF",
+      "descrizione": "Unit tendicinghia",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 25.5,
+      "veicoli": []
+    },
+    {
+      "codice": "ADBP210108",
+      "brand": "BLU",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 8.7,
+      "veicoli": []
+    },
+    {
+      "codice": "171593",
+      "brand": "FEB",
+      "descrizione": "KIT CATENA DISTRIBUZIONE",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 74.4,
+      "veicoli": []
+    },
+    {
+      "codice": "ADP152305",
+      "brand": "BLU",
+      "descrizione": "FILTRO CARBURANTE CITRON C4 I PICASSO 2.0HDI 16V C4",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 6.74,
+      "veicoli": []
+    },
+    {
+      "codice": "ADF122503",
+      "brand": "BLU",
+      "descrizione": ". FILTRO ABITACOLO FORD PKW KUGA 2.0 TDCIDURATORQ 16V",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.42,
+      "veicoli": [
+        "FORD PKW"
+      ]
+    },
+    {
+      "codice": "SV05FA1273",
+      "brand": "SEV",
+      "descrizione": "FILTRO ARIA PSA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 4.12,
+      "veicoli": []
+    },
+    {
+      "codice": "49345",
+      "brand": "FEB",
+      "descrizione": ". KIT CATENA DISTRIBUZIONE CITRON BERLINGO II 1.6 16VC3 II 1",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 80.48,
+      "veicoli": []
+    },
+    {
+      "codice": "ADV182532",
+      "brand": "BLU",
+      "descrizione": "FILTRO ABITACOLO AUDI A1 SPORTBACK (GB) 1.025 TFSI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 7.04,
+      "veicoli": [
+        "AUDI A1"
+      ]
+    },
+    {
+      "codice": "A1998",
+      "brand": "PUR",
+      "descrizione": "FILTRO ARIA VOLKSWAGEN , AUDI A1 A3 Q2 Q3, CUPRA,SEAT ARONA ,SKODA FABIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 9.3,
+      "veicoli": [
+        "AUDI A1",
+        "SEAT ARONA",
+        "SKODA FABIA"
+      ]
+    },
+    {
+      "codice": "19035976B",
+      "brand": "COP",
+      "descrizione": ". BAPTSLRDX7",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 8.31,
+      "veicoli": []
+    },
+    {
+      "codice": "7.0141",
+      "brand": "FAC",
+      "descrizione": "INTERRUTTORE A PRESSIONE OLIO Interr.spia olio OPELCorsa1.0",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.23,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FOS785A",
+      "brand": "SEV",
+      "descrizione": "FILTRO OLIO FORD",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.77,
+      "veicoli": []
+    },
+    {
+      "codice": "2042105.4",
+      "brand": "SAN",
+      "descrizione": "CHEVROLET 1 0,00 149,16 * TRASPSAN SPED. CON CUTOFF SUCC.-NON SI ACCETTANO RESINUOVI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 0.0,
+      "veicoli": []
+    },
+    {
+      "codice": "ADP152214",
+      "brand": "BLU",
+      "descrizione": "FILTRO ARIA CITRON C-ELYSEE 1.2 C3 AIRCROSS1.",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.9,
+      "veicoli": []
+    },
+    {
+      "codice": "27SZ002",
+      "brand": "RED",
+      "descrizione": "PASTIGLIE FRENO ANTERIORI VEM OPEN Pianalepiatto/Telaio 2011",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 9.43,
+      "veicoli": []
+    },
+    {
+      "codice": "5672XS",
+      "brand": "GAT",
+      "descrizione": "CINGHIA DISTRIB. CITROEN - FORD - PEUG. MOT HDI116x25.4",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 20.38,
+      "veicoli": []
+    },
+    {
+      "codice": "36BW001",
+      "brand": "RED",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.99,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZF 366 112-061",
+      "brand": "HEL",
+      "descrizione": "FILTRO CARBURANTE",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 15.54,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FA1333",
+      "brand": "SEV",
+      "descrizione": "FILTRO ARIA BMW",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.25,
+      "veicoli": []
+    },
+    {
+      "codice": "ADB112105",
+      "brand": "BLU",
+      "descrizione": ". FILTRO OLIO BMW 1.8 D - 100 KW / 136 HP 1.8 D-",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.39,
+      "veicoli": [
+        "BMW 1"
+      ]
+    },
+    {
+      "codice": "7pk1338",
+      "brand": "GAT",
+      "descrizione": "7PK1338 MICRO-V IVECO DAILY",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 8.42,
+      "veicoli": []
+    },
+    {
+      "codice": "8DB 355 021-421",
+      "brand": "HEL",
+      "descrizione": "Pastiglie Freno ANT. MAZDA 3 (BM, BN); 3Saloon (BM, BN); C",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 19.01,
+      "veicoli": []
+    },
+    {
+      "codice": "SSN70D02.0",
+      "brand": "SAN",
+      "descrizione": "SENSORE_POSIZIONE_ALBERO_A_CAMME PSACITRON,FORD,JAGUAR,LAND ROVER,PEUGEOT",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 11.81,
+      "veicoli": []
+    },
+    {
+      "codice": "101635",
+      "brand": "FEB",
+      "descrizione": ". MISURATORE DI MASSA D ARIA CITRON C5 III 2.2 HDI 16VC5 III B",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 78.86,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZC 366 121-841",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.72,
+      "veicoli": []
+    },
+    {
+      "codice": "ADH22292",
+      "brand": "BLU",
+      "descrizione": "Filtro aria FILTRO ARIA HONDA CR-V (RW7) 1.6 D(I-DTEC 16V)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 8.62,
+      "veicoli": [
+        "HONDA CR"
+      ]
+    },
+    {
+      "codice": "8ZO 366 100-101",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.64,
+      "veicoli": []
+    },
+    {
+      "codice": "699143",
+      "brand": "VAL",
+      "descrizione": ". COMP REN , , MASTER,",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 125.45,
+      "veicoli": []
+    },
+    {
+      "codice": "ADL142103",
+      "brand": "BLU",
+      "descrizione": ". FILTRO OLIO ALFA ROMEO GIULIETTA II 1.6 JTD16V",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.26,
+      "veicoli": [
+        "ALFA ROMEO"
+      ]
+    },
+    {
+      "codice": "ADH22289",
+      "brand": "BLU",
+      "descrizione": "FILTRO ARIA HONDA CR-V (RE6) 1.6 D (I-DTEC16V)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 7.33,
+      "veicoli": [
+        "HONDA CR"
+      ]
+    },
+    {
+      "codice": "ADBP210019",
+      "brand": "BLU",
+      "descrizione": "FILTRO OLIO HYUNDAI KAUAI 1.6 CRDI 16V KONA1.6",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 4.69,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZC 366 120-291",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 4.28,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZC 366 122-371",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.37,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 131-221",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 6.14,
+      "veicoli": []
+    },
+    {
+      "codice": "1987302084",
+      "brand": "BS",
+      "descrizione": "LAMPADINA, FENDINEBBIA LAMPADA 12V 55W H11 PURELIGHT",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.87,
+      "veicoli": []
+    },
+    {
+      "codice": "8DB 355 021-901",
+      "brand": "HEL",
+      "descrizione": "Pastiglie Freno POST. CITROEN; FIAT; PEUGEOT;RAM BOXER Box",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 20.94,
+      "veicoli": []
+    },
+    {
+      "codice": "19-2874",
+      "brand": "MET",
+      "descrizione": "KIT CUSCINETTI RUOTA LCV: NV400 2.3 DCI 150; 2.3 DCI165; DCI 100; DCI 110",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 26.71,
+      "veicoli": []
+    },
+    {
+      "codice": "35972",
+      "brand": "NRF",
+      "descrizione": "CONDENSER MASTER 2.3D 10-",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 60.39,
+      "veicoli": []
+    },
+    {
+      "codice": "FDB1466",
+      "brand": "FER",
+      "descrizione": "KIT PASTIGLIE FRENO, FRENO A DISCO FIAT BRAVO GRANDEPUNTO (199) STILO (192) STILO Multi Wagon (192)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 14.17,
+      "veicoli": [
+        "FIAT BRAVO"
+      ]
+    },
+    {
+      "codice": "16-14 498 0065",
+      "brand": "MEY",
+      "descrizione": "KIT GIUNTI SEM. NV400 (11/11-); OPEL MOVANO B(05/10-); MASTER III",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 39.74,
+      "veicoli": [
+        "OPEL MOVANO"
+      ]
+    },
+    {
+      "codice": "ADL142213",
+      "brand": "BLU",
+      "descrizione": "FILTRO ARIA CITRON JUMPER II 2.3 HDI 16VJUMPE",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 6.78,
+      "veicoli": []
+    },
+    {
+      "codice": "47424",
+      "brand": "NRF",
+      "descrizione": "FAN COMPLETE AUDI A4 2.0D 08-",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 46.93,
+      "veicoli": [
+        "AUDI A4"
+      ]
+    },
+    {
+      "codice": "SV05FC191",
+      "brand": "SEV",
+      "descrizione": "FILTRO ABITACOLO VAG",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.47,
+      "veicoli": []
+    },
+    {
+      "codice": "6035116.0",
+      "brand": "SAN",
+      "descrizione": "MOTORINO AVVIAMENTO 12V (8D) MITSUBISCHIPAJERO/SPACE STAR 1 0,00 78,80 * TRASPSAN SPED. CON CUTOFF SUCC.-NON SI ACCETTANO RESINUOVI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 0.0,
+      "veicoli": []
+    },
+    {
+      "codice": "22-1040-0",
+      "brand": "MET",
+      "descrizione": ". PASTIGLIE FRENO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 14.35,
+      "veicoli": []
+    },
+    {
+      "codice": "0092S4E100",
+      "brand": "BS",
+      "descrizione": "BATTERIA 12V 75AH 730A (315X175X175) PS DX EFB(42PZ)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 104.56,
+      "veicoli": []
+    },
+    {
+      "codice": "ADF122112",
+      "brand": "BLU",
+      "descrizione": "FILTRO OLIO FORD PKW C-MAX 2.0 TDCI DURATORQ16",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.25,
+      "veicoli": [
+        "FORD PKW"
+      ]
+    },
+    {
+      "codice": "6010417.0",
+      "brand": "SAN",
+      "descrizione": "MOT.D AVVIAMENTO MOTORINO AVVIAMENTO 12V BMW320i/116i 1 0,00 69,91 * TRASPSAN SPED. CON CUTOFF SUCC.-NON SI ACCETTANO RESINUOVI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 0.0,
+      "veicoli": []
+    },
+    {
+      "codice": "27NI059",
+      "brand": "RED",
+      "descrizione": "SERIE PASTIGLIE POSTERIORI AUTO II SUV (J11, J11_)2018",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 9.47,
+      "veicoli": []
+    },
+    {
+      "codice": "27145",
+      "brand": "VEM",
+      "descrizione": "BRACCIO SOSP. LATO SX",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 32.69,
+      "veicoli": []
+    },
+    {
+      "codice": "27144",
+      "brand": "VEM",
+      "descrizione": "BRACCIO SOSP. LATO DX",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 33.11,
+      "veicoli": []
+    },
+    {
+      "codice": "A12BH1445A2",
+      "brand": "SID",
+      "descrizione": "ALTERNATORE 12V 150A DAC SAN III/RE CL V1.0TCe 90",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 129.17,
+      "veicoli": []
+    },
+    {
+      "codice": "470075",
+      "brand": "NRF",
+      "descrizione": "FAN COMPLETE AUTO 2013-",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 57.79,
+      "veicoli": []
+    },
+    {
+      "codice": "SVP26160",
+      "brand": "SEV",
+      "descrizione": "PATTINI FRENO OPEL MOVANO B 2.3 DTI 10->>MASTER 2.3 DCI 10->>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 16.0,
+      "veicoli": [
+        "OPEL MOVANO"
+      ]
+    },
+    {
+      "codice": "36NI072",
+      "brand": "RED",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.93,
+      "veicoli": []
+    },
+    {
+      "codice": "FT38095",
+      "brand": "FAS",
+      "descrizione": "FILTRO OLIO 01> 2.0/2.5DCI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.13,
+      "veicoli": []
+    },
+    {
+      "codice": "27NI061",
+      "brand": "RED",
+      "descrizione": "SERIE PASTIGLIE FRENO ANTERIORI FIAT TALENTO Autobus(296_) 2016",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 12.85,
+      "veicoli": [
+        "FIAT TALENTO"
+      ]
+    },
+    {
+      "codice": "SV36VA0024.0",
+      "brand": "SEV",
+      "descrizione": "MOTORINO AVVIAMENTOHyundai Porter, Kia Pregio,Mitsubishi Pajero2,5 TD",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 67.98,
+      "veicoli": []
+    },
+    {
+      "codice": "7.6245",
+      "brand": "FAC",
+      "descrizione": "INTERRUTTORE, LUCE DI RETROMARCIA INTERRUTTORE RETROFIAT TALENTO /OPEL MOVANO /MERCEDES /SMART",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 8.56,
+      "veicoli": [
+        "FIAT TALENTO",
+        "OPEL MOVANO"
+      ]
+    },
+    {
+      "codice": "8DB 355 036-861",
+      "brand": "HEL",
+      "descrizione": "MERCEDES-BENZ ESPRINTER VAN (910); SPRINTER3,5-T PLATFORM/CHASSIS (907, 910); S",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 15.18,
+      "veicoli": [
+        "MERCEDES-BENZ"
+      ]
+    },
+    {
+      "codice": "ADF124207",
+      "brand": "BLU",
+      "descrizione": "PASTIGLIE FRENO FORD PKW B-MAX 1.0 ECOBOOSTB-MAX 1",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 17.37,
+      "veicoli": [
+        "FORD PKW"
+      ]
+    },
+    {
+      "codice": "0092S40070",
+      "brand": "BS",
+      "descrizione": "BATTERIA AVVIAMENTO BATTERIA 72A PS DX(278X175X175) (ped.51pz)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 87.42,
+      "veicoli": []
+    },
+    {
+      "codice": "22-0159-0",
+      "brand": "MET",
+      "descrizione": ". PATTINI FRENO FIAT PUNTO (176)/PANDA I/II t.t0.7 i (170AD)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 7.8,
+      "veicoli": [
+        "FIAT PUNTO"
+      ]
+    },
+    {
+      "codice": "SV05FOS386",
+      "brand": "SEV",
+      "descrizione": "FILTRO OLIO FCA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.48,
+      "veicoli": []
+    },
+    {
+      "codice": "8DB 355 032-921",
+      "brand": "HEL",
+      "descrizione": "CRAFTER Box (SY_, SX_); CRAFTER Bus (SY_);CRAFTER Platform/Chassis (SZ_); TGE Box (UY_); TGE Bus (UY_); TGEPlatform/Chassis (UZ_)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 29.98,
+      "veicoli": []
+    },
+    {
+      "codice": "39DW004",
+      "brand": "RED",
+      "descrizione": "AMMORTIZZATORE ANTERIORE DX CHEVROLET MATIZ (M200,M250) 2005",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 17.38,
+      "veicoli": []
+    },
+    {
+      "codice": "39DW003",
+      "brand": "RED",
+      "descrizione": "AMMORTIZZATORE ANTERIORE SX CHEVROLET MATIZ (M200,M250) 2005",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 17.38,
+      "veicoli": []
+    },
+    {
+      "codice": "FD9137416",
+      "brand": "PRS",
+      "descrizione": "FANALE BIANCO PER RETROVISORE SINISTRO FORD -TRANSIT (TTG) - Mod. 01/14 - 08/19",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.83,
+      "veicoli": []
+    },
+    {
+      "codice": "LS910",
+      "brand": "PUR",
+      "descrizione": "FILTRO OLIO FILTRO FIAT BRAVA (182) BRAVO (182) BRAVODOBLO (",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.28,
+      "veicoli": [
+        "FIAT BRAVA"
+      ]
+    },
+    {
+      "codice": "SV05FC378",
+      "brand": "SEV",
+      "descrizione": "FILTRO ABITACOLO VAG",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.76,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FA1160",
+      "brand": "SEV",
+      "descrizione": "FILTRO ARIA VAG",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.71,
+      "veicoli": []
+    },
+    {
+      "codice": "EP-0004",
+      "brand": "GOM",
+      "descrizione": "CONDOTTO, VALVOLA-AGR FORD FOCUS (DAW, DBW) 1.416V[10-11]",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 1.92,
+      "veicoli": [
+        "FORD FOCUS"
+      ]
+    },
+    {
+      "codice": "09-1476",
+      "brand": "GAT",
+      "descrizione": "FLESSIBILE ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 30.18,
+      "veicoli": []
+    },
+    {
+      "codice": "166445",
+      "brand": "NRF",
+      "descrizione": "INTERCOOLER HOSES 1.5D 09-",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 61.15,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 130-641",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.13,
+      "veicoli": []
+    },
+    {
+      "codice": "36NI068",
+      "brand": "RED",
+      "descrizione": "FILTRO ARIA II (HF_) 2020",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.85,
+      "veicoli": []
+    },
+    {
+      "codice": "ADA104266",
+      "brand": "BLU",
+      "descrizione": "PASTIGLIE FRENO CHRYSLER YPSILON 0.9 V2YPSILON 1.2",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 14.87,
+      "veicoli": []
+    },
+    {
+      "codice": "VKMV 5PK1145",
+      "brand": "SKF",
+      "descrizione": "FIAT, LANCIA 500, BRAVO, DOBLO, IDEA, PANDA,PUNTO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.42,
+      "veicoli": [
+        "LANCIA 500"
+      ]
+    },
+    {
+      "codice": "8ZF 366 110-211",
+      "brand": "HEL",
+      "descrizione": "FILTRO CARBURANTE",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 7.79,
+      "veicoli": []
+    },
+    {
+      "codice": "6PU 013 122-231",
+      "brand": "HEL",
+      "descrizione": "SENSORE ALBERO MOTORE CITROEN C3 III/PEUGEOT208 II",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 15.1,
+      "veicoli": [
+        "CITROEN C3"
+      ]
+    },
+    {
+      "codice": "SV05FA1573",
+      "brand": "SEV",
+      "descrizione": "FILTRO ARIA MERCEDES",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 4.19,
+      "veicoli": []
+    },
+    {
+      "codice": "SVP22960",
+      "brand": "SEV",
+      "descrizione": "PATTINI FRENO KIA PICANTO 04->> HYUNDAI I1008->>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 8.0,
+      "veicoli": []
+    },
+    {
+      "codice": "0092S40220",
+      "brand": "BS",
+      "descrizione": "BATTERIA AVVIAMENTO BATTERIA 45A POLI PICCOLIPS SX (238X129X227) (ped.72pz)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 58.16,
+      "veicoli": []
+    },
+    {
+      "codice": "3397007292",
+      "brand": "BS",
+      "descrizione": "kit spazzole tergi 600/380mm fiat panda 2012>AUTO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 15.13,
+      "veicoli": [
+        "FIAT PANDA"
+      ]
+    },
+    {
+      "codice": "8ZO 366 100-131",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.61,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 130-861",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.55,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 133-101",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 4.72,
+      "veicoli": []
+    },
+    {
+      "codice": "4PK1540",
+      "brand": "GAT",
+      "descrizione": "CINGHIA POLY-V II (BB0/1/2_, CB0/1/2_) II FURGONATO(SB0/1/2_) (KC0/1_) (FC0/1_) (LB0/1/2_)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.43,
+      "veicoli": []
+    },
+    {
+      "codice": "8DB 355 012-991",
+      "brand": "HEL",
+      "descrizione": "Pastiglie Freno POST. BUICK; CHEVROLET;HOLDEN; OPEL; SAAB;",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 15.46,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 131-731",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 7.67,
+      "veicoli": []
+    },
+    {
+      "codice": "36KI050",
+      "brand": "RED",
+      "descrizione": "FILTRO ARIA PICANTO BZ * KIA PICANTO I (SA) 2009-2011",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.85,
+      "veicoli": []
+    },
+    {
+      "codice": "27CV040",
+      "brand": "RED",
+      "descrizione": "PASTIGLIE FRENO POSTERIORI CHEVROLET CAPTIVA (C100,C140) 2011",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 9.77,
+      "veicoli": []
+    },
+    {
+      "codice": "27CV035",
+      "brand": "RED",
+      "descrizione": "PASTIGLIE FRENO ANTERIORI CHEVROLET CAPTIVA (C100,C140) 2011",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 12.01,
+      "veicoli": []
+    },
+    {
+      "codice": "0092S5A050",
+      "brand": "BS",
+      "descrizione": "BATT. 12V 60AH 680A (242X175X190) PS DX AGM(pd.pz57)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 94.94,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FG626",
+      "brand": "SEV",
+      "descrizione": "FILTRO GASOLIO CITROEN JUMPY III 1.5-2.0 BLUEHdi PEUGEOT EXPERT III 1.5 BLUE Hdi OPEL VIVARO C 1.5 CDTi ZAFIRA LIFE1.5 CDTi TOYOTA PROACE II 1.5 D-2.0 D",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 8.98,
+      "veicoli": [
+        "CITROEN JUMPY",
+        "OPEL VIVARO",
+        "PEUGEOT EXPERT",
+        "TOYOTA PROACE"
+      ]
+    },
+    {
+      "codice": "8ZC 366 120-061",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 4.52,
+      "veicoli": []
+    },
+    {
+      "codice": "SVP28070",
+      "brand": "SEV",
+      "descrizione": "PATTINI FRENO FIAT 500X 2.0 MULTIJET 4WD2014>> JEEP RENAGADE 2.0 CRD 4WD 2014>>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 14.0,
+      "veicoli": [
+        "FIAT 500X"
+      ]
+    },
+    {
+      "codice": "6PU 009 168-461",
+      "brand": "HEL",
+      "descrizione": "SENSORE ALBERO A CAMME CITROEN BERLINGO/C3III PEUGEOT 208/2008",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 25.27,
+      "veicoli": [
+        "CITROEN BERLINGO",
+        "PEUGEOT 208"
+      ]
+    },
+    {
+      "codice": "L1135",
+      "brand": "PUR",
+      "descrizione": "FILTRO OLIO A4 A5 A6",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.51,
+      "veicoli": []
+    },
+    {
+      "codice": "ADV182272",
+      "brand": "BLU",
+      "descrizione": "FILTRO ARIA AUDI A4 (8W) 2.0 TDI 16V A4ALLROAD",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 10.58,
+      "veicoli": [
+        "AUDI A4"
+      ]
+    },
+    {
+      "codice": "SVP23830",
+      "brand": "SEV",
+      "descrizione": "PATTINI FRENO CITROEN JUMPER II FIAT DUCATOIII",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 16.59,
+      "veicoli": [
+        "CITROEN JUMPER",
+        "FIAT DUCATOIII"
+      ]
+    },
+    {
+      "codice": "53812",
+      "brand": "NRF",
+      "descrizione": "RADIATOR FORD S-MAX 2.0D 06-",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 54.1,
+      "veicoli": [
+        "FORD S"
+      ]
+    },
+    {
+      "codice": "8ZA 366 130-051",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 4.73,
+      "veicoli": []
+    },
+    {
+      "codice": "8DB 355 005-381",
+      "brand": "HEL",
+      "descrizione": "Pastiglie Freno POST. IVECO DAILY CITYS Bus;DAILY III Box",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 17.45,
+      "veicoli": []
+    },
+    {
+      "codice": "ADF124212",
+      "brand": "BLU",
+      "descrizione": "PASTIGLIE FRENO FORD PKW TOURNEO 2.0 TDCIDURATORQ",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 16.03,
+      "veicoli": [
+        "FORD PKW"
+      ]
+    },
+    {
+      "codice": "ADF122234",
+      "brand": "BLU",
+      "descrizione": "FILTRO ARIA FORD PKW TRANSIT 2.0 TDCI ECOBLUE1",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 7.54,
+      "veicoli": [
+        "FORD PKW"
+      ]
+    },
+    {
+      "codice": "ADU172101",
+      "brand": "BLU",
+      "descrizione": ". FILTRO OLIO INFINITI Q30 (H1) 2.2 D 16V Q304X4",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.24,
+      "veicoli": []
+    },
+    {
+      "codice": "PA903",
+      "brand": "GRF",
+      "descrizione": "POMPA ACQUA FORD: C-max 1.6 TDCi; 1.8; 1.8; 1.8Flexifuel; 1.8",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 28.04,
+      "veicoli": []
+    },
+    {
+      "codice": "SVP23480",
+      "brand": "SEV",
+      "descrizione": "PATTINI FRENO MERCEDES-BENZ SPRINTERVOLKSWAGEN CRAFTER",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 17.41,
+      "veicoli": [
+        "MERCEDES-BENZ"
+      ]
+    },
+    {
+      "codice": "19016600B",
+      "brand": "COP",
+      "descrizione": "RHTC 37x50x6",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.54,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FC319",
+      "brand": "SEV",
+      "descrizione": "FILTRO ABITACOLO PSA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.88,
+      "veicoli": []
+    },
+    {
+      "codice": "ADL142513",
+      "brand": "BLU",
+      "descrizione": "FILTRO ABITACOLO ABARTH 500 (31) 1.4 16V 500(31)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 6.38,
+      "veicoli": []
+    },
+    {
+      "codice": "F026400772",
+      "brand": "BS",
+      "descrizione": "FILTRO ARIA FIAT PANDA (312) LANCIA YPSILON1.0 Hybrid",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 10.26,
+      "veicoli": [
+        "FIAT PANDA",
+        "LANCIA YPSILON1"
+      ]
+    },
+    {
+      "codice": "ADB112512",
+      "brand": "BLU",
+      "descrizione": "SET FILTRO ABITACOLO BMW (E) - 125 / KW 170HP 16 D - 85",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 15.57,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 130-181",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 7.02,
+      "veicoli": []
+    },
+    {
+      "codice": "ADBP210008",
+      "brand": "BLU",
+      "descrizione": "FILTRO OLIO BMW 116 D - 85 KW / 116 HP 118 D-",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 7.89,
+      "veicoli": [
+        "BMW 116"
+      ]
+    },
+    {
+      "codice": "0986424021",
+      "brand": "BS",
+      "descrizione": "Pastiglie sport PATTINI FRENO ANT.WVA22525 AUTOII 2015>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 11.97,
+      "veicoli": []
+    },
+    {
+      "codice": "22-0673-0",
+      "brand": "MET",
+      "descrizione": ". PATTINI FRENO MERCEDES SPRINTER 3-t/5-t 2.5TDI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 24.17,
+      "veicoli": [
+        "MERCEDES SPRINTER"
+      ]
+    },
+    {
+      "codice": "38JE016",
+      "brand": "RED",
+      "descrizione": "FILTRO OLIO MERCEDES-BENZ SPRINTER 4-t Furgonato(B907, B910) 2019",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.01,
+      "veicoli": [
+        "MERCEDES-BENZ"
+      ]
+    },
+    {
+      "codice": "FT9323201",
+      "brand": "PRS",
+      "descrizione": "FRONTALE ANTERIORE SUPERIORE PEUGEOT - BOXER- MOD. 12/14 -",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 54.23,
+      "veicoli": []
+    },
+    {
+      "codice": "FT9323003",
+      "brand": "PRS",
+      "descrizione": "PARAFANGO ANTERIORE DESTRO PEUGEOT - BOXER -Mod. 12/14 -",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 45.19,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZO 366 100-821",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.83,
+      "veicoli": []
+    },
+    {
+      "codice": "CS487",
+      "brand": "PUR",
+      "descrizione": ". FORD",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 17.89,
+      "veicoli": []
+    },
+    {
+      "codice": "ADF124211",
+      "brand": "BLU",
+      "descrizione": "PASTIGLIE FRENO FORD PKW TOURNEO 2.0 TDCIDURATORQ",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 23.08,
+      "veicoli": [
+        "FORD PKW"
+      ]
+    },
+    {
+      "codice": "0986452041",
+      "brand": "BS",
+      "descrizione": "FILTRO OLIO filtro olio fiatpanda/500/punto/punto evo/grande punto",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.89,
+      "veicoli": []
+    },
+    {
+      "codice": "0986424379",
+      "brand": "BS",
+      "descrizione": "KIT PASTIGLIE FRENO, FRENO A DISCO pattinifreno ant.wva21436 fiat punto/seicento lancia Y",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 6.74,
+      "veicoli": [
+        "FIAT PUNTO",
+        "LANCIA Y"
+      ]
+    },
+    {
+      "codice": "8ZF 366 112-471",
+      "brand": "HEL",
+      "descrizione": "FILTRO CARBURANTE",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 27.03,
+      "veicoli": []
+    },
+    {
+      "codice": "27IZ008",
+      "brand": "RED",
+      "descrizione": "PASTIGLIE FRENO POSTERIORI Comm.ISUZU N (5thGeneration) 2008",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 16.39,
+      "veicoli": []
+    },
+    {
+      "codice": "SVG10833",
+      "brand": "SEV",
+      "descrizione": "GANASCE FRENO CITROEN DISPACH 2.0 HDI01/07>CITROEN JUMPER 2.0; 2.2 HDI 100",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 10.99,
+      "veicoli": [
+        "CITROEN DISPACH",
+        "CITROEN JUMPER"
+      ]
+    },
+    {
+      "codice": "8ZO 366 100-501",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.71,
+      "veicoli": []
+    },
+    {
+      "codice": "36DC002",
+      "brand": "RED",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.57,
+      "veicoli": []
+    },
+    {
+      "codice": "3397014009",
+      "brand": "BS",
+      "descrizione": "KIT SPAZZOLE TERGI A009S 750/700MM FORDTRANSIT 2012>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 18.36,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FC206",
+      "brand": "SEV",
+      "descrizione": "FILTRO ABITACOLO OPEL",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.02,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FA1228",
+      "brand": "SEV",
+      "descrizione": "FILTRO ARIA OPEL",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.3,
+      "veicoli": []
+    },
+    {
+      "codice": "0450905316",
+      "brand": "BS",
+      "descrizione": "FILTRO CARBURANTE filtro carburante benzinahonda civic/vw golf v/polo/lupo",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.47,
+      "veicoli": [
+        "HONDA CIVIC",
+        "VW GOLF"
+      ]
+    },
+    {
+      "codice": "6DPK2184",
+      "brand": "GAT",
+      "descrizione": "CINGHIA POLY-V",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 16.15,
+      "veicoli": []
+    },
+    {
+      "codice": "430945A2",
+      "brand": "SID",
+      "descrizione": "DEVIOGUIDA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 28.0,
+      "veicoli": []
+    },
+    {
+      "codice": "53811",
+      "brand": "NRF",
+      "descrizione": "RADIATOR FORD S-MAX 2.0D 06-",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 62.55,
+      "veicoli": [
+        "FORD S"
+      ]
+    },
+    {
+      "codice": "1987429405",
+      "brand": "BS",
+      "descrizione": "FILTRO ARIA filtro aria audi a3 1.2/1.6/2.02006>vw golf V 1.6/ 2.0",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 10.05,
+      "veicoli": [
+        "AUDI A3",
+        "VW GOLF"
+      ]
+    },
+    {
+      "codice": "0451103314",
+      "brand": "BS",
+      "descrizione": "FILTRO OLIO filtro olio audi 80/A3/A4 seatcordoba/ibiza vw golf III/IV",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.85,
+      "veicoli": [
+        "AUDI 80",
+        "VW GOLF"
+      ]
+    },
+    {
+      "codice": "47DW005",
+      "brand": "RED",
+      "descrizione": "SERIE GANASCE FRENO POSTERIORI CHEVROLET MATIZ (M200,M250) 2005",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 10.54,
+      "veicoli": []
+    },
+    {
+      "codice": "8DB 355 025-161",
+      "brand": "HEL",
+      "descrizione": "Pastiglie Freno POST. FORD TRANSIT Box;TRANSIT Box (VO); T",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 24.66,
+      "veicoli": [
+        "FORD TRANSIT"
+      ]
+    },
+    {
+      "codice": "0445010763",
+      "brand": "BS",
+      "descrizione": "POMPA ALTA PRESSIONE DAC SAN/RE CAPT II/CL VDCI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 439.63,
+      "veicoli": []
+    },
+    {
+      "codice": "7PK1236",
+      "brand": "GAT",
+      "descrizione": "MICRO V",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 8.17,
+      "veicoli": []
+    },
+    {
+      "codice": "4PK900SF",
+      "brand": "GAT",
+      "descrizione": "CINGHIA POLY - V",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.22,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FO478",
+      "brand": "SEV",
+      "descrizione": "FILTRO OLIO FCA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.67,
+      "veicoli": []
+    },
+    {
+      "codice": "ADBP230027",
+      "brand": "BLU",
+      "descrizione": "FILTRO CARBURANTE",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 37.58,
+      "veicoli": []
+    },
+    {
+      "codice": "27DA013",
+      "brand": "RED",
+      "descrizione": "SERIE PAST.ANT MATERIA 06-> SUZUKI BALENO (FW, EW)2016",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 8.51,
+      "veicoli": []
+    },
+    {
+      "codice": "BS-0015",
+      "brand": "GOM",
+      "descrizione": "CONTATTO SEGNALAZIONE, USURA PAST. FRENO/MAT. DATTRITO MERCEDES-BENZ SPRINTER 3,5-T AUTOBUS (906) 318 CDI (906.731,906.733, 906.735)[02-12]",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.03,
+      "veicoli": [
+        "MERCEDES-BENZ"
+      ]
+    },
+    {
+      "codice": "36NI031",
+      "brand": "RED",
+      "descrizione": "FILTRO ARIA II (CN0_) 2007",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.6,
+      "veicoli": []
+    },
+    {
+      "codice": "ADU172215",
+      "brand": "BLU",
+      "descrizione": "FILTRO ARIA INFINITI Q30 (H1) 1.5 D Q30 (H1)1.",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 5.08,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FO509",
+      "brand": "SEV",
+      "descrizione": "FILTRO OLIO FIOT",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.06,
+      "veicoli": []
+    },
+    {
+      "codice": "SV2300200",
+      "brand": "SEV",
+      "descrizione": "COPRITESTATA AUDI A1 1.6TDI,2.0TDI 2010-,A31.6TDI 2009-,2.0TDI 2003-,Q3 2.0TDI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 80.55,
+      "veicoli": [
+        "AUDI A1"
+      ]
+    },
+    {
+      "codice": "0092S5A110",
+      "brand": "BS",
+      "descrizione": "BATTERIA 12V 80AH 800A (315X175X190) AGM dx (42PZ)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 137.6,
+      "veicoli": []
+    },
+    {
+      "codice": "22-1408-0",
+      "brand": "MET",
+      "descrizione": "PASTIGLIE FRENO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 22.3,
+      "veicoli": []
+    },
+    {
+      "codice": "FT65125",
+      "brand": "FAS",
+      "descrizione": "TUBO INTERCOOLER CITROEN JUMPER 14> SX CORTA 2.0/2.2BLUE HDI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 11.59,
+      "veicoli": [
+        "CITROEN JUMPER"
+      ]
+    },
+    {
+      "codice": "ADBP230050",
+      "brand": "BLU",
+      "descrizione": "FILTRO CARBURANTE",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 13.11,
+      "veicoli": []
+    },
+    {
+      "codice": "SVP24890",
+      "brand": "SEV",
+      "descrizione": "PATTINI FRENO AUDI A3 08->> AUDI A3 (8P1),(8PA) 03->>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 12.23,
+      "veicoli": [
+        "AUDI A3"
+      ]
+    },
+    {
+      "codice": "0986494235",
+      "brand": "BS",
+      "descrizione": "pattini freno ant.wva 24538 citroen berlingo2007>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 15.68,
+      "veicoli": [
+        "CITROEN BERLINGO2007"
+      ]
+    },
+    {
+      "codice": "173748",
+      "brand": "FEB",
+      "descrizione": "PULEGGIA DISACCOPPIATA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 119.73,
+      "veicoli": []
+    },
+    {
+      "codice": "8DB 355 021-281",
+      "brand": "HEL",
+      "descrizione": "Pastiglie Freno ANT. CITROEN; FIAT; PEUGEOTBOXER Box; BOXE",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 25.46,
+      "veicoli": []
+    },
+    {
+      "codice": "SV05FA1314",
+      "brand": "SEV",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.82,
+      "veicoli": []
+    },
+    {
+      "codice": "ADV182324",
+      "brand": "BLU",
+      "descrizione": "FILTRO CARBURANTE PORSCHE CAYENNE 4 3.0DIESEL 24V CA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 10.78,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 131-211",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 6.02,
+      "veicoli": []
+    },
+    {
+      "codice": "10.1179",
+      "brand": "COF",
+      "descrizione": "10.5410 - KIT ACCELERATORE PEDALE - PEU AC kit1/306/605-Xantia-ZX",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 10.85,
+      "veicoli": []
+    },
+    {
+      "codice": "3397016087",
+      "brand": "BS",
+      "descrizione": "SPAZZOLA TERGI POST. A383H 380MM AEROTWIN VWTIGUAN 2016>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 4.01,
+      "veicoli": []
+    },
+    {
+      "codice": "KT90293",
+      "brand": "APA",
+      "descrizione": "PANDA 03 1.3 MULTIJET TD 16 V",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 45.9,
+      "veicoli": []
+    },
+    {
+      "codice": "ADV182536",
+      "brand": "BLU",
+      "descrizione": "FILTRO ABITACOLO AUDI A1 SPORTBACK (GB) 1.025 TFSI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.79,
+      "veicoli": [
+        "AUDI A1"
+      ]
+    },
+    {
+      "codice": "SVI71490",
+      "brand": "SEV",
+      "descrizione": "POMPA FRIZIONE MITO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 23.11,
+      "veicoli": []
+    },
+    {
+      "codice": "460219",
+      "brand": "SID",
+      "descrizione": "CUSCINETTO RUOTA ANT.(33X35X66) FIATSEICENTO/500/PANDA 169",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 9.0,
+      "veicoli": []
+    },
+    {
+      "codice": "39653",
+      "brand": "ABS",
+      "descrizione": "Indicatori di usura Crafter/Sprinter Series (W906)(06-22)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 0.98,
+      "veicoli": []
+    },
+    {
+      "codice": "8DB 355 040-921",
+      "brand": "HEL",
+      "descrizione": "PASTIGLIE FRENO (KIT)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 31.57,
+      "veicoli": []
+    },
+    {
+      "codice": "SVP23831",
+      "brand": "SEV",
+      "descrizione": "PATTINI FRENO CITROEN JUMPER 2011>> FIATDUCATO 2011>>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 19.25,
+      "veicoli": [
+        "CITROEN JUMPER"
+      ]
+    },
+    {
+      "codice": "ADBP210021",
+      "brand": "BLU",
+      "descrizione": "FILTRO OLIO FORD PKW FIESTA 1.5 ECOBOOSTFOCUS",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.75,
+      "veicoli": [
+        "FORD PKW"
+      ]
+    },
+    {
+      "codice": "8ZA 366 130-741",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 4.67,
+      "veicoli": []
+    },
+    {
+      "codice": "ADF122530",
+      "brand": "BLU",
+      "descrizione": "FILTRO ABITACOLO FORD PKW FOCUS 1.0 ECOBOOSTFOCUS 1",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 4.02,
+      "veicoli": [
+        "FORD PKW"
+      ]
+    },
+    {
+      "codice": "0986460026",
+      "brand": "BS",
+      "descrizione": "PATTINI FRENO POST.WVA20747 MERCEDES SPRINTER2018>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 16.07,
+      "veicoli": [
+        "MERCEDES SPRINTER2018"
+      ]
+    },
+    {
+      "codice": "8ZO 366 101-091",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 8.21,
+      "veicoli": []
+    },
+    {
+      "codice": "22-0554-0",
+      "brand": "MET",
+      "descrizione": ". PATTINI FRENO VOLKSWAGEN TRANSPORTER T5/MULTIVAN T5 (7HM, 7HF) 1.9 TDI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 22.1,
+      "veicoli": []
+    },
+    {
+      "codice": "ADG02147",
+      "brand": "BLU",
+      "descrizione": ". FILTRO OLIO CHEVROLET (GM) AVEO 1.2 DOHC 16VAV",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 1.96,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZO 366 100-311",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 1.73,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZC 366 120-311",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.13,
+      "veicoli": []
+    },
+    {
+      "codice": "ADBP420009",
+      "brand": "BLU",
+      "descrizione": "PASTIGLIE FRENO OPEL COMBO E SMALL BUS 1.2COMBO E",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 15.94,
+      "veicoli": [
+        "OPEL COMBO"
+      ]
+    },
+    {
+      "codice": "0986494695",
+      "brand": "BS",
+      "descrizione": "PATTINI FRENO ANT.WVA25836 (disco 283mm)CITROEN C4 2013>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 20.64,
+      "veicoli": [
+        "CITROEN C4"
+      ]
+    },
+    {
+      "codice": "22-1351-0",
+      "brand": "MET",
+      "descrizione": "PATTINI FRENO CITROEN / CITROEN LCV / DS /FIAT LCV / OPEL / OPEL LCV / PEUGEOT /",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 20.05,
+      "veicoli": [
+        "CITROEN LCV",
+        "FIAT LCV",
+        "OPEL LCV"
+      ]
+    },
+    {
+      "codice": "620 3445 22",
+      "brand": "LUK",
+      "descrizione": "RepSet FIAT PANDA (312_, 319_) 1.2 LPG(312PXA1A) (06.2012 -> )",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 83.83,
+      "veicoli": [
+        "FIAT PANDA"
+      ]
+    },
+    {
+      "codice": "0281003043",
+      "brand": "BS",
+      "descrizione": "centralina candelette fiat bravo/punto evo 1.6jtd 2010>",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 40.14,
+      "veicoli": [
+        "FIAT BRAVO"
+      ]
+    },
+    {
+      "codice": "T39174",
+      "brand": "GAT",
+      "descrizione": "TENDITORE",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 26.53,
+      "veicoli": []
+    },
+    {
+      "codice": "ADBP220014",
+      "brand": "BLU",
+      "descrizione": "FILTRO ARIA MERCEDES BENZ PKW SPRINTER 211CDI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 9.21,
+      "veicoli": [
+        "MERCEDES BENZ"
+      ]
+    },
+    {
+      "codice": "FDB925B",
+      "brand": "FER",
+      "descrizione": "KIT PASTIGLIE FRENO, FRENO A DISCO FIAT PUNTO (176)PUNTO Cabriolet (176C) PUNTO Van (176L) PUNTO (188) PUNTO Van (188AX)LANCIA Y (840A)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 6.6,
+      "veicoli": [
+        "FIAT PUNTO",
+        "LANCIA Y"
+      ]
+    },
+    {
+      "codice": "462 0154 10",
+      "brand": "LUK",
+      "descrizione": "KIT RIP. CAMBIO LANCIA YPSILON (843_) 1.2 DA10.2003 A 12.2011",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 119.58,
+      "veicoli": [
+        "LANCIA YPSILON"
+      ]
+    },
+    {
+      "codice": "8ZC 366 120-111",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.85,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZA 366 130-311",
+      "brand": "HEL",
+      "descrizione": "FILTRO ARIA",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.16,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZO 366 100-111",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.36,
+      "veicoli": []
+    },
+    {
+      "codice": "N60",
+      "brand": "VRT",
+      "descrizione": "VARTA BLUE Dynamic EFB 60AH 640A242x175x190 (N60)(63PZ)",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 75.43,
+      "veicoli": []
+    },
+    {
+      "codice": "ADB112205",
+      "brand": "BLU",
+      "descrizione": ". FILTRO ARIA CITRON BERLINGO II 1.6 16V C3 II1",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 4.91,
+      "veicoli": []
+    },
+    {
+      "codice": "0007989OT070",
+      "brand": "SEV",
+      "descrizione": "DIAMOND BREZZA MARINA DEODORANTE 7 ML PERSPECCHIETTO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 1.35,
+      "veicoli": []
+    },
+    {
+      "codice": "LS743",
+      "brand": "PUR",
+      "descrizione": "FILTRO OLIO FILTRO CITROEN C1 DAIHATSU CHARADE III(G100, G10",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 3.0,
+      "veicoli": [
+        "CITROEN C1"
+      ]
+    },
+    {
+      "codice": "3397118911",
+      "brand": "BS",
+      "descrizione": "SPAZZOLA TERGI KIT SPAZZOLE AR653S 650/400MMPEUGEOT 206/HYUNDAI",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 14.79,
+      "veicoli": [
+        "PEUGEOT 206"
+      ]
+    },
+    {
+      "codice": "22-1379-0",
+      "brand": "MET",
+      "descrizione": "PASTIGLIE FRENO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 32.13,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZC 366 120-471",
+      "brand": "HEL",
+      "descrizione": "FILTRO ABITACOLO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.24,
+      "veicoli": []
+    },
+    {
+      "codice": "8ZO 366 100-551",
+      "brand": "HEL",
+      "descrizione": "FILTRO OLIO",
+      "qta_totale": 1,
+      "n_ordini": 1,
+      "importo_totale": 2.47,
+      "veicoli": []
+    }
+  ]
+}
