@@ -7,11 +7,18 @@ const PASSWORD = process.env.CATALOGO_PASSWORD || 'IDIR2026';
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Middleware autenticazione via cookie
+// /report = pagina pubblica per meeting con fornitori (nessun login)
+app.get('/report', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'report.html'));
+});
+
+// Middleware autenticazione via cookie (solo per pagina principale)
 app.use((req, res, next) => {
   if (req.path === '/health') return next();
   if (req.path === '/login' || req.path === '/login.html') return next();
   if (req.path === '/auth') return next();
+  if (req.path === '/report') return next();
+  if (req.path === '/data.json') return next();
   const cookie = req.headers.cookie || '';
   const auth = cookie.split(';').find(c => c.trim().startsWith('idir_auth='));
   if (auth && auth.split('=')[1] === 'ok') return next();
