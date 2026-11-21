@@ -152,10 +152,14 @@
   .empty-state .icon { font-size: 48px; margin-bottom: 12px; }
 
   /* SCROLL */
-  .table-scroll { overflow-y: visible; }
-  .table-scroll::-webkit-scrollbar { width: 6px; }
-  .table-scroll::-webkit-scrollbar-track { background: var(--card); }
-  .table-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .table-scroll table { min-width: 600px; }
+
+  @media (max-width: 600px) {
+    .col-ordini, .col-spesa { display: none; }
+    .desc-cell { max-width: 180px; }
+    .qty-bar-wrap { display: none; }
+  }
 
   @media (max-width: 768px) {
     .stats-grid { grid-template-columns: repeat(2, 1fr); }
@@ -226,8 +230,8 @@
             <th onclick="sortBy('brand')">Brand</th>
             <th>Descrizione</th>
             <th onclick="sortBy('qta_totale')" class="sort-desc">Qty ↓</th>
-            <th onclick="sortBy('num_ordini')">Ordini</th>
-            <th onclick="sortBy('spesa_totale')">Spesa €</th>
+            <th class="col-ordini" onclick="sortBy('num_ordini')">Ordini</th>
+            <th class="col-spesa" onclick="sortBy('spesa_totale')">Spesa €</th>
           </tr>
         </thead>
         <tbody id="table-body"></tbody>
@@ -407,8 +411,8 @@ function renderTable() {
           <div class="qty-num">${p.qta_totale}</div>
           <div class="qty-bar-wrap"><div class="qty-bar" style="width:${barW}%"></div></div>
         </td>
-        <td class="ordini-num">${p.num_ordini}</td>
-        <td class="importo-num">€${(p.spesa_totale||0).toFixed(2)}</td>
+        <td class="ordini-num col-ordini">${p.num_ordini}</td>
+        <td class="importo-num col-spesa">€${(p.spesa_totale||0).toFixed(2)}</td>
       </tr>`;
   }).join('');
 }
