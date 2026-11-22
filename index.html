@@ -91,7 +91,19 @@
   .legend-dot{width:10px;height:10px;border-radius:3px;flex-shrink:0}
 
   @media(max-width:900px){.charts-row{grid-template-columns:1fr}.stats-grid{grid-template-columns:repeat(2,1fr)}}
-  @media(max-width:600px){.header{flex-direction:column;gap:10px;align-items:flex-start}.main,.stats-grid{padding:12px}}
+  @media(max-width:600px){
+    .header{flex-direction:column;gap:10px;align-items:flex-start}
+    .header-badge{font-size:11px}
+    .main,.stats-grid{padding:12px}
+    .stat-value{font-size:22px}
+    .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+    table{min-width:520px}
+    .col-hide-sm{display:none}
+    .toolbar{gap:6px}
+    .search-box{min-width:100%;font-size:12px}
+    .btn{font-size:11px;padding:7px 10px}
+    .chart-wrap,.chart-wrap-lg{height:200px}
+  }
 </style>
 </head>
 <body>
@@ -165,9 +177,9 @@
             <th onclick="sortBy('codice')">Codice</th>
             <th onclick="sortBy('brand')">Brand</th>
             <th>Descrizione</th>
-            <th onclick="sortBy('prezzoUnitario')" style="text-align:right">€/pz</th>
+            <th onclick="sortBy('prezzoUnitario')" style="text-align:right" class="col-hide-sm">€/pz</th>
             <th onclick="sortBy('qta_totale')" style="text-align:right">Qty</th>
-            <th onclick="sortBy('n_ordini')" style="text-align:right">Ord.</th>
+            <th onclick="sortBy('n_ordini')" style="text-align:right" class="col-hide-sm">Ord.</th>
             <th onclick="sortBy('importo_totale')" style="text-align:right">Spesa €</th>
           </tr>
         </thead>
@@ -311,9 +323,9 @@ function renderTable() {
       <td><span class="codice-badge">${esc(p.codice||'—')}</span></td>
       <td><span class="brand-badge">${esc(p.brand||'—')}</span></td>
       <td class="desc-cell"><div class="desc-with-badge">${stockBadge}<span class="desc-text">${esc(p.descrizione||'')}</span></div></td>
-      <td class="prezzo-cell">${p.prezzoUnitario ? '€'+p.prezzoUnitario.toFixed(2) : '—'}</td>
+      <td class="prezzo-cell col-hide-sm">${p.prezzoUnitario ? '€'+p.prezzoUnitario.toFixed(2) : '—'}</td>
       <td class="qty-cell"><div class="qty-num">${p.qta_totale}</div><div class="qty-bar-wrap"><div class="qty-bar" style="width:${barW}%"></div></div></td>
-      <td class="ordini-num" style="text-align:right">${p.n_ordini}</td>
+      <td class="ordini-num col-hide-sm" style="text-align:right">${p.n_ordini}</td>
       <td class="importo-num" style="text-align:right">€${p.importo_totale.toFixed(2)}</td>
     </tr>`;
   }).join('');
