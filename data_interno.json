@@ -1,19 +1,19 @@
 {
   "stats": {
-    "totale_codici": 3269,
-    "totale_qty": 80947,
+    "totale_codici": 3256,
+    "totale_qty": 80946,
     "totale_fatture": 120,
     "spesa_totale": 192712.6,
     "per_fornitore": {
       "IDIR": {
-        "codici": 2250,
+        "codici": 2238,
         "qty": 36188.799999999996,
         "spesa": 86324.35
       },
       "AUTOLUCE": {
-        "codici": 306,
-        "qty": 12301.7,
-        "spesa": 20031.28
+        "codici": 305,
+        "qty": 12300.7,
+        "spesa": 19431.91
       },
       "DANCAR": {
         "codici": 206,
@@ -36,17 +36,17 @@
     {
       "codice": "AU7002200",
       "brand": "SEV",
-      "descrizione": "LT3",
+      "descrizione": "OLIO MOTORE 5W 30 DPF CONF. 200 Lt.",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
-      "qta_totale": 2000,
-      "n_ordini": 10,
-      "importo_totale": 6305.2
+      "qta_totale": 2200,
+      "n_ordini": 11,
+      "importo_totale": 7117.2
     },
     {
       "codice": "AU7001200",
       "brand": "SEV",
-      "descrizione": "LT4",
+      "descrizione": "OLIO MOTORE 5W 40 DPF CONF. 200 Lt.",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 600,
@@ -56,7 +56,7 @@
     {
       "codice": "AU7048200",
       "brand": "SEV",
-      "descrizione": "LT4",
+      "descrizione": "AU7048200",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 400,
@@ -94,16 +94,6 @@
       "importo_totale": 818.3
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "SEV AU7002200 OLIO MOTORE 5W 30 DPF CONF. 200 Lt.",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 200,
-      "n_ordini": 1,
-      "importo_totale": 812
-    },
-    {
       "codice": "044511113R",
       "brand": "AUT",
       "descrizione": "INIETTORE",
@@ -114,9 +104,19 @@
       "importo_totale": 755.23
     },
     {
+      "codice": "AU70021",
+      "brand": "SEV",
+      "descrizione": "OLIO MOTORE 5W 30 DPF CONF. 12x1 Lt.",
+      "fornitore": "I.DI.R. S.P.A. (IDIR)",
+      "fornitore_short": "IDIR",
+      "qta_totale": 172,
+      "n_ordini": 11,
+      "importo_totale": 722.48
+    },
+    {
       "codice": "74779384",
       "brand": "DAN",
-      "descrizione": "POMPA AD ALTA PRESSIONE (DIESEL)1PZ",
+      "descrizione": "POMPA AD ALTA PRESSIONE (DIESEL)",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -132,16 +132,6 @@
       "qta_totale": 4,
       "n_ordini": 1,
       "importo_totale": 670
-    },
-    {
-      "codice": "",
-      "brand": "AUT",
-      "descrizione": "NR599",
-      "fornitore": "AUTOLUCE SRL",
-      "fornitore_short": "AUTOLUCE",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 599.37
     },
     {
       "codice": "FA2547",
@@ -196,7 +186,7 @@
     {
       "codice": "71201847",
       "brand": "DAN",
-      "descrizione": "DAILY 2.3 HPI - EURO 61PZ",
+      "descrizione": "DAILY 2.3 HPI - EURO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -224,16 +214,6 @@
       "importo_totale": 451.94
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "SEV AU70021 OLIO MOTORE 5W 30 DPF CONF. 12x1 Lt.",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 76,
-      "n_ordini": 5,
-      "importo_totale": 439.28
-    },
-    {
       "codice": "SVP23841",
       "brand": "SEV",
       "descrizione": "SVP23841",
@@ -246,7 +226,7 @@
     {
       "codice": "22560308",
       "brand": "DAN",
-      "descrizione": "ALBERO A CAMME1PZ",
+      "descrizione": "ALBERO A CAMME",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -276,7 +256,7 @@
     {
       "codice": "ADBP210160",
       "brand": "BLU",
-      "descrizione": "FILTRO OLIO FIAT DUCATO 2021gt;",
+      "descrizione": "FILTRO OLIO FIAT DUCATO 2021gt; 2,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 43,
@@ -346,7 +326,7 @@
     {
       "codice": "85418443",
       "brand": "DAN",
-      "descrizione": "CANDELA PRERISCAL-4PZ",
+      "descrizione": "CANDELA PRERISCAL-",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -396,7 +376,7 @@
     {
       "codice": "52122906",
       "brand": "DAN",
-      "descrizione": "KIT CATENA1PZ",
+      "descrizione": "KIT CATENA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 4,
@@ -466,7 +446,7 @@
     {
       "codice": "C7",
       "brand": "SOVRAP",
-      "descrizione": "LT0",
+      "descrizione": "9 CENT C.O.U. CONSORZIO OLI USATI",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2200,
@@ -482,16 +462,6 @@
       "qta_totale": 1,
       "n_ordini": 1,
       "importo_totale": 283.57
-    },
-    {
-      "codice": "AU70021",
-      "brand": "",
-      "descrizione": "OLIO MOTORE 5W 30 DPF CONF. 12x1 Lt.",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 96,
-      "n_ordini": 6,
-      "importo_totale": 283.2
     },
     {
       "codice": "107994",
@@ -536,7 +506,7 @@
     {
       "codice": "57479992",
       "brand": "STA",
-      "descrizione": "PZ275",
+      "descrizione": "57479992",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -555,8 +525,8 @@
     },
     {
       "codice": "0986435257",
-      "brand": "BS",
-      "descrizione": "0986435257",
+      "brand": "BSC",
+      "descrizione": "CARCASSA",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -566,7 +536,7 @@
     {
       "codice": "90901701",
       "brand": "DAN",
-      "descrizione": "REPSET PRO (IDRAULICO)1PZ",
+      "descrizione": "REPSET PRO (IDRAULICO)",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -826,7 +796,7 @@
     {
       "codice": "78816841",
       "brand": "DAN",
-      "descrizione": "COMPRESSORI1PZ",
+      "descrizione": "COMPRESSORI",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -836,7 +806,7 @@
     {
       "codice": "79084953",
       "brand": "DAN",
-      "descrizione": "M.P. FORTWO07 1.0 E5B1PZ",
+      "descrizione": "M.P. FORTWO07 1.0 E5B",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -886,7 +856,7 @@
     {
       "codice": "SV05FC263",
       "brand": "SEV",
-      "descrizione": "FILTRO ABITACOLO FCA",
+      "descrizione": "FILTRO ABITACOLO FCA 4,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 43,
@@ -916,7 +886,7 @@
     {
       "codice": "34069886",
       "brand": "DAN",
-      "descrizione": "KIT FRIZIONE1PZ",
+      "descrizione": "KIT FRIZIONE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 4,
@@ -946,7 +916,7 @@
     {
       "codice": "43472582",
       "brand": "DAN",
-      "descrizione": "BATT. SST L03 70AH EFB1PZ",
+      "descrizione": "BATT. SST L03 70AH EFB",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -996,7 +966,7 @@
     {
       "codice": "624338133",
       "brand": "AUT",
-      "descrizione": "NR188",
+      "descrizione": "624338133",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -1096,7 +1066,7 @@
     {
       "codice": "85618356",
       "brand": "DAN",
-      "descrizione": "THROTTLE BODY1PZ",
+      "descrizione": "THROTTLE BODY",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -1186,7 +1156,7 @@
     {
       "codice": "25FT002",
       "brand": "RED",
-      "descrizione": "KIT FRIZIONE FIAT PANDA (169_) 2010",
+      "descrizione": "KIT FRIZIONE FIAT PANDA (169_) 2010 2013 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1184,
@@ -1194,9 +1164,9 @@
       "importo_totale": 170.22
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "FAS FT13123 0 RADIATORE FIAT DUCATO 21gt; 2.2 JTD",
+      "codice": "FT13123",
+      "brand": "FAS",
+      "descrizione": "0 RADIATORE FIAT DUCATO 21gt; 2.2 JTD",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -1206,7 +1176,7 @@
     {
       "codice": "72762020",
       "brand": "DAN",
-      "descrizione": "SCHERMO GRIGLIA1PZ",
+      "descrizione": "SCHERMO GRIGLIA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -1226,7 +1196,7 @@
     {
       "codice": "01419829",
       "brand": "DAN",
-      "descrizione": "FILTRO ARIA CITROEN ARIA CITROEN1PZ",
+      "descrizione": "FILTRO ARIA CITROEN ARIA CITROEN",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -1296,7 +1266,7 @@
     {
       "codice": "13730524",
       "brand": "DAN",
-      "descrizione": "ALTERNATORE1PZ",
+      "descrizione": "ALTERNATORE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -1306,7 +1276,7 @@
     {
       "codice": "46962945",
       "brand": "STA",
-      "descrizione": "PZ155",
+      "descrizione": "46962945",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -1362,6 +1332,16 @@
       "qta_totale": 1,
       "n_ordini": 1,
       "importo_totale": 152.34
+    },
+    {
+      "codice": "C22",
+      "brand": "VRT",
+      "descrizione": "BLUE Dynamic 52AH 470A207x175x190 C22 (72PZ)",
+      "fornitore": "I.DI.R. S.P.A. (IDIR)",
+      "fornitore_short": "IDIR",
+      "qta_totale": 3,
+      "n_ordini": 3,
+      "importo_totale": 151.75
     },
     {
       "codice": "",
@@ -1526,12 +1506,22 @@
     {
       "codice": "ADV182275",
       "brand": "BLU",
-      "descrizione": "ADV182275",
+      "descrizione": "FILTRO ARIA MAN (LCV) TGE 2.100 2.0 TDI 16V TGE 2,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 19,
       "n_ordini": 12,
       "importo_totale": 144.74
+    },
+    {
+      "codice": "AU70011",
+      "brand": "SEV",
+      "descrizione": "OLIO MOTORE 5W 40 DPF CONF. 12x1 Lt.",
+      "fornitore": "I.DI.R. S.P.A. (IDIR)",
+      "fornitore_short": "IDIR",
+      "qta_totale": 36,
+      "n_ordini": 3,
+      "importo_totale": 143.04
     },
     {
       "codice": "714 498 0054",
@@ -1576,7 +1566,7 @@
     {
       "codice": "88671426",
       "brand": "DAN",
-      "descrizione": "MISURATORE PORTATA1PZ",
+      "descrizione": "MISURATORE PORTATA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -1586,7 +1576,7 @@
     {
       "codice": "62962790",
       "brand": "DAN",
-      "descrizione": "RADIATORS ALU BRAZED1PZ",
+      "descrizione": "RADIATORS ALU BRAZED",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -1636,7 +1626,7 @@
     {
       "codice": "98065579",
       "brand": "DAN",
-      "descrizione": "DRIVE SHAFT1PZ",
+      "descrizione": "DRIVE SHAFT",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -1666,7 +1656,7 @@
     {
       "codice": "0242135517",
       "brand": "BS",
-      "descrizione": "0242135517",
+      "descrizione": "CANDELA VR7SI332S L II III IV AUTO 3,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 13.9,
@@ -1696,7 +1686,7 @@
     {
       "codice": "41653085",
       "brand": "DAN",
-      "descrizione": "RACCORDO USCITA1PZ",
+      "descrizione": "RACCORDO USCITA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -1746,7 +1736,7 @@
     {
       "codice": "41404337",
       "brand": "DAN",
-      "descrizione": "POWERGRIP KIT1PZ",
+      "descrizione": "POWERGRIP KIT",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -1886,7 +1876,7 @@
     {
       "codice": "75118804",
       "brand": "DAN",
-      "descrizione": "KIT CATENA DISTRIBUZIONE1PZ",
+      "descrizione": "KIT CATENA DISTRIBUZIONE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 29,
@@ -1896,7 +1886,7 @@
     {
       "codice": "28269358",
       "brand": "DAN",
-      "descrizione": "CERINA F.A.P. REGENERATOR - FLACONE LT.11PZ",
+      "descrizione": "CERINA F.A.P. REGENERATOR - FLACONE LT.",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -1946,7 +1936,7 @@
     {
       "codice": "38397448",
       "brand": "DAN",
-      "descrizione": "BOBINA2PZ",
+      "descrizione": "BOBINA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -2074,9 +2064,9 @@
       "importo_totale": 119.86
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "FEB 173748 PULEGGIA DISACCOPPIATA",
+      "codice": "173748",
+      "brand": "FEB",
+      "descrizione": "PULEGGIA DISACCOPPIATA",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -2196,7 +2186,7 @@
     {
       "codice": "00299588",
       "brand": "DAN",
-      "descrizione": "CENTRALINA PRERISCALDO1PZ",
+      "descrizione": "CENTRALINA PRERISCALDO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -2216,7 +2206,7 @@
     {
       "codice": "0281003064",
       "brand": "AUT",
-      "descrizione": "NR116",
+      "descrizione": "0281003064",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -2276,7 +2266,7 @@
     {
       "codice": "73084809",
       "brand": "DAN",
-      "descrizione": "SONDA LAMBDA A BANDA LARGA 5 FILI1PZ",
+      "descrizione": "SONDA LAMBDA A BANDA LARGA 5 FILI",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -2326,7 +2316,7 @@
     {
       "codice": "72301253",
       "brand": "DAN",
-      "descrizione": "DISCO FRENO2PZ",
+      "descrizione": "DISCO FRENO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -2336,7 +2326,7 @@
     {
       "codice": "56480983",
       "brand": "DAN",
-      "descrizione": "SERIE PASTIGLIE POSTERIORI1PZ",
+      "descrizione": "SERIE PASTIGLIE POSTERIORI",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -2346,7 +2336,7 @@
     {
       "codice": "620345100",
       "brand": "AUT",
-      "descrizione": "KIT FRIZIONE 3PZ",
+      "descrizione": "KIT FRIZIONE",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 10,
@@ -2376,7 +2366,7 @@
     {
       "codice": "36654349",
       "brand": "DAN",
-      "descrizione": "BATT. AGM L03 70AH1PZ",
+      "descrizione": "BATT. AGM L03 70AH",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -2446,7 +2436,7 @@
     {
       "codice": "75997844",
       "brand": "DAN",
-      "descrizione": "DISCO FRENO2PZ",
+      "descrizione": "DISCO FRENO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -2546,7 +2536,7 @@
     {
       "codice": "0221504470",
       "brand": "BS",
-      "descrizione": "0221504470",
+      "descrizione": "bobina accensione bmw mini peugeot",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 6,
@@ -2566,7 +2556,7 @@
     {
       "codice": "41012389",
       "brand": "DAN",
-      "descrizione": "F.OLIO FIAT DUCATO 2.2MTJ 03/24-2PZ",
+      "descrizione": "F.OLIO FIAT DUCATO 2.2MTJ 03/24-",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 10,
@@ -2596,7 +2586,7 @@
     {
       "codice": "84417319",
       "brand": "STA",
-      "descrizione": "PZ106",
+      "descrizione": "84417319",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -2626,7 +2616,7 @@
     {
       "codice": "55942668",
       "brand": "DAN",
-      "descrizione": "BATT. ETS L01 50AH STANDARD1PZ",
+      "descrizione": "BATT. ETS L01 50AH STANDARD",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -2696,7 +2686,7 @@
     {
       "codice": "09888100",
       "brand": "DAN",
-      "descrizione": "SONDA LAMBDA1PZ",
+      "descrizione": "SONDA LAMBDA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -2706,7 +2696,7 @@
     {
       "codice": "74045146",
       "brand": "DAN",
-      "descrizione": "ALZ.EL.A/D NISSAN QASHQAI 01/2007 5P1PZ",
+      "descrizione": "ALZ.EL.A/D NISSAN QASHQAI 01/2007 5P",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -2746,7 +2736,7 @@
     {
       "codice": "21309298",
       "brand": "DAN",
-      "descrizione": "KP45669XS KIT + WATERPUMP1PZ",
+      "descrizione": "KP45669XS KIT + WATERPUMP",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -2756,7 +2746,7 @@
     {
       "codice": "82620330",
       "brand": "DAN",
-      "descrizione": "IGNITION COIL VOLVO2PZ",
+      "descrizione": "IGNITION COIL VOLVO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -2794,16 +2784,6 @@
       "importo_totale": 103.6
     },
     {
-      "codice": "C22",
-      "brand": "VRT",
-      "descrizione": "C22",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 2,
-      "n_ordini": 2,
-      "importo_totale": 103.42
-    },
-    {
       "codice": "175771",
       "brand": "FEB",
       "descrizione": "175771",
@@ -2822,6 +2802,16 @@
       "qta_totale": 8,
       "n_ordini": 1,
       "importo_totale": 103.01
+    },
+    {
+      "codice": "0986494441",
+      "brand": "BS",
+      "descrizione": "PATTINI FRENO ANT.WVA24914 AUTO V",
+      "fornitore": "I.DI.R. S.P.A. (IDIR)",
+      "fornitore_short": "IDIR",
+      "qta_totale": 6,
+      "n_ordini": 6,
+      "importo_totale": 102.89
     },
     {
       "codice": "KP900-1",
@@ -2926,7 +2916,7 @@
     {
       "codice": "31620401",
       "brand": "DAN",
-      "descrizione": "CANDELETTA RIF. 137253654PZ",
+      "descrizione": "CANDELETTA RIF.",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -3006,7 +2996,7 @@
     {
       "codice": "95694904",
       "brand": "DAN",
-      "descrizione": "OLIO GEAR 20LT 75W901PZ",
+      "descrizione": "OLIO GEAR 20LT 75W",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 20,
@@ -3016,7 +3006,7 @@
     {
       "codice": "68936059",
       "brand": "DAN",
-      "descrizione": "MOTORINO DI AVVIAMENTO1PZ",
+      "descrizione": "MOTORINO DI AVVIAMENTO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -3036,7 +3026,7 @@
     {
       "codice": "46460132",
       "brand": "DAN",
-      "descrizione": "CAVO CAMBIO1PZ",
+      "descrizione": "CAVO CAMBIO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -3116,7 +3106,7 @@
     {
       "codice": "03243290",
       "brand": "DAN",
-      "descrizione": "RADIATORE - RENAULT CLIO 1.5DCI 11-20121PZ",
+      "descrizione": "RADIATORE - RENAULT CLIO 1.5DCI 11-",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -3136,7 +3126,7 @@
     {
       "codice": "76974706",
       "brand": "DAN",
-      "descrizione": "KIT DISTRIBUZIONE PRIMARIA1PZ",
+      "descrizione": "KIT DISTRIBUZIONE PRIMARIA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 8,
@@ -3286,7 +3276,7 @@
     {
       "codice": "00247139",
       "brand": "DAN",
-      "descrizione": "RACCORDO ARIA LATO SCAMBIATORE1PZ",
+      "descrizione": "RACCORDO ARIA LATO SCAMBIATORE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -3316,7 +3306,7 @@
     {
       "codice": "0242145606",
       "brand": "AUT",
-      "descrizione": "NR13",
+      "descrizione": "0242145606",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 7,
@@ -3564,9 +3554,9 @@
       "importo_totale": 88.2
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "OLIO CAMBIO AUDI A6 III (4F2 4FH 4F5) (04 04",
+      "codice": "CAMBIO",
+      "brand": "OLIO",
+      "descrizione": "AUDI A6 III (4F2 4FH 4F5) (04 04 089Pezzi9,7635 €",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 89,
@@ -3586,22 +3576,12 @@
     {
       "codice": "03001445",
       "brand": "STA",
-      "descrizione": "NR87",
+      "descrizione": "03001445",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 1,
       "n_ordini": 1,
       "importo_totale": 87.6
-    },
-    {
-      "codice": "0986494441",
-      "brand": "BS",
-      "descrizione": "0986494441",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 5,
-      "n_ordini": 5,
-      "importo_totale": 87.47
     },
     {
       "codice": "0092S40070",
@@ -3726,7 +3706,7 @@
     {
       "codice": "00824611",
       "brand": "DAN",
-      "descrizione": "BRAKE DISC1PZ",
+      "descrizione": "BRAKE DISC",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -3956,7 +3936,7 @@
     {
       "codice": "59623975",
       "brand": "DAN",
-      "descrizione": "P.A. VW TRANSPORTER V 2.5TDI1PZ",
+      "descrizione": "P.A. VW TRANSPORTER V 2.5TDI",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -4034,9 +4014,9 @@
       "importo_totale": 81.17
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "MON G8110 AMM. ORIGINAL FIAT BRAVO 2007 07 ANT.",
+      "codice": "G8110",
+      "brand": "MON",
+      "descrizione": "AMM. ORIGINAL FIAT BRAVO 2007 07 ANT.",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -4216,7 +4196,7 @@
     {
       "codice": "35895",
       "brand": "AUT",
-      "descrizione": "NR79",
+      "descrizione": "35895",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -4246,7 +4226,7 @@
     {
       "codice": "47144850",
       "brand": "DAN",
-      "descrizione": "F.ARIA FIAT DUCATO 2.2MTJ 03/24-1PZ",
+      "descrizione": "F.ARIA FIAT DUCATO 2.2MTJ 03/24-",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 6,
@@ -4276,7 +4256,7 @@
     {
       "codice": "35362129",
       "brand": "DAN",
-      "descrizione": "RADIATOR PEUGEOT 3008 II 1.2 THP1PZ",
+      "descrizione": "RADIATOR PEUGEOT 3008 II 1.2 THP",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -4336,7 +4316,7 @@
     {
       "codice": "510022710",
       "brand": "AUT",
-      "descrizione": "NR77",
+      "descrizione": "510022710",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -4366,7 +4346,7 @@
     {
       "codice": "47649",
       "brand": "AUT",
-      "descrizione": "NR77",
+      "descrizione": "47649",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -4486,7 +4466,7 @@
     {
       "codice": "PA2093",
       "brand": "AUT",
-      "descrizione": "NR25",
+      "descrizione": "PA2093",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 3,
@@ -4584,9 +4564,9 @@
       "importo_totale": 74
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "SEV SV280001 MOLLA SPIRALE AIRBAGAUDI VW454374E0953541B",
+      "codice": "SV280001",
+      "brand": "SEV",
+      "descrizione": "MOLLA SPIRALE AIRBAGAUDI VW454374E0953541B",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -4724,16 +4704,6 @@
       "importo_totale": 72.41
     },
     {
-      "codice": "AU70011",
-      "brand": "",
-      "descrizione": "OLIO MOTORE 5W 40 DPF CONF. 12x1 Lt.",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 24,
-      "n_ordini": 2,
-      "importo_totale": 72.24
-    },
-    {
       "codice": "0258027151",
       "brand": "BS",
       "descrizione": "0258027151",
@@ -4854,9 +4824,9 @@
       "importo_totale": 71.1
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "RED 30NI029 KIT DISTRIBUZIONE A CATENA NOTE (E12) 2013",
+      "codice": "30NI029",
+      "brand": "RED",
+      "descrizione": "KIT DISTRIBUZIONE A CATENA NOTE (E12) 2013",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -4870,16 +4840,6 @@
       "fornitore": "FCAR SRL",
       "fornitore_short": "FCAR",
       "qta_totale": 61,
-      "n_ordini": 1,
-      "importo_totale": 70.8
-    },
-    {
-      "codice": "",
-      "brand": "",
-      "descrizione": "SEV AU70011 OLIO MOTORE 5W 40 DPF CONF. 12x1 Lt.",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 12,
       "n_ordini": 1,
       "importo_totale": 70.8
     },
@@ -4946,7 +4906,7 @@
     {
       "codice": "66631451",
       "brand": "DAN",
-      "descrizione": "GANASCE P FRENO A TAMBURO1PZ",
+      "descrizione": "GANASCE P FRENO A TAMBURO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -4956,7 +4916,7 @@
     {
       "codice": "95464218",
       "brand": "DAN",
-      "descrizione": "FORD TRANSIT V363 2.2 TDCI 13-16 ANT1PZ",
+      "descrizione": "FORD TRANSIT V363 2.2 TDCI 13-16 ANT",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -5116,7 +5076,7 @@
     {
       "codice": "F026402165",
       "brand": "BS",
-      "descrizione": "F026402165",
+      "descrizione": "FILTRO CARBURANTE RE CL IV 1.5DCI 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3.6,
@@ -5166,7 +5126,7 @@
     {
       "codice": "11644154",
       "brand": "DAN",
-      "descrizione": "(1) TUBO DEBIMETRO VW TTER 1.9D 03-1PZ",
+      "descrizione": "(1) TUBO DEBIMETRO VW TTER 1.9D 03-",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -5226,7 +5186,7 @@
     {
       "codice": "SVP22661",
       "brand": "SEV",
-      "descrizione": "SVP22661",
+      "descrizione": "PATTINI FRENO VOLKSWAGEN T5 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 5,
@@ -5276,7 +5236,7 @@
     {
       "codice": "98186072",
       "brand": "DAN",
-      "descrizione": "CANDELETTA INCAND4PZ",
+      "descrizione": "CANDELETTA INCAND",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -5406,7 +5366,7 @@
     {
       "codice": "SV03D0580IP",
       "brand": "",
-      "descrizione": "DISCO FRENO",
+      "descrizione": "DISCO FRENO 2,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3,
@@ -5476,7 +5436,7 @@
     {
       "codice": "7370399",
       "brand": "AUT",
-      "descrizione": "NR65",
+      "descrizione": "7370399",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -5546,7 +5506,7 @@
     {
       "codice": "61352599",
       "brand": "DAN",
-      "descrizione": "CANDELA DACCENSIONE4PZ",
+      "descrizione": "CANDELA DACCENSIONE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -5696,7 +5656,7 @@
     {
       "codice": "44540742",
       "brand": "DAN",
-      "descrizione": "AMMORTIZZATORE POST. SX/DX1PZ",
+      "descrizione": "AMMORTIZZATORE POST. SX/DX",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -5864,9 +5824,9 @@
       "importo_totale": 62.7
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "NRF 53811 0 RADIATOR FORD S MAX 2.0D 06",
+      "codice": "53811",
+      "brand": "NRF",
+      "descrizione": "0 RADIATOR FORD S MAX 2.0D 06",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -6026,7 +5986,7 @@
     {
       "codice": "52012255",
       "brand": "DAN",
-      "descrizione": "KIT BULLONI TESTATA1PZ",
+      "descrizione": "KIT BULLONI TESTATA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 18,
@@ -6036,7 +5996,7 @@
     {
       "codice": "07953439",
       "brand": "DAN",
-      "descrizione": "KIT GIUNTO OMOCINETICO1PZ",
+      "descrizione": "KIT GIUNTO OMOCINETICO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 22,
@@ -6286,7 +6246,7 @@
     {
       "codice": "02000301",
       "brand": "DAN",
-      "descrizione": "FRONT BUMPER UPPER1PZ",
+      "descrizione": "FRONT BUMPER UPPER",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -6326,7 +6286,7 @@
     {
       "codice": "",
       "brand": "STA",
-      "descrizione": "POMPA ACQUA1PZ",
+      "descrizione": "POMPA ACQUA",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -6406,7 +6366,7 @@
     {
       "codice": "77767020",
       "brand": "DAN",
-      "descrizione": "ANTIGELO ROSSO 20LITRI1PZ",
+      "descrizione": "ANTIGELO ROSSO 20LITRI",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -6464,9 +6424,9 @@
       "importo_totale": 57.68
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "FAS FT90514 0 TRAVERSA FIAT DUCATO 06gt; ANTERIORE",
+      "codice": "FT90514",
+      "brand": "FAS",
+      "descrizione": "0 TRAVERSA FIAT DUCATO 06gt; ANTERIORE",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -6556,7 +6516,7 @@
     {
       "codice": "43722899",
       "brand": "DAN",
-      "descrizione": "KIT CINGHIE POLY-V1PZ",
+      "descrizione": "KIT CINGHIE POLY-V",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 47,
@@ -6586,7 +6546,7 @@
     {
       "codice": "35405",
       "brand": "AUT",
-      "descrizione": "NR56",
+      "descrizione": "35405",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -6656,7 +6616,7 @@
     {
       "codice": "61106398",
       "brand": "STA",
-      "descrizione": "NR56",
+      "descrizione": "61106398",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 1,
@@ -6836,7 +6796,7 @@
     {
       "codice": "ADV182118",
       "brand": "BLU",
-      "descrizione": "ADV182118",
+      "descrizione": "FILTRO OLIO AUDI A1 (8X) 1.0 TFSI A1 (8X) 1.4 T 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 12,
@@ -6856,7 +6816,7 @@
     {
       "codice": "23247247",
       "brand": "STA",
-      "descrizione": "PZ54",
+      "descrizione": "23247247",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -7206,7 +7166,7 @@
     {
       "codice": "16712568",
       "brand": "STA",
-      "descrizione": "PZ26",
+      "descrizione": "16712568",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -7256,7 +7216,7 @@
     {
       "codice": "99693469",
       "brand": "DAN",
-      "descrizione": "ATTUATORE PORTA1PZ",
+      "descrizione": "ATTUATORE PORTA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -7266,7 +7226,7 @@
     {
       "codice": "97204059",
       "brand": "DAN",
-      "descrizione": "KP15627XS WATER PUMP KIT GATES1PZ",
+      "descrizione": "KP15627XS WATER PUMP KIT GATES",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -7276,7 +7236,7 @@
     {
       "codice": "64697973",
       "brand": "DAN",
-      "descrizione": "BOBINA1PZ",
+      "descrizione": "BOBINA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -7286,7 +7246,7 @@
     {
       "codice": "510029910",
       "brand": "AUT",
-      "descrizione": "NR51",
+      "descrizione": "510029910",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -7316,7 +7276,7 @@
     {
       "codice": "40276603BN",
       "brand": "AUT",
-      "descrizione": "NR51",
+      "descrizione": "40276603BN",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -7476,7 +7436,7 @@
     {
       "codice": "70315169",
       "brand": "DAN",
-      "descrizione": "A - T.FX 108 C1/AYGO 1.2 60 KW1PZ",
+      "descrizione": "A - T.FX 108 C1/AYGO 1.2 60 KW",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -7544,6 +7504,16 @@
       "importo_totale": 50.4
     },
     {
+      "codice": "185164",
+      "brand": "FEB",
+      "descrizione": "0 FILTRO ARIA",
+      "fornitore": "I.DI.R. S.P.A. (IDIR)",
+      "fornitore_short": "IDIR",
+      "qta_totale": 3,
+      "n_ordini": 2,
+      "importo_totale": 50.37
+    },
+    {
       "codice": "26JE021",
       "brand": "RED",
       "descrizione": "26JE021",
@@ -7586,7 +7556,7 @@
     {
       "codice": "40925127",
       "brand": "DAN",
-      "descrizione": "KIT BULLONI TESTATA1PZ",
+      "descrizione": "KIT BULLONI TESTATA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 10,
@@ -7844,16 +7814,6 @@
       "importo_totale": 48.35
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "VRT C22 BLUE Dynamic 52AH 470A207x175x190 C22 (72PZ)",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 48.33
-    },
-    {
       "codice": "53101",
       "brand": "NRF",
       "descrizione": "RADIATOR VW UP 1.0",
@@ -8046,7 +8006,7 @@
     {
       "codice": "81386705",
       "brand": "DAN",
-      "descrizione": "FLESSIBILE CARBURANTE PERSO1PZ",
+      "descrizione": "FLESSIBILE CARBURANTE PERSO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -8136,7 +8096,7 @@
     {
       "codice": "6283605036",
       "brand": "SAC",
-      "descrizione": "Cilindro secondario frizione",
+      "descrizione": "Cilindro secondario frizione 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3,
@@ -8186,7 +8146,7 @@
     {
       "codice": "31314",
       "brand": "AUT",
-      "descrizione": "NR46",
+      "descrizione": "31314",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -8296,7 +8256,7 @@
     {
       "codice": "44218600",
       "brand": "DAN",
-      "descrizione": "5592XS 178X301PZ",
+      "descrizione": "5592XS 178X",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -8336,7 +8296,7 @@
     {
       "codice": "SV03D0096IP",
       "brand": "",
-      "descrizione": "DISCO FRENO",
+      "descrizione": "DISCO FRENO 2,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3,
@@ -8344,9 +8304,9 @@
       "importo_totale": 45.9
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "APA KT90293 PANDA 03 1.3 MULTIJET TD 16 V",
+      "codice": "KT90293",
+      "brand": "APA",
+      "descrizione": "PANDA 03 1.3 MULTIJET TD 16 V",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -8456,7 +8416,7 @@
     {
       "codice": "0242129510",
       "brand": "BS",
-      "descrizione": "0242129510",
+      "descrizione": "CANDELA D ACCENSIONE CANDELA VR8SC (40)",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 15,
@@ -8556,7 +8516,7 @@
     {
       "codice": "86644879",
       "brand": "DAN",
-      "descrizione": "MAGNATEC 5W-40 C3 12X1L H 1F5PZ",
+      "descrizione": "MAGNATEC 5W-40 C3 12X1L H 1F",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -8606,7 +8566,7 @@
     {
       "codice": "01859922",
       "brand": "STA",
-      "descrizione": "PZ22",
+      "descrizione": "01859922",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -8786,7 +8746,7 @@
     {
       "codice": "82889633",
       "brand": "DAN",
-      "descrizione": "FILTRO OLIO1PZ",
+      "descrizione": "FILTRO OLIO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -8876,7 +8836,7 @@
     {
       "codice": "34155",
       "brand": "AUT",
-      "descrizione": "NR42",
+      "descrizione": "34155",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -8914,9 +8874,9 @@
       "importo_totale": 42.37
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "BS 0986479C17 0 DISCO FRENO",
+      "codice": "0986479C17",
+      "brand": "BS",
+      "descrizione": "0 DISCO FRENO",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -8986,7 +8946,7 @@
     {
       "codice": "78735834",
       "brand": "DAN",
-      "descrizione": "AMM. CHEVROLET - DAEWOO MATIZ / SPARK1PZ",
+      "descrizione": "AMM. CHEVROLET - DAEWOO MATIZ / SPARK",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -8996,7 +8956,7 @@
     {
       "codice": "38AU001",
       "brand": "RED",
-      "descrizione": "38AU001",
+      "descrizione": "FILTRO OLIO VW T ROC (A11 D11) 2018",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 23,
@@ -9186,7 +9146,7 @@
     {
       "codice": "15979638",
       "brand": "DAN",
-      "descrizione": "SUPPORTO MOT. SMART 071PZ",
+      "descrizione": "SUPPORTO MOT. SMART",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -9196,7 +9156,7 @@
     {
       "codice": "78428982",
       "brand": "DAN",
-      "descrizione": "VENT.AB. RENAULT KANGOO II 081PZ",
+      "descrizione": "VENT.AB. RENAULT KANGOO II",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -9246,7 +9206,7 @@
     {
       "codice": "77320686",
       "brand": "DAN",
-      "descrizione": "FILTRO ARIA5PZ",
+      "descrizione": "FILTRO ARIA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -9386,7 +9346,7 @@
     {
       "codice": "36220397",
       "brand": "DAN",
-      "descrizione": "POMPA FRIZIONE1PZ",
+      "descrizione": "POMPA FRIZIONE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -9396,7 +9356,7 @@
     {
       "codice": "49597205",
       "brand": "DAN",
-      "descrizione": "SENSORE DI PRESSIONE1PZ",
+      "descrizione": "SENSORE DI PRESSIONE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -9406,7 +9366,7 @@
     {
       "codice": "97177845",
       "brand": "DAN",
-      "descrizione": "EXPANSION VALVES1PZ",
+      "descrizione": "EXPANSION VALVES",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -9476,7 +9436,7 @@
     {
       "codice": "52224550",
       "brand": "STA",
-      "descrizione": "CARTER DEL TERMOSTATO1PZ",
+      "descrizione": "CARTER DEL TERMOSTATO",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -9576,7 +9536,7 @@
     {
       "codice": "88127920",
       "brand": "DAN",
-      "descrizione": "CANDELA ACCENS S RAD3PZ",
+      "descrizione": "CANDELA ACCENS S RAD",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -9586,7 +9546,7 @@
     {
       "codice": "26667109",
       "brand": "DAN",
-      "descrizione": "PASTIGLIA FRENO POST1PZ",
+      "descrizione": "PASTIGLIA FRENO POST",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -9596,7 +9556,7 @@
     {
       "codice": "40510947",
       "brand": "DAN",
-      "descrizione": "TENDICINGHIA SERVIZI1PZ",
+      "descrizione": "TENDICINGHIA SERVIZI",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -9644,9 +9604,9 @@
       "importo_totale": 38.82
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "RPL RI007550 0 RINFORZO PARAURTI ANTERIORE SUPERIORE",
+      "codice": "RI007550",
+      "brand": "RPL",
+      "descrizione": "0 RINFORZO PARAURTI ANTERIORE SUPERIORE",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -9774,9 +9734,9 @@
       "importo_totale": 38.21
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "RED 25CI000 0 KIT FRIZIONE CITRON C3 II (SC_) 2010",
+      "codice": "25CI000",
+      "brand": "RED",
+      "descrizione": "0 KIT FRIZIONE CITRON C3 II (SC_) 2010",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -9896,7 +9856,7 @@
     {
       "codice": "12499CP",
       "brand": "AUT",
-      "descrizione": "NR0",
+      "descrizione": "12499CP",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 40,
@@ -10124,6 +10084,16 @@
       "importo_totale": 36.16
     },
     {
+      "codice": "ADN12133",
+      "brand": "BLU",
+      "descrizione": "0 FILTRO OLIO AUTO I 1.5 DCI LODGY 1.5 DC",
+      "fornitore": "I.DI.R. S.P.A. (IDIR)",
+      "fornitore_short": "IDIR",
+      "qta_totale": 11,
+      "n_ordini": 11,
+      "importo_totale": 36.09
+    },
+    {
       "codice": "DDF1527",
       "brand": "FER",
       "descrizione": "PSA GROUP",
@@ -10176,7 +10146,7 @@
     {
       "codice": "96162888",
       "brand": "DAN",
-      "descrizione": "PASTIGLIA FRENO PSA1PZ",
+      "descrizione": "PASTIGLIA FRENO PSA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -10406,7 +10376,7 @@
     {
       "codice": "94392341",
       "brand": "DAN",
-      "descrizione": "SENSORE ALBERO A CAMME1PZ",
+      "descrizione": "SENSORE ALBERO A CAMME",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -10416,7 +10386,7 @@
     {
       "codice": "68294276",
       "brand": "DAN",
-      "descrizione": "BRACCIO TENDITORE1PZ",
+      "descrizione": "BRACCIO TENDITORE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -10426,7 +10396,7 @@
     {
       "codice": "73784618",
       "brand": "DAN",
-      "descrizione": "PASTIGLIE FRENO1PZ",
+      "descrizione": "PASTIGLIE FRENO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -10436,7 +10406,7 @@
     {
       "codice": "61626384",
       "brand": "DAN",
-      "descrizione": "TERMOSTATO POLO-TOURAN 1.6TDI1PZ",
+      "descrizione": "TERMOSTATO POLO-TOURAN 1.6TDI",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -10586,7 +10556,7 @@
     {
       "codice": "97116629",
       "brand": "FCA",
-      "descrizione": "NR34",
+      "descrizione": "97116629",
       "fornitore": "FCAR SRL",
       "fornitore_short": "FCAR",
       "qta_totale": 1,
@@ -10684,6 +10654,16 @@
       "importo_totale": 34.3
     },
     {
+      "codice": "0986494197",
+      "brand": "BS",
+      "descrizione": "SERIE PATTINI AUTO 1.5dCi",
+      "fornitore": "I.DI.R. S.P.A. (IDIR)",
+      "fornitore_short": "IDIR",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 34.24
+    },
+    {
       "codice": "0986460082",
       "brand": "BS",
       "descrizione": "0986460082",
@@ -10706,7 +10686,7 @@
     {
       "codice": "ADBP230050",
       "brand": "BLU",
-      "descrizione": "FILTRO CARBURANTE",
+      "descrizione": "FILTRO CARBURANTE 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3,
@@ -10884,16 +10864,6 @@
       "importo_totale": 33.6
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "FEB 185164 0 FILTRO ARIA",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 2,
-      "n_ordini": 1,
-      "importo_totale": 33.58
-    },
-    {
       "codice": "48390",
       "brand": "FEB",
       "descrizione": "48390",
@@ -10912,16 +10882,6 @@
       "qta_totale": 1,
       "n_ordini": 1,
       "importo_totale": 33.5
-    },
-    {
-      "codice": "ADN12133",
-      "brand": "BLU",
-      "descrizione": "ADN12133",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 10,
-      "n_ordini": 10,
-      "importo_totale": 33.46
     },
     {
       "codice": "170795",
@@ -11016,7 +10976,7 @@
     {
       "codice": "87452398",
       "brand": "DAN",
-      "descrizione": "GUARNIZIONE FRENO1PZ",
+      "descrizione": "GUARNIZIONE FRENO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -11026,7 +10986,7 @@
     {
       "codice": "18013496",
       "brand": "DAN",
-      "descrizione": "FILTRO CARBURANTE1PZ",
+      "descrizione": "FILTRO CARBURANTE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -11104,9 +11064,9 @@
       "importo_totale": 32.8
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "FEB 24251 BRACCIO SOSPENSIONE PKW III (BR) 1.2 16V C",
+      "codice": "24251",
+      "brand": "FEB",
+      "descrizione": "BRACCIO SOSPENSIONE PKW III (BR) 1.2 16V C",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -11256,7 +11216,7 @@
     {
       "codice": "040-921",
       "brand": "",
-      "descrizione": "PASTIGLIE FRENO (KIT)",
+      "descrizione": "PASTIGLIE FRENO (KIT) 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -11306,7 +11266,7 @@
     {
       "codice": "39865701",
       "brand": "DAN",
-      "descrizione": "TERMOSTATO1PZ",
+      "descrizione": "TERMOSTATO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -11446,7 +11406,7 @@
     {
       "codice": "FT1247124",
       "brand": "AUT",
-      "descrizione": "NR31",
+      "descrizione": "FT1247124",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -11556,7 +11516,7 @@
     {
       "codice": "58252393",
       "brand": "DAN",
-      "descrizione": "PAST ANT BOXER III 1 SENSORI USURA1PZ",
+      "descrizione": "PAST ANT BOXER III 1 SENSORI USURA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -11746,7 +11706,7 @@
     {
       "codice": "17753128",
       "brand": "STA",
-      "descrizione": "FILTRO CONDOTTO CARBUR1PZ",
+      "descrizione": "FILTRO CONDOTTO CARBUR",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -11766,7 +11726,7 @@
     {
       "codice": "J1322146",
       "brand": "FCA",
-      "descrizione": "AIR FILTER 2,000 NR€",
+      "descrizione": "---Totale spese",
       "fornitore": "FCAR SRL",
       "fornitore_short": "FCAR",
       "qta_totale": 2,
@@ -11816,7 +11776,7 @@
     {
       "codice": "48625624",
       "brand": "DAN",
-      "descrizione": "5-4704 CURVED HOSE1PZ",
+      "descrizione": "5-4704 CURVED HOSE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -11856,7 +11816,7 @@
     {
       "codice": "50315762",
       "brand": "DAN",
-      "descrizione": "6PK1555 MV1PZ",
+      "descrizione": "6PK1555 MV",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -11866,7 +11826,7 @@
     {
       "codice": "",
       "brand": "DAN",
-      "descrizione": "BOBINA ACCENSIONE FIAT 500-PANDA-PUNTO2PZ",
+      "descrizione": "BOBINA ACCENSIONE FIAT 500-PANDA-PUNTO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -11892,6 +11852,16 @@
       "qta_totale": 2,
       "n_ordini": 1,
       "importo_totale": 29.96
+    },
+    {
+      "codice": "SVP23890",
+      "brand": "SEV",
+      "descrizione": "0 PATTINI FRENO IVECO DAILY III 05 06 gt;gt;",
+      "fornitore": "I.DI.R. S.P.A. (IDIR)",
+      "fornitore_short": "IDIR",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 29.95
     },
     {
       "codice": "52057801",
@@ -11996,7 +11966,7 @@
     {
       "codice": "14549455",
       "brand": "DAN",
-      "descrizione": "POMPA FRIZIONE1PZ",
+      "descrizione": "POMPA FRIZIONE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -12186,7 +12156,7 @@
     {
       "codice": "44552893",
       "brand": "DAN",
-      "descrizione": "GASKETS1PZ",
+      "descrizione": "GASKETS",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -12484,9 +12454,9 @@
       "importo_totale": 28
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "SID 430945A2 0 DEVIOGUIDA",
+      "codice": "430945A2",
+      "brand": "SID",
+      "descrizione": "0 DEVIOGUIDA",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -12556,7 +12526,7 @@
     {
       "codice": "S3448",
       "brand": "AUT",
-      "descrizione": "NR27",
+      "descrizione": "S3448",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -12596,7 +12566,7 @@
     {
       "codice": "112-471",
       "brand": "",
-      "descrizione": "FILTRO CARBURANTE",
+      "descrizione": "FILTRO CARBURANTE 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -12706,7 +12676,7 @@
     {
       "codice": "41668359",
       "brand": "DAN",
-      "descrizione": "PADS1PZ",
+      "descrizione": "PADS",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -12826,7 +12796,7 @@
     {
       "codice": "0242235668",
       "brand": "BS",
-      "descrizione": "CANDELA D ACCENSIONE CANDELA FR7LDC (7)",
+      "descrizione": "CANDELA D ACCENSIONE CANDELA FR7LDC (7) 4,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 12.5,
@@ -12864,9 +12834,9 @@
       "importo_totale": 26.55
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "GAT T39174 TENDITORE",
+      "codice": "T39174",
+      "brand": "GAT",
+      "descrizione": "TENDITORE",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -12996,7 +12966,7 @@
     {
       "codice": "ADT32116",
       "brand": "BLU",
-      "descrizione": "ADT32116",
+      "descrizione": "FILTRO OLIO CITRON AX 1.0 AX 1.1 AX 1.3 AX 1.",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 88,
@@ -13346,7 +13316,7 @@
     {
       "codice": "95842634",
       "brand": "DAN",
-      "descrizione": "7PK1179SF1PZ",
+      "descrizione": "7PK1179SF",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -13356,7 +13326,7 @@
     {
       "codice": "61574948",
       "brand": "DAN",
-      "descrizione": "FLESSIBILE RADIATORE1PZ",
+      "descrizione": "FLESSIBILE RADIATORE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -13416,7 +13386,7 @@
     {
       "codice": "39894499",
       "brand": "DAN",
-      "descrizione": "GIUNTO OMOCINETICO1PZ",
+      "descrizione": "GIUNTO OMOCINETICO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -13486,7 +13456,7 @@
     {
       "codice": "18948494",
       "brand": "DAN",
-      "descrizione": "SENSORE ALBERO MOTORE1PZ",
+      "descrizione": "SENSORE ALBERO MOTORE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -13556,7 +13526,7 @@
     {
       "codice": "64027116",
       "brand": "DAN",
-      "descrizione": "SENSORE DUSURA1PZ",
+      "descrizione": "SENSORE DUSURA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -13726,7 +13696,7 @@
     {
       "codice": "42406397",
       "brand": "DAN",
-      "descrizione": "RETROVISORE 18049 EST.SMART CAVI NERO DX1PZ",
+      "descrizione": "RETROVISORE 18049 EST.SMART CAVI NERO DX",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -13756,7 +13726,7 @@
     {
       "codice": "171858",
       "brand": "FEB",
-      "descrizione": "171858",
+      "descrizione": "KIT CUFFIA GIUNTO OMOCINETICO",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 125,
@@ -13886,7 +13856,7 @@
     {
       "codice": "88552355",
       "brand": "DAN",
-      "descrizione": "SENSORE ABS ANTERIORE BILATERALE1PZ",
+      "descrizione": "SENSORE ABS ANTERIORE BILATERALE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -13896,7 +13866,7 @@
     {
       "codice": "58780733",
       "brand": "DAN",
-      "descrizione": "SENSORE POSIZIONE ALBERO MOTORE1PZ",
+      "descrizione": "SENSORE POSIZIONE ALBERO MOTORE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -13956,7 +13926,7 @@
     {
       "codice": "1987432543",
       "brand": "BS",
-      "descrizione": "1987432543",
+      "descrizione": "FILTRO ABITACOLO AUDI A3 Q2 2015gt; 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3.3,
@@ -14016,7 +13986,7 @@
     {
       "codice": "46536742",
       "brand": "DAN",
-      "descrizione": "INTERRUTTORE ALZACRISTALLO1PZ",
+      "descrizione": "INTERRUTTORE ALZACRISTALLO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -14026,7 +13996,7 @@
     {
       "codice": "63769179",
       "brand": "DAN",
-      "descrizione": "FILTRO CARBURANTE1PZ",
+      "descrizione": "FILTRO CARBURANTE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -14036,7 +14006,7 @@
     {
       "codice": "92325277",
       "brand": "DAN",
-      "descrizione": "VASCHETTA ACQUA CHEVROLET SPARK 12151PZ",
+      "descrizione": "VASCHETTA ACQUA CHEVROLET SPARK",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -14056,7 +14026,7 @@
     {
       "codice": "19655796",
       "brand": "DAN",
-      "descrizione": "FILTRO ARIA NEW EVO51PZ",
+      "descrizione": "FILTRO ARIA NEW EVO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -14074,9 +14044,9 @@
       "importo_totale": 22.91
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "NEW FLANGIA TERM.PANDA PUNTO CORSA D",
+      "codice": "FLANGIA",
+      "brand": "NEW",
+      "descrizione": "TERM.PANDA PUNTO CORSA D1Pezzi22,9000 €",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -14086,7 +14056,7 @@
     {
       "codice": "ADL142109",
       "brand": "BLU",
-      "descrizione": "ADL142109",
+      "descrizione": "FILTRO OLIO FIAT DUCATO III 2.3 JTDM 16VIVECO",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 5,
@@ -14226,7 +14196,7 @@
     {
       "codice": "86613415",
       "brand": "DAN",
-      "descrizione": "FILTRO ANTIPOLLINE NEW EVO51PZ",
+      "descrizione": "FILTRO ANTIPOLLINE NEW EVO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -14246,7 +14216,7 @@
     {
       "codice": "40073560BN",
       "brand": "AUT",
-      "descrizione": "NR22",
+      "descrizione": "40073560BN",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -14416,7 +14386,7 @@
     {
       "codice": "32482113",
       "brand": "DAN",
-      "descrizione": "5-4810 CURVED HOSE1PZ",
+      "descrizione": "5-4810 CURVED HOSE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -14626,7 +14596,7 @@
     {
       "codice": "4388",
       "brand": "AUT",
-      "descrizione": "NR5",
+      "descrizione": "4388",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 4,
@@ -14776,7 +14746,7 @@
     {
       "codice": "60273404",
       "brand": "DAN",
-      "descrizione": "CANDELA ACCENS S RAD4PZ",
+      "descrizione": "CANDELA ACCENS S RAD",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -15136,7 +15106,7 @@
     {
       "codice": "014100000010",
       "brand": "FCA",
-      "descrizione": "2,000 NR€",
+      "descrizione": "014100000010",
       "fornitore": "FCAR SRL",
       "fornitore_short": "FCAR",
       "qta_totale": 10.4,
@@ -15306,7 +15276,7 @@
     {
       "codice": "37261334",
       "brand": "DAN",
-      "descrizione": "VALVOLE RISCALDAMENTO FIAT PANDA 931PZ",
+      "descrizione": "VALVOLE RISCALDAMENTO FIAT PANDA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -15396,7 +15366,7 @@
     {
       "codice": "01577472",
       "brand": "DAN",
-      "descrizione": "SENSORE DI DETONAZIONE1PZ",
+      "descrizione": "SENSORE DI DETONAZIONE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -15406,7 +15376,7 @@
     {
       "codice": "51590915",
       "brand": "DAN",
-      "descrizione": "PIGNONE DISTR. FIAT MOTORE FIRE 1.0/1.21PZ",
+      "descrizione": "PIGNONE DISTR. FIAT MOTORE FIRE 1.0/1.",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -15596,7 +15566,7 @@
     {
       "codice": "CAR02696",
       "brand": "DAN",
-      "descrizione": "CARCASSA BOS-09860254701PZ",
+      "descrizione": "CARCASSA BOS-",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -15656,7 +15626,7 @@
     {
       "codice": "ADR162508",
       "brand": "BLU",
-      "descrizione": "ADR162508",
+      "descrizione": "FILTRO ABITACOLO AUTO II 0.9 AUTO II 1.0 LOG 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 6,
@@ -15706,7 +15676,7 @@
     {
       "codice": "45050",
       "brand": "AUT",
-      "descrizione": "NR12",
+      "descrizione": "45050",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 2,
@@ -15726,7 +15696,7 @@
     {
       "codice": "74777977",
       "brand": "DAN",
-      "descrizione": "GUARNIZIONE COPERCHIO TESTATA1PZ",
+      "descrizione": "GUARNIZIONE COPERCHIO TESTATA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -15766,7 +15736,7 @@
     {
       "codice": "40073240BN",
       "brand": "AUT",
-      "descrizione": "NR19",
+      "descrizione": "40073240BN",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -15826,7 +15796,7 @@
     {
       "codice": "91103769",
       "brand": "DAN",
-      "descrizione": "TENDICINGHIA SERVIZI1PZ",
+      "descrizione": "TENDICINGHIA SERVIZI",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -16004,9 +15974,9 @@
       "importo_totale": 19.1
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "UNI 390282 SUPP.AMM.ANT. STILO",
+      "codice": "390282",
+      "brand": "UNI",
+      "descrizione": "SUPP.AMM.ANT. STILO",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -16036,7 +16006,7 @@
     {
       "codice": "06567908",
       "brand": "DAN",
-      "descrizione": "FILTRO ARIA1PZ",
+      "descrizione": "FILTRO ARIA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -16146,7 +16116,7 @@
     {
       "codice": "122-431",
       "brand": "",
-      "descrizione": "FILTRO ABITACOLO AI CARBONI ATTIVI",
+      "descrizione": "FILTRO ABITACOLO AI CARBONI ATTIVI 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 4,
@@ -16206,7 +16176,7 @@
     {
       "codice": "76279436",
       "brand": "STA",
-      "descrizione": "PZ18",
+      "descrizione": "76279436",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -16226,7 +16196,7 @@
     {
       "codice": "0986494387",
       "brand": "BS",
-      "descrizione": "0986494387",
+      "descrizione": "PATTINI POST.WVA20960 AUDI A4 VW BORA I",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -16344,9 +16314,9 @@
       "importo_totale": 18.34
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "POMPA ACQUA FIAT 500X (334_)",
+      "codice": "ACQUA",
+      "brand": "POMPA",
+      "descrizione": "FIAT 500X (334_)1Pezzi18,2748 €-",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -16384,16 +16354,6 @@
       "importo_totale": 18.2
     },
     {
-      "codice": "0986494197",
-      "brand": "BS",
-      "descrizione": "SERIE PATTINI AUTO 1.5dCi",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 18.17
-    },
-    {
       "codice": "91966869",
       "brand": "FCA",
       "descrizione": "CANDELA ACCENSIONE ALFA ROMEO GIULIETTA",
@@ -16426,7 +16386,7 @@
     {
       "codice": "99884963",
       "brand": "DAN",
-      "descrizione": "DISTACCO FRIZIONE IDRAULICI1PZ",
+      "descrizione": "DISTACCO FRIZIONE IDRAULICI",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -16514,9 +16474,9 @@
       "importo_totale": 17.9
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "PUR CS487 . FORD",
+      "codice": "CS487",
+      "brand": "PUR",
+      "descrizione": ". FORD",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -16646,7 +16606,7 @@
     {
       "codice": "53437488",
       "brand": "DAN",
-      "descrizione": "SENSORE DUSURA2PZ",
+      "descrizione": "SENSORE DUSURA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -16686,7 +16646,7 @@
     {
       "codice": "42775142",
       "brand": "DAN",
-      "descrizione": "LAMPADINA H4 60/55W 12V10PZ",
+      "descrizione": "LAMPADINA H4 60/55W 12V",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -16726,7 +16686,7 @@
     {
       "codice": "136-871",
       "brand": "",
-      "descrizione": "FILTRO ARIA",
+      "descrizione": "FILTRO ARIA 3,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 8,
@@ -16766,7 +16726,7 @@
     {
       "codice": "81964858",
       "brand": "DAN",
-      "descrizione": "CINGHIA DENTATA1PZ",
+      "descrizione": "CINGHIA DENTATA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -17066,7 +17026,7 @@
     {
       "codice": "41381607",
       "brand": "DAN",
-      "descrizione": "CANDELA ACCENS S RAD4PZ",
+      "descrizione": "CANDELA ACCENS S RAD",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -17146,7 +17106,7 @@
     {
       "codice": "16/7672",
       "brand": "AUT",
-      "descrizione": "NR16",
+      "descrizione": "16/7672",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -17196,7 +17156,7 @@
     {
       "codice": "54854143",
       "brand": "DAN",
-      "descrizione": "AT.105 85 11 CALZATO1PZ",
+      "descrizione": "AT.105 85 11 CALZATO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -17222,16 +17182,6 @@
       "qta_totale": 16,
       "n_ordini": 2,
       "importo_totale": 16.8
-    },
-    {
-      "codice": "185164",
-      "brand": "FEB",
-      "descrizione": "FILTRO ARIA",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 16.79
     },
     {
       "codice": "171858",
@@ -17336,7 +17286,7 @@
     {
       "codice": "60366662",
       "brand": "STA",
-      "descrizione": "PZ16",
+      "descrizione": "60366662",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -17396,7 +17346,7 @@
     {
       "codice": "59590767",
       "brand": "DAN",
-      "descrizione": "TH05982G1 THERMOSTAT1PZ",
+      "descrizione": "TH05982G1 THERMOSTAT",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -17406,7 +17356,7 @@
     {
       "codice": "56766942",
       "brand": "DAN",
-      "descrizione": "6PK1986EST ESTART BELT1PZ",
+      "descrizione": "6PK1986EST ESTART BELT",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -17626,7 +17576,7 @@
     {
       "codice": "0986494235",
       "brand": "",
-      "descrizione": "pattini freno ant.wva 24538 citroen berlingo 2007gt;",
+      "descrizione": "pattini freno ant.wva 24538 citroen berlingo 2007gt; 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1.4,
@@ -17652,16 +17602,6 @@
       "qta_totale": 80,
       "n_ordini": 1,
       "importo_totale": 16.1
-    },
-    {
-      "codice": "",
-      "brand": "",
-      "descrizione": "BS 0986494197 SERIE PATTINI AUTO 1.5dCi",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 16.07
     },
     {
       "codice": "22-0604-0",
@@ -17754,9 +17694,9 @@
       "importo_totale": 16
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "HEL 8ZC 366 0 FILTRO ABITACOLO",
+      "codice": "8ZC",
+      "brand": "HEL",
+      "descrizione": "366 0 FILTRO ABITACOLO",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3,
@@ -17886,7 +17826,7 @@
     {
       "codice": "ADA102324",
       "brand": "AUT",
-      "descrizione": "NR7",
+      "descrizione": "ADA102324",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 2,
@@ -17906,7 +17846,7 @@
     {
       "codice": "F026407231",
       "brand": "BS",
-      "descrizione": "F026407231",
+      "descrizione": "CARTUCCIA FILTRO OLIO III 0.9 1.0 2014gt;",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 4,
@@ -17942,16 +17882,6 @@
       "qta_totale": 2,
       "n_ordini": 2,
       "importo_totale": 15.76
-    },
-    {
-      "codice": "SVP23890",
-      "brand": "SEV",
-      "descrizione": "PATTINI FRENO IVECO DAILY III 05 06 gt;gt;",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 15.75
     },
     {
       "codice": "FT26034",
@@ -18154,16 +18084,6 @@
       "importo_totale": 15.42
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "BS 0986494441 PATTINI FRENO ANT.WVA24914 AUTO V",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 15.42
-    },
-    {
       "codice": "ADN142134",
       "brand": "BLU",
       "descrizione": "ADN142134",
@@ -18266,7 +18186,7 @@
     {
       "codice": "71251458",
       "brand": "DAN",
-      "descrizione": "FILTRO OLIO2PZ",
+      "descrizione": "FILTRO OLIO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -18476,7 +18396,7 @@
     {
       "codice": "0986460063",
       "brand": "",
-      "descrizione": "PATTINI FRENO ANT.WVA 26188 26189 AUTO III",
+      "descrizione": "PATTINI FRENO ANT.WVA 26188 26189 AUTO III 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1.4,
@@ -18504,9 +18424,9 @@
       "importo_totale": 14.73
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "UNI B2448 MAN.SFIATO MOT. MINI BMW 14 16 2007gt;",
+      "codice": "B2448",
+      "brand": "UNI",
+      "descrizione": "MAN.SFIATO MOT. MINI BMW 14 16 2007gt;",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -18552,6 +18472,16 @@
       "qta_totale": 5,
       "n_ordini": 5,
       "importo_totale": 14.67
+    },
+    {
+      "codice": "A1965",
+      "brand": "PUR",
+      "descrizione": "0 FILTRO ARIA",
+      "fornitore": "I.DI.R. S.P.A. (IDIR)",
+      "fornitore_short": "IDIR",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 14.66
     },
     {
       "codice": "A3008",
@@ -18666,7 +18596,7 @@
     {
       "codice": "85425725",
       "brand": "DAN",
-      "descrizione": "ELEMENTO FILTRANTE CARB1PZ",
+      "descrizione": "ELEMENTO FILTRANTE CARB",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -18804,16 +18734,6 @@
       "importo_totale": 14.2
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "SEV SVP23890 0 PATTINI FRENO IVECO DAILY III 05 06 gt;gt;",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 14.2
-    },
-    {
       "codice": "O8585",
       "brand": "UNI",
       "descrizione": "O8585",
@@ -18876,7 +18796,7 @@
     {
       "codice": "694.770",
       "brand": "AUT",
-      "descrizione": "NR14",
+      "descrizione": "694.770",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -18936,7 +18856,7 @@
     {
       "codice": "8GA 002 071-121",
       "brand": "HEL",
-      "descrizione": "8GA 002 071-121",
+      "descrizione": "LAMPADINA LAMPADA 12V 5W R5W BA15S",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 48,
@@ -18996,7 +18916,7 @@
     {
       "codice": "71005441",
       "brand": "DAN",
-      "descrizione": "VETRO SPECCHIO RETROVISORE1PZ",
+      "descrizione": "VETRO SPECCHIO RETROVISORE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -19106,7 +19026,7 @@
     {
       "codice": "85464874",
       "brand": "DAN",
-      "descrizione": "ACCESSORI VARI2PZ",
+      "descrizione": "ACCESSORI VARI",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -19206,7 +19126,7 @@
     {
       "codice": "25910227",
       "brand": "DAN",
-      "descrizione": "INTERRUTTORE LUCE FRENO1PZ",
+      "descrizione": "INTERRUTTORE LUCE FRENO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -19216,7 +19136,7 @@
     {
       "codice": "86506515",
       "brand": "DAN",
-      "descrizione": "7PK1103 MV1PZ",
+      "descrizione": "7PK1103 MV",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -19226,7 +19146,7 @@
     {
       "codice": "77652719",
       "brand": "DAN",
-      "descrizione": "FILTRO ABIT. SSANGYONG1PZ",
+      "descrizione": "FILTRO ABIT. SSANGYONG",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -19326,7 +19246,7 @@
     {
       "codice": "38TT019",
       "brand": "",
-      "descrizione": "FILTRO CARBURANTE AUDI A1 (8X1 8XK) 2015 2018",
+      "descrizione": "FILTRO CARBURANTE AUDI A1 (8X1 8XK) 2015 2018 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -19346,7 +19266,7 @@
     {
       "codice": "27720782",
       "brand": "FCA",
-      "descrizione": "NR6",
+      "descrizione": "27720782",
       "fornitore": "FCAR SRL",
       "fornitore_short": "FCAR",
       "qta_totale": 2,
@@ -19386,7 +19306,7 @@
     {
       "codice": "08365405",
       "brand": "STA",
-      "descrizione": "NR13",
+      "descrizione": "08365405",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 1,
@@ -19446,7 +19366,7 @@
     {
       "codice": "13450830",
       "brand": "STA",
-      "descrizione": "PZ4",
+      "descrizione": "13450830",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -19666,7 +19586,7 @@
     {
       "codice": "ADV182282",
       "brand": "AUT",
-      "descrizione": "NR12",
+      "descrizione": "ADV182282",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -19696,7 +19616,7 @@
     {
       "codice": "25457046",
       "brand": "DAN",
-      "descrizione": "CUFFIA AMM.ANT.FIESTA 2008/MAZDA22PZ",
+      "descrizione": "CUFFIA AMM.ANT.FIESTA 2008/MAZDA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -19806,7 +19726,7 @@
     {
       "codice": "82206882",
       "brand": "DAN",
-      "descrizione": "FR-FIA PANDA (INIEZ.WEBER)1PZ",
+      "descrizione": "FR-FIA PANDA (INIEZ.WEBER)",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -19816,7 +19736,7 @@
     {
       "codice": "26145444",
       "brand": "DAN",
-      "descrizione": "TERMOSTATO1PZ",
+      "descrizione": "TERMOSTATO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -19876,7 +19796,7 @@
     {
       "codice": "62846861",
       "brand": "DAN",
-      "descrizione": "FINE TIRANTE1PZ",
+      "descrizione": "FINE TIRANTE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -19886,7 +19806,7 @@
     {
       "codice": "33273153",
       "brand": "DAN",
-      "descrizione": "PARAOLIO ALBERO MOTORE1PZ",
+      "descrizione": "PARAOLIO ALBERO MOTORE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -19976,7 +19896,7 @@
     {
       "codice": "F8844",
       "brand": "AUT",
-      "descrizione": "NR12",
+      "descrizione": "F8844",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -19986,7 +19906,7 @@
     {
       "codice": "44105445",
       "brand": "DAN",
-      "descrizione": "TAPPO VASCHETTA CLIO II KANGOO1PZ",
+      "descrizione": "TAPPO VASCHETTA CLIO II KANGOO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -20016,7 +19936,7 @@
     {
       "codice": "90500478",
       "brand": "STA",
-      "descrizione": "PZ6",
+      "descrizione": "90500478",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -20064,9 +19984,9 @@
       "importo_totale": 12.19
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "RED 10DW001 CILINDRETTO FRENI POST DX SX DR DR ZERO 2015",
+      "codice": "10DW001",
+      "brand": "RED",
+      "descrizione": "CILINDRETTO FRENI POST DX SX DR DR ZERO 2015",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -20146,7 +20066,7 @@
     {
       "codice": "67286961",
       "brand": "DAN",
-      "descrizione": "GALOPPINO/ GUIDA CINGHIA1PZ",
+      "descrizione": "GALOPPINO/ GUIDA CINGHIA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -20156,7 +20076,7 @@
     {
       "codice": "49586654",
       "brand": "DAN",
-      "descrizione": "GUARNIZIONE COPERCHIO TESTATA1PZ",
+      "descrizione": "GUARNIZIONE COPERCHIO TESTATA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -20166,7 +20086,7 @@
     {
       "codice": "93064935",
       "brand": "DAN",
-      "descrizione": "BCF218 FILTRO ABITACOLO FIAT DUCATO1PZ",
+      "descrizione": "BCF218 FILTRO ABITACOLO FIAT DUCATO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -20436,7 +20356,7 @@
     {
       "codice": "ADV182281",
       "brand": "BLU",
-      "descrizione": "ADV182281",
+      "descrizione": "FILTRO ARIA AUDI A1 (8X) 1.4 TFSI 16V A1 (8X)",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 12,
@@ -20444,9 +20364,9 @@
       "importo_totale": 11.62
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "BS 0986494658 0 PATTINI FRENO POST.VWA25009 VW GOLF VII",
+      "codice": "0986494658",
+      "brand": "BS",
+      "descrizione": "0 PATTINI FRENO POST.VWA25009 VW GOLF VII",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -20616,7 +20536,7 @@
     {
       "codice": "76699351",
       "brand": "DAN",
-      "descrizione": "6PK1070 MV1PZ",
+      "descrizione": "6PK1070 MV",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -20666,7 +20586,7 @@
     {
       "codice": "32432318",
       "brand": "STA",
-      "descrizione": "TUBOLIQ.REFR1PZ",
+      "descrizione": "TUBOLIQ.REFR",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -20762,6 +20682,16 @@
       "qta_totale": 3,
       "n_ordini": 3,
       "importo_totale": 11.33
+    },
+    {
+      "codice": "FILTRO",
+      "brand": "BLU",
+      "descrizione": "ARIA SEAT IBIZA (KJ) 1.0 MPIVW POLO 6 (",
+      "fornitore": "I.DI.R. S.P.A. (IDIR)",
+      "fornitore_short": "IDIR",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 11.32
     },
     {
       "codice": "DIESEL 24V CA",
@@ -20876,7 +20806,7 @@
     {
       "codice": "48927781",
       "brand": "DAN",
-      "descrizione": "SENSORE DUSURA2PZ",
+      "descrizione": "SENSORE DUSURA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -21016,7 +20946,7 @@
     {
       "codice": "27164765",
       "brand": "DAN",
-      "descrizione": "MAN. SUP RADIATORE PUNTO-III 1.2-1.41PZ",
+      "descrizione": "MAN. SUP RADIATORE PUNTO-III 1.2-1.",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -21026,7 +20956,7 @@
     {
       "codice": "77099886",
       "brand": "DAN",
-      "descrizione": "6PK1218 MV1PZ",
+      "descrizione": "6PK1218 MV",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -21136,7 +21066,7 @@
     {
       "codice": "12685331",
       "brand": "DAN",
-      "descrizione": "PARAOLIO ALBERO A GOMITI2PZ",
+      "descrizione": "PARAOLIO ALBERO A GOMITI",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -21146,7 +21076,7 @@
     {
       "codice": "40007152",
       "brand": "DAN",
-      "descrizione": "COMMUTATORE LUCE RETROMARCIA1PZ",
+      "descrizione": "COMMUTATORE LUCE RETROMARCIA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -21186,7 +21116,7 @@
     {
       "codice": "ADN12121",
       "brand": "BLU",
-      "descrizione": "ADN12121",
+      "descrizione": "FILTRO OLIO AUTO I 1.5 DCI AUTO I 4X",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 84,
@@ -21426,7 +21356,7 @@
     {
       "codice": "19036597B",
       "brand": "",
-      "descrizione": "PARAOLI BAPTSLRDX7POP 55 70 8 TFE ACM",
+      "descrizione": "PARAOLI BAPTSLRDX7POP 55 70 8 TFE ACM 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -21636,7 +21566,7 @@
     {
       "codice": "SV05KC143",
       "brand": "SEV",
-      "descrizione": "FILTRO ABITACOLO CARBONI ATTIVI",
+      "descrizione": "FILTRO ABITACOLO CARBONI ATTIVI 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3,
@@ -21696,7 +21626,7 @@
     {
       "codice": "LT.4",
       "brand": "FCA",
-      "descrizione": "1,000 NR€",
+      "descrizione": "LT.4",
       "fornitore": "FCAR SRL",
       "fornitore_short": "FCAR",
       "qta_totale": 10.1,
@@ -21826,7 +21756,7 @@
     {
       "codice": "",
       "brand": "DAN",
-      "descrizione": "GUARNIZIONE COLLETTORE ASPIRAZIONE4PZ",
+      "descrizione": "GUARNIZIONE COLLETTORE ASPIRAZIONE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -21856,7 +21786,7 @@
     {
       "codice": "02338548",
       "brand": "DAN",
-      "descrizione": "TESTA STERZO1PZ",
+      "descrizione": "TESTA STERZO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -21936,7 +21866,7 @@
     {
       "codice": "10907534",
       "brand": "DAN",
-      "descrizione": "GUARNIZIONE POMPA DEPRESSIONE1PZ",
+      "descrizione": "GUARNIZIONE POMPA DEPRESSIONE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -21946,7 +21876,7 @@
     {
       "codice": "79225012",
       "brand": "DAN",
-      "descrizione": "GUARNIZIONE COPPA OLIO1PZ",
+      "descrizione": "GUARNIZIONE COPPA OLIO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -22146,7 +22076,7 @@
     {
       "codice": "AU-ES-3721",
       "brand": "AUT",
-      "descrizione": "NR9",
+      "descrizione": "AU-ES-3721",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -22156,7 +22086,7 @@
     {
       "codice": "AU-ES-3723",
       "brand": "AUT",
-      "descrizione": "NR9",
+      "descrizione": "AU-ES-3723",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -22206,7 +22136,7 @@
     {
       "codice": "ADR162514",
       "brand": "BLU",
-      "descrizione": "ADR162514",
+      "descrizione": "FILTRO ABITACOLO PKW III (BC) 0.9 TWI",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -22246,7 +22176,7 @@
     {
       "codice": "24577633",
       "brand": "DAN",
-      "descrizione": "4PK895SF MV STRETCH FIT1PZ",
+      "descrizione": "4PK895SF MV STRETCH FIT",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -22256,7 +22186,7 @@
     {
       "codice": "43519643",
       "brand": "DAN",
-      "descrizione": "CARTUCCIA FILTRO OLIO1PZ",
+      "descrizione": "CARTUCCIA FILTRO OLIO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -22266,7 +22196,7 @@
     {
       "codice": "06872489",
       "brand": "DAN",
-      "descrizione": "GUARNIZIONI COLLETTORE ASPIRAZIONE1PZ",
+      "descrizione": "GUARNIZIONI COLLETTORE ASPIRAZIONE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -22316,7 +22246,7 @@
     {
       "codice": "59220900",
       "brand": "STA",
-      "descrizione": "PZ9",
+      "descrizione": "59220900",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -22334,9 +22264,9 @@
       "importo_totale": 9.57
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "GAT T36736 TENDITORE T36736 DRIVEALIGN MV IDLER",
+      "codice": "T36736",
+      "brand": "GAT",
+      "descrizione": "TENDITORE T36736 DRIVEALIGN MV IDLER",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -22406,7 +22336,7 @@
     {
       "codice": "34751229",
       "brand": "DAN",
-      "descrizione": "BULLONERUOTA2PZ",
+      "descrizione": "BULLONERUOTA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -22636,7 +22566,7 @@
     {
       "codice": "99095745",
       "brand": "DAN",
-      "descrizione": "CINGHIA POLY-V1PZ",
+      "descrizione": "CINGHIA POLY-V",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -23276,7 +23206,7 @@
     {
       "codice": "75209190",
       "brand": "STA",
-      "descrizione": "NR8",
+      "descrizione": "75209190",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 1,
@@ -23846,7 +23776,7 @@
     {
       "codice": "FB5PK493",
       "brand": "AUT",
-      "descrizione": "NR8",
+      "descrizione": "FB5PK493",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 1,
@@ -23904,9 +23834,9 @@
       "importo_totale": 8.17
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "GAT 7PK1236 MICRO V",
+      "codice": "7PK1236",
+      "brand": "GAT",
+      "descrizione": "MICRO V",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -24136,7 +24066,7 @@
     {
       "codice": "36MZ037",
       "brand": "RED",
-      "descrizione": "36MZ037",
+      "descrizione": "FILTRO ARIA FORD KA III (UK FK) 2018",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3,
@@ -24146,7 +24076,7 @@
     {
       "codice": "31517130",
       "brand": "DAN",
-      "descrizione": "ANELLO DI TENUTA STELO VALVOLA8PZ",
+      "descrizione": "ANELLO DI TENUTA STELO VALVOLA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -24156,7 +24086,7 @@
     {
       "codice": "95299831",
       "brand": "DAN",
-      "descrizione": "GUARNIZIONE1PZ",
+      "descrizione": "GUARNIZIONE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -24166,7 +24096,7 @@
     {
       "codice": "48150805",
       "brand": "DAN",
-      "descrizione": "3PK660 MV1PZ",
+      "descrizione": "3PK660 MV",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -24456,7 +24386,7 @@
     {
       "codice": "776.416",
       "brand": "AUT",
-      "descrizione": "1,000 NR€",
+      "descrizione": "776.416",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 7.7,
@@ -24636,7 +24566,7 @@
     {
       "codice": "ADT32260",
       "brand": "BLU",
-      "descrizione": "ADT32260",
+      "descrizione": "FILTRO ARIA CITRON C1 I 1.0PEUGEOT 107 1.0TO",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3,
@@ -24924,26 +24854,6 @@
       "importo_totale": 7.33
     },
     {
-      "codice": "A1965",
-      "brand": "PUR",
-      "descrizione": "FILTRO ARIA",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 7.33
-    },
-    {
-      "codice": "",
-      "brand": "",
-      "descrizione": "PUR A1965 0 FILTRO ARIA",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 7.33
-    },
-    {
       "codice": "AH262",
       "brand": "PUR",
       "descrizione": "PSA",
@@ -25056,7 +24966,7 @@
     {
       "codice": "76874193",
       "brand": "DAN",
-      "descrizione": "FILTRO ARIA1PZ",
+      "descrizione": "FILTRO ARIA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -25376,7 +25286,7 @@
     {
       "codice": "100-011",
       "brand": "",
-      "descrizione": "FILTRO OLIO",
+      "descrizione": "FILTRO OLIO 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3,
@@ -25446,7 +25356,7 @@
     {
       "codice": "35892947",
       "brand": "DAN",
-      "descrizione": "FILTRO OLIO VW POLO 1.4 16V1PZ",
+      "descrizione": "FILTRO OLIO VW POLO 1.4 16V",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -25456,7 +25366,7 @@
     {
       "codice": "12496NACP",
       "brand": "AUT",
-      "descrizione": "NR1",
+      "descrizione": "12496NACP",
       "fornitore": "AUTOLUCE SRL",
       "fornitore_short": "AUTOLUCE",
       "qta_totale": 5,
@@ -25506,7 +25416,7 @@
     {
       "codice": "13012855",
       "brand": "DAN",
-      "descrizione": "PIASTRA SPECCHIO DESTRA-CONVESSA1PZ",
+      "descrizione": "PIASTRA SPECCHIO DESTRA-CONVESSA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -25596,7 +25506,7 @@
     {
       "codice": "0242229785",
       "brand": "",
-      "descrizione": "CANDELA D ACCENSIONE CANDELA HR8MCV (39)",
+      "descrizione": "CANDELA D ACCENSIONE CANDELA HR8MCV (39) 4,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 4.2,
@@ -25836,7 +25746,7 @@
     {
       "codice": "31198459",
       "brand": "DAN",
-      "descrizione": "FILTRO ARIA1PZ",
+      "descrizione": "FILTRO ARIA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -25904,16 +25814,6 @@
       "importo_totale": 6.55
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "SET FILTRO ABITACOLO",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 6.53
-    },
-    {
       "codice": "ADG02147",
       "brand": "BLU",
       "descrizione": "ADG02147",
@@ -25926,7 +25826,7 @@
     {
       "codice": "87352965",
       "brand": "DAN",
-      "descrizione": "TAPPO OLIO MOTORE1PZ",
+      "descrizione": "TAPPO OLIO MOTORE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -26164,9 +26064,9 @@
       "importo_totale": 6.28
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "UNI 341861 0 FLANGIA TERMOSTATO A3 GOLF VI 1.6 2.0 TDI",
+      "codice": "341861",
+      "brand": "UNI",
+      "descrizione": "0 FLANGIA TERMOSTATO A3 GOLF VI 1.6 2.0 TDI",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -26244,9 +26144,9 @@
       "importo_totale": 6.14
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "UNI S1510 MAN.SUP.RADIATORE 500L 1.4 (70kW 95CV)",
+      "codice": "S1510",
+      "brand": "UNI",
+      "descrizione": "MAN.SUP.RADIATORE 500L 1.4 (70kW 95CV)",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -26416,7 +26316,7 @@
     {
       "codice": "12011305B",
       "brand": "COP",
-      "descrizione": "B1BAVISLRD 23x35x",
+      "descrizione": "B1BAVISLRD 23x35x7 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 73,
@@ -26476,7 +26376,7 @@
     {
       "codice": "01211893",
       "brand": "DAN",
-      "descrizione": "FILTRO MICRONAIR AUDI A2 SEAT1PZ",
+      "descrizione": "FILTRO MICRONAIR AUDI A2 SEAT",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -26496,7 +26396,7 @@
     {
       "codice": "43067531",
       "brand": "DAN",
-      "descrizione": "F. IN LINEA : IN=14MM. OUT=14MM.1PZ",
+      "descrizione": "F. IN LINEA : IN=14MM. OUT=14MM.",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -26506,7 +26406,7 @@
     {
       "codice": "83515797",
       "brand": "DAN",
-      "descrizione": "T.FRE.ANT.AUDI80 1 3-1 6-1 81PZ",
+      "descrizione": "T.FRE.ANT.AUDI80 1 3-1 6-1",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -26714,9 +26614,9 @@
       "importo_totale": 5.9
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "UNI S1512 MAN.INF.RADIATORE 500L 1.4 (70kW 95CV)",
+      "codice": "S1512",
+      "brand": "UNI",
+      "descrizione": "MAN.INF.RADIATORE 500L 1.4 (70kW 95CV)",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -26816,7 +26716,7 @@
     {
       "codice": "SV05FO478",
       "brand": "SEV",
-      "descrizione": "FILTRO OLIO FCA",
+      "descrizione": "FILTRO OLIO FCA 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3,
@@ -26836,7 +26736,7 @@
     {
       "codice": "36SZ068",
       "brand": "",
-      "descrizione": "Filtro abitacolo SUZUKI ALTO VI (FF) 2004 2008",
+      "descrizione": "Filtro abitacolo SUZUKI ALTO VI (FF) 2004 2008 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -26876,7 +26776,7 @@
     {
       "codice": "100-821",
       "brand": "",
-      "descrizione": "FILTRO OLIO",
+      "descrizione": "FILTRO OLIO 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -26914,9 +26814,9 @@
       "importo_totale": 5.74
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "FAC 7.1245 0 INTERRUTTORI PEDALI FRENO FRIZIONE",
+      "codice": "7.1245",
+      "brand": "FAC",
+      "descrizione": "0 INTERRUTTORI PEDALI FRENO FRIZIONE",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -26936,7 +26836,7 @@
     {
       "codice": "31545583",
       "brand": "DAN",
-      "descrizione": "TAPPO VASCHETTA RENAULT 1 4 BAR1PZ",
+      "descrizione": "TAPPO VASCHETTA RENAULT 1 4 BAR",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -26956,7 +26856,7 @@
     {
       "codice": "69924664",
       "brand": "DAN",
-      "descrizione": "FILTRO ARIA1PZ",
+      "descrizione": "FILTRO ARIA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -27266,7 +27166,7 @@
     {
       "codice": "57904118",
       "brand": "DAN",
-      "descrizione": "BCF409 FILTRO ABITACOLO FIAT PANDA 1.21PZ",
+      "descrizione": "BCF409 FILTRO ABITACOLO FIAT PANDA 1.",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -27594,6 +27494,16 @@
       "importo_totale": 5.24
     },
     {
+      "codice": "12014345B",
+      "brand": "COP",
+      "descrizione": "PARAOLIO CAMBIO MANUALE B2SFRD 198x40x55 8",
+      "fornitore": "I.DI.R. S.P.A. (IDIR)",
+      "fornitore_short": "IDIR",
+      "qta_totale": 2,
+      "n_ordini": 2,
+      "importo_totale": 5.23
+    },
+    {
       "codice": "35.10021",
       "brand": "FRG",
       "descrizione": "35.10021",
@@ -27676,7 +27586,7 @@
     {
       "codice": "02424846",
       "brand": "STA",
-      "descrizione": "PZ5",
+      "descrizione": "02424846",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -27696,7 +27606,7 @@
     {
       "codice": "ADR162202",
       "brand": "",
-      "descrizione": ". FILTRO ARIA AUTO I 1.4 AUTO I 1.6 AUTO",
+      "descrizione": ". FILTRO ARIA AUTO I 1.4 AUTO I 1.6 AUTO 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -27946,7 +27856,7 @@
     {
       "codice": "63923380",
       "brand": "DAN",
-      "descrizione": "FILTRO OLIO1PZ",
+      "descrizione": "FILTRO OLIO",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -28312,16 +28222,6 @@
       "qta_totale": 83,
       "n_ordini": 1,
       "importo_totale": 4.8
-    },
-    {
-      "codice": "",
-      "brand": "",
-      "descrizione": "BLU FILTRO ARIA SEAT IBIZA (KJ) 1.0 MPIVW POLO 6 (",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 4.79
     },
     {
       "codice": "A1343",
@@ -28846,7 +28746,7 @@
     {
       "codice": "SV05FC206",
       "brand": "",
-      "descrizione": "FILTRO ABITACOLO OPEL",
+      "descrizione": "FILTRO ABITACOLO OPEL 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -28866,7 +28766,7 @@
     {
       "codice": "SV05KC199",
       "brand": "",
-      "descrizione": "FILTRO ABITACOLO CARBONI ATTIVI",
+      "descrizione": "FILTRO ABITACOLO CARBONI ATTIVI 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -28906,7 +28806,7 @@
     {
       "codice": "23707954",
       "brand": "STA",
-      "descrizione": "PZ1",
+      "descrizione": "23707954",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 0,
@@ -28976,7 +28876,7 @@
     {
       "codice": "120-111",
       "brand": "",
-      "descrizione": "FILTRO ABITACOLO",
+      "descrizione": "FILTRO ABITACOLO 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -29086,7 +28986,7 @@
     {
       "codice": "F026407006",
       "brand": "",
-      "descrizione": "filtro olio opel agila A astra h j corsa D 1.2 1.4 .1.6",
+      "descrizione": "filtro olio opel agila A astra h j corsa D 1.2 1.4 .1.6 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1.1,
@@ -29454,9 +29354,9 @@
       "importo_totale": 4
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "HEL 8ZA 366 0 FILTRO ARIA",
+      "codice": "8ZA",
+      "brand": "HEL",
+      "descrizione": "366 0 FILTRO ARIA",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -29684,9 +29584,9 @@
       "importo_totale": 3.88
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "COP 12014346B PARAOLIO CAMBIO MANUALE B2SFRD 20x40x55 8",
+      "codice": "12014346B",
+      "brand": "COP",
+      "descrizione": "PARAOLIO CAMBIO MANUALE B2SFRD 20x40x55 8",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -29776,7 +29676,7 @@
     {
       "codice": "36278677",
       "brand": "DAN",
-      "descrizione": "TAPPO OLIO MOTORE FIAT 16V-20V1PZ",
+      "descrizione": "TAPPO OLIO MOTORE FIAT 16V-20V",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -29786,7 +29686,7 @@
     {
       "codice": "94077801",
       "brand": "DAN",
-      "descrizione": "GUARNIZIONE COPERCHIO TESTATA1PZ",
+      "descrizione": "GUARNIZIONE COPERCHIO TESTATA",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -29804,9 +29704,9 @@
       "importo_totale": 3.8
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "PUR LS969 A3 LEON III OCTAVIA III GOLF VII POLO V UP",
+      "codice": "LS969",
+      "brand": "PUR",
+      "descrizione": "A3 LEON III OCTAVIA III GOLF VII POLO V UP",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -29906,7 +29806,7 @@
     {
       "codice": "ADN12516",
       "brand": "",
-      "descrizione": ". FILTRO ABITACOLO AUTO I 1.2 AUTO I 1.4 AUTO",
+      "descrizione": ". FILTRO ABITACOLO AUTO I 1.2 AUTO I 1.4 AUTO 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -30294,9 +30194,9 @@
       "importo_totale": 3.54
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "COP 19016600B RHTC 37x50x6",
+      "codice": "19016600B",
+      "brand": "COP",
+      "descrizione": "RHTC 37x50x6",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -30776,7 +30676,7 @@
     {
       "codice": "38CV014",
       "brand": "RED",
-      "descrizione": "38CV014",
+      "descrizione": "FILTRO OLIO OPEL MOKKA MOKKA X (J13) 2016 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 3,
@@ -30866,7 +30766,7 @@
     {
       "codice": "100-501",
       "brand": "",
-      "descrizione": "FILTRO OLIO",
+      "descrizione": "FILTRO OLIO 1,000",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 2,
@@ -31484,9 +31384,9 @@
       "importo_totale": 2.81
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "RED 36NI067 0 Filtro abitacolo AUTO III 2021",
+      "codice": "36NI067",
+      "brand": "RED",
+      "descrizione": "0 Filtro abitacolo AUTO III 2021",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -31516,7 +31416,7 @@
     {
       "codice": "12010674B",
       "brand": "COP",
-      "descrizione": "BASLRDX7 30x42x",
+      "descrizione": "BASLRDX7 30x42x7",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 72,
@@ -31557,16 +31457,6 @@
       "codice": "LS225",
       "brand": "PUR",
       "descrizione": "LS225",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 2.72
-    },
-    {
-      "codice": "",
-      "brand": "",
-      "descrizione": "COP 12014345B PARAOLIO CAMBIO MANUALE B2SFRD 198x40x55 8",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -31674,16 +31564,6 @@
       "importo_totale": 2.64
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "BLU ADN12133 0 FILTRO OLIO AUTO I 1.5 DCI LODGY 1.5 DC",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 2.63
-    },
-    {
       "codice": "30-14 322 0000",
       "brand": "MEY",
       "descrizione": "30-14 322 0000",
@@ -31726,7 +31606,7 @@
     {
       "codice": "42243885",
       "brand": "DAN",
-      "descrizione": "CANDELA ACCENS S RAD1PZ",
+      "descrizione": "CANDELA ACCENS S RAD",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -31754,9 +31634,9 @@
       "importo_totale": 2.57
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "RED 36DC002 0 FILTRO ARIA",
+      "codice": "36DC002",
+      "brand": "RED",
+      "descrizione": "0 FILTRO ARIA",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -31827,16 +31707,6 @@
       "codice": "M9658",
       "brand": "UNI",
       "descrizione": "M9658",
-      "fornitore": "I.DI.R. S.P.A. (IDIR)",
-      "fornitore_short": "IDIR",
-      "qta_totale": 1,
-      "n_ordini": 1,
-      "importo_totale": 2.51
-    },
-    {
-      "codice": "12014345B",
-      "brand": "",
-      "descrizione": "PARAOLIO CAMBIO MANUALE B2SFRD 198x40x55 8",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -31936,7 +31806,7 @@
     {
       "codice": "62836581",
       "brand": "DAN",
-      "descrizione": "PUNTALE CAVO FRIZIONE FIAT1PZ",
+      "descrizione": "PUNTALE CAVO FRIZIONE FIAT",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -32136,7 +32006,7 @@
     {
       "codice": "67073285",
       "brand": "DAN",
-      "descrizione": "5-3079 CURVED HOSE1PZ",
+      "descrizione": "5-3079 CURVED HOSE",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -32274,9 +32144,9 @@
       "importo_totale": 2.06
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "GOM BS-0 CONTATTO SEGNALAZIONE USURA PAST.",
+      "codice": "BS-0",
+      "brand": "GOM",
+      "descrizione": "CONTATTO SEGNALAZIONE USURA PAST.",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -32426,7 +32296,7 @@
     {
       "codice": "",
       "brand": "DAN",
-      "descrizione": "FASCETTA D43 A CAV.1PZ",
+      "descrizione": "FASCETTA D43 A CAV.",
       "fornitore": "DANCAR SRL",
       "fornitore_short": "DANCAR",
       "qta_totale": 0,
@@ -32554,9 +32424,9 @@
       "importo_totale": 1.55
     },
     {
-      "codice": "",
-      "brand": "",
-      "descrizione": "RED 38NI011 FILTRO OLIO AUTO II 2015",
+      "codice": "38NI011",
+      "brand": "RED",
+      "descrizione": "FILTRO OLIO AUTO II 2015",
       "fornitore": "I.DI.R. S.P.A. (IDIR)",
       "fornitore_short": "IDIR",
       "qta_totale": 1,
@@ -32604,9 +32474,9 @@
       "importo_totale": 1.36
     },
     {
-      "codice": "",
-      "brand": "STA",
-      "descrizione": "ECO CONTRIBUTO DL",
+      "codice": "CONTRIBUTO",
+      "brand": "ECO",
+      "descrizione": "DL1881NR1,300 €",
       "fornitore": "STAHLGRUBER-B.M. SRL",
       "fornitore_short": "STAHLGRUBER",
       "qta_totale": 1881,
@@ -32626,7 +32496,7 @@
     {
       "codice": "069095850009",
       "brand": "FCA",
-      "descrizione": "BATT. AGM L05 95AH 069095850009 1,000 NR€",
+      "descrizione": "BATT. AGM L05 95AH 069095850009",
       "fornitore": "FCAR SRL",
       "fornitore_short": "FCAR",
       "qta_totale": 1,
@@ -32656,7 +32526,7 @@
     {
       "codice": "0445110800",
       "brand": "FCA",
-      "descrizione": "KANGOO 1.5 BLU DCI 2018 4,000 NR€",
+      "descrizione": "KANGOO 1.5 BLU DCI 2018",
       "fornitore": "FCAR SRL",
       "fornitore_short": "FCAR",
       "qta_totale": 1,
@@ -32666,7 +32536,7 @@
     {
       "codice": "WCF144",
       "brand": "FCA",
-      "descrizione": "FILTRO ABITACOLO 5,000 NR€",
+      "descrizione": "FILTRO ABITACOLO",
       "fornitore": "FCAR SRL",
       "fornitore_short": "FCAR",
       "qta_totale": 1,
@@ -32676,7 +32546,7 @@
     {
       "codice": "WCF698",
       "brand": "FCA",
-      "descrizione": "FILTRO ABITACOLO 1,000 NR€",
+      "descrizione": "FILTRO ABITACOLO",
       "fornitore": "FCAR SRL",
       "fornitore_short": "FCAR",
       "qta_totale": 1,
