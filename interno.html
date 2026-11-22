@@ -7,172 +7,138 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
   :root {
-    --bg: #0a0c14;
-    --card: #131620;
-    --card2: #1c2030;
-    --accent: #4f8ef7;
-    --accent2: #a259ff;
-    --green: #22c55e;
-    --orange: #f97316;
-    --red: #ef4444;
-    --text: #e2e8f0;
-    --muted: #8892a4;
-    --border: #232840;
-    --radius: 14px;
-    --idir: #4f8ef7;
-    --autoluce: #22c55e;
-    --dancar: #f97316;
-    --fcar: #a259ff;
-    --stahlgruber: #ef4444;
+    --bg:#0a0c14; --card:#131620; --card2:#1c2030;
+    --accent:#4f8ef7; --accent2:#a259ff; --green:#22c55e;
+    --orange:#f97316; --red:#ef4444; --yellow:#eab308;
+    --text:#e2e8f0; --muted:#8892a4; --border:#232840; --radius:14px;
+    --idir:#4f8ef7; --autoluce:#22c55e; --dancar:#f97316; --fcar:#a259ff; --stahlgruber:#ef4444;
   }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;min-height:100vh}
 
-  /* LOGIN OVERLAY */
-  #login-overlay {
-    position: fixed; inset: 0; background: var(--bg);
-    display: flex; align-items: center; justify-content: center;
-    z-index: 9999;
-  }
-  .login-box {
-    background: var(--card); border: 1px solid var(--border); border-radius: 20px;
-    padding: 40px; width: 360px; text-align: center;
-  }
-  .login-logo { width: 72px; height: 72px; background: white; border-radius: 16px; margin: 0 auto 20px; overflow: hidden; }
-  .login-logo img { width: 100%; height: 100%; object-fit: contain; }
-  .login-box h2 { font-size: 20px; font-weight: 700; margin-bottom: 6px; }
-  .login-box p { color: var(--muted); font-size: 13px; margin-bottom: 28px; }
-  .login-input {
-    width: 100%; background: var(--card2); border: 1px solid var(--border);
-    border-radius: 10px; padding: 13px 16px; color: var(--text); font-size: 15px;
-    outline: none; text-align: center; letter-spacing: 3px; margin-bottom: 14px;
-    transition: border-color 0.2s;
-  }
-  .login-input:focus { border-color: var(--accent); }
-  .login-btn {
-    width: 100%; background: var(--accent); border: none; border-radius: 10px;
-    padding: 13px; color: white; font-size: 15px; font-weight: 700;
-    cursor: pointer; transition: opacity 0.2s;
-  }
-  .login-btn:hover { opacity: 0.85; }
-  .login-error { color: var(--red); font-size: 13px; margin-top: 10px; display: none; }
+  /* LOGIN */
+  #login-overlay{position:fixed;inset:0;background:var(--bg);display:flex;align-items:center;justify-content:center;z-index:9999}
+  .login-box{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:40px;width:360px;text-align:center}
+  .login-logo{width:72px;height:72px;background:white;border-radius:16px;margin:0 auto 20px;overflow:hidden}
+  .login-logo img{width:100%;height:100%;object-fit:contain}
+  .login-box h2{font-size:20px;font-weight:700;margin-bottom:6px}
+  .login-box p{color:var(--muted);font-size:13px;margin-bottom:28px}
+  .login-input{width:100%;background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:13px 16px;color:var(--text);font-size:15px;outline:none;text-align:center;letter-spacing:3px;margin-bottom:14px;transition:border-color .2s}
+  .login-input:focus{border-color:var(--accent)}
+  .login-btn{width:100%;background:var(--accent);border:none;border-radius:10px;padding:13px;color:white;font-size:15px;font-weight:700;cursor:pointer;transition:opacity .2s}
+  .login-btn:hover{opacity:.85}
+  .login-error{color:var(--red);font-size:13px;margin-top:10px;display:none}
 
   /* HEADER */
-  .header {
-    background: linear-gradient(135deg, #131620 0%, #0d1020 100%);
-    border-bottom: 1px solid var(--border);
-    padding: 20px 32px;
-    display: flex; align-items: center; justify-content: space-between;
-  }
-  .header-left { display: flex; align-items: center; gap: 16px; }
-  .logo { width: 52px; height: 52px; border-radius: 12px; overflow: hidden; background: white; }
-  .logo img { width: 100%; height: 100%; object-fit: contain; }
-  .header-title h1 { font-size: 20px; font-weight: 700; }
-  .header-title p { color: var(--muted); font-size: 12px; margin-top: 2px; }
-  .header-badge { background: var(--card2); border: 1px solid var(--border); border-radius: 8px; padding: 7px 14px; font-size: 12px; color: var(--muted); }
-  .header-badge span { color: var(--green); font-weight: 700; }
+  .header{background:linear-gradient(135deg,#131620,#0d1020);border-bottom:1px solid var(--border);padding:18px 32px;display:flex;align-items:center;justify-content:space-between}
+  .header-left{display:flex;align-items:center;gap:16px}
+  .logo{width:52px;height:52px;border-radius:12px;overflow:hidden;background:white;flex-shrink:0}
+  .logo img{width:100%;height:100%;object-fit:contain}
+  .header-title h1{font-size:20px;font-weight:700}
+  .header-title p{color:var(--muted);font-size:12px;margin-top:2px}
+  .header-badge{background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:7px 14px;font-size:12px;color:var(--muted)}
+  .header-badge span{color:var(--green);font-weight:700}
 
   /* STATS */
-  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding: 20px 32px 0; }
-  .stat-card {
-    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 18px 22px; position: relative; overflow: hidden;
-  }
-  .stat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--bar-color, var(--accent)); }
-  .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
-  .stat-value { font-size: 28px; font-weight: 800; margin-top: 6px; }
-  .stat-sub { font-size: 11px; color: var(--muted); margin-top: 4px; }
+  .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:20px 32px 0}
+  .stat-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px 22px;position:relative;overflow:hidden}
+  .stat-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--bar-color,var(--accent))}
+  .stat-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+  .stat-value{font-size:28px;font-weight:800;margin-top:6px}
+  .stat-sub{font-size:11px;color:var(--muted);margin-top:4px}
 
   /* SUPPLIER STRIP */
-  .supplier-strip { display: flex; gap: 8px; padding: 16px 32px 0; flex-wrap: wrap; }
-  .supplier-pill {
-    display: flex; align-items: center; gap: 8px;
-    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
-    padding: 8px 16px; flex: 1; min-width: 140px;
-  }
-  .supplier-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
-  .supplier-name { font-size: 12px; font-weight: 700; }
-  .supplier-info { font-size: 11px; color: var(--muted); }
-  .supplier-spesa { font-size: 13px; font-weight: 700; margin-left: auto; }
+  .supplier-strip{display:flex;gap:8px;padding:16px 32px 0;flex-wrap:wrap}
+  .supplier-pill{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:8px 16px;flex:1;min-width:140px}
+  .supplier-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+  .supplier-name{font-size:12px;font-weight:700}
+  .supplier-info{font-size:11px;color:var(--muted)}
+  .supplier-spesa{font-size:13px;font-weight:700;margin-left:auto}
 
   /* MAIN */
-  .main { padding: 20px 32px 32px; }
-  .charts-row { display: grid; grid-template-columns: 1fr 2fr; gap: 16px; margin-bottom: 20px; }
-  .chart-section { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
-  .section-title { font-size: 14px; font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
-  .section-title .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
-  .chart-wrap { height: 280px; }
-  .chart-wrap-sm { height: 200px; }
+  .main{padding:20px 32px 40px}
+  .charts-row{display:grid;grid-template-columns:220px 1fr 1fr;gap:16px;margin-bottom:20px}
+  .chart-section{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px}
+  .section-title{font-size:14px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+  .section-title .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex-shrink:0}
+  .chart-wrap{height:220px}
+  .chart-wrap-sm{height:200px}
+
+  /* CONFRONTO FORNITORI */
+  .confronto-section{background:var(--card);border:1px solid rgba(234,179,8,.25);border-radius:var(--radius);padding:20px;margin-bottom:20px}
+  .confronto-section .section-title .dot{background:var(--yellow)}
+  .confronto-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px;max-height:260px;overflow-y:auto}
+  .confronto-card{background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:12px}
+  .confronto-code{font-family:monospace;font-size:11px;color:var(--accent);font-weight:700;margin-bottom:4px}
+  .confronto-desc{font-size:11px;color:var(--muted);margin-bottom:8px;line-height:1.3}
+  .confronto-items{display:flex;flex-direction:column;gap:4px}
+  .confronto-item{display:flex;align-items:center;gap:6px;font-size:11px}
+  .confronto-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+  .confronto-spesa{margin-left:auto;font-weight:700;color:var(--green)}
+  .confronto-toggle{background:none;border:1px solid var(--border);border-radius:6px;padding:4px 10px;font-size:11px;color:var(--muted);cursor:pointer;margin-bottom:12px;transition:all .15s}
+  .confronto-toggle:hover{border-color:var(--yellow);color:var(--yellow)}
 
   /* FILTERS */
-  .filters-row { display: flex; gap: 10px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
-  .search-box {
-    flex: 1; min-width: 260px;
-    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
-    padding: 11px 16px; color: var(--text); font-size: 13px;
-    outline: none; transition: border-color 0.2s;
-  }
-  .search-box:focus { border-color: var(--accent); }
-  .search-box::placeholder { color: var(--muted); }
-  .filter-wrap { display: flex; gap: 6px; flex-wrap: wrap; }
-  .filter-btn {
-    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
-    padding: 8px 14px; font-size: 12px; color: var(--muted); cursor: pointer;
-    transition: all 0.15s; white-space: nowrap; display: flex; align-items: center; gap: 5px;
-  }
-  .filter-btn .fbdot { width: 7px; height: 7px; border-radius: 50%; }
-  .filter-btn:hover { border-color: var(--accent); color: var(--text); }
-  .filter-btn.active { border-color: var(--active-color, var(--accent)); background: rgba(79,142,247,0.12); color: var(--text); font-weight: 600; }
+  .toolbar{display:flex;gap:10px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
+  .search-box{flex:1;min-width:260px;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:11px 16px;color:var(--text);font-size:13px;outline:none;transition:border-color .2s}
+  .search-box:focus{border-color:var(--accent)}
+  .search-box::placeholder{color:var(--muted)}
+  .btn{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:9px 14px;font-size:12px;color:var(--muted);cursor:pointer;white-space:nowrap;transition:all .15s;display:flex;align-items:center;gap:5px}
+  .btn:hover{border-color:var(--accent);color:var(--text)}
+  .btn.active{border-color:var(--active-color,var(--accent));color:var(--text);font-weight:600}
+  .btn-export{background:rgba(34,197,94,.12);border-color:rgba(34,197,94,.3);color:var(--green)}
+  .btn-export:hover{background:rgba(34,197,94,.2)}
+  .fbdot{width:7px;height:7px;border-radius:50%}
 
   /* TABLE */
-  .table-wrap { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
-  .table-header { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
-  .result-count { font-size: 12px; color: var(--muted); }
-  .result-count span { color: var(--text); font-weight: 600; }
-  table { width: 100%; border-collapse: collapse; }
-  thead th {
-    padding: 11px 14px; text-align: left; font-size: 10px; font-weight: 700;
-    color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;
-    background: var(--card2); border-bottom: 1px solid var(--border);
-    cursor: pointer; user-select: none; white-space: nowrap;
-  }
-  thead th:hover { color: var(--text); }
-  tbody tr { border-bottom: 1px solid var(--border); transition: background 0.1s; }
-  tbody tr:hover { background: var(--card2); }
-  tbody tr:last-child { border-bottom: none; }
-  td { padding: 11px 14px; font-size: 12px; vertical-align: middle; }
+  .table-wrap{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+  .table-header{padding:14px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+  .result-count{font-size:12px;color:var(--muted)}
+  .result-count span{color:var(--text);font-weight:600}
+  table{width:100%;border-collapse:collapse}
+  thead th{padding:10px 12px;text-align:left;font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;background:var(--card2);border-bottom:1px solid var(--border);cursor:pointer;user-select:none;white-space:nowrap}
+  thead th:hover{color:var(--text)}
+  thead th.sort-asc::after{content:' ↑';color:var(--accent)}
+  thead th.sort-desc::after{content:' ↓';color:var(--accent)}
+  tbody tr{border-bottom:1px solid var(--border);transition:background .1s}
+  tbody tr:hover{background:var(--card2)}
+  tbody tr.frequente{border-left:3px solid var(--orange)}
+  tbody tr:last-child{border-bottom:none}
+  td{padding:10px 12px;font-size:12px;vertical-align:middle}
 
-  .rank-num { font-size: 10px; color: var(--muted); font-weight: 700; }
-  .rank-num.top3 { color: var(--orange); }
-  .codice-badge { background: var(--card2); border: 1px solid var(--border); border-radius: 5px; padding: 2px 8px; font-family: monospace; font-size: 11px; font-weight: 600; color: var(--accent); white-space: nowrap; }
-  .brand-badge { background: rgba(162,89,255,0.12); border: 1px solid rgba(162,89,255,0.25); border-radius: 5px; padding: 2px 7px; font-size: 10px; color: var(--accent2); font-weight: 700; }
-  .fornitore-badge { border-radius: 5px; padding: 2px 8px; font-size: 10px; font-weight: 700; white-space: nowrap; border: 1px solid; }
-  .fornitore-badge.IDIR { color: var(--idir); border-color: rgba(79,142,247,0.3); background: rgba(79,142,247,0.1); }
-  .fornitore-badge.AUTOLUCE { color: var(--autoluce); border-color: rgba(34,197,94,0.3); background: rgba(34,197,94,0.1); }
-  .fornitore-badge.DANCAR { color: var(--dancar); border-color: rgba(249,115,22,0.3); background: rgba(249,115,22,0.1); }
-  .fornitore-badge.FCAR { color: var(--fcar); border-color: rgba(162,89,255,0.3); background: rgba(162,89,255,0.1); }
-  .fornitore-badge.STAHLGRUBER { color: var(--stahlgruber); border-color: rgba(239,68,68,0.3); background: rgba(239,68,68,0.1); }
+  .rank-num{font-size:10px;color:var(--muted);font-weight:700}
+  .rank-num.top3{color:var(--orange)}
+  .codice-badge{background:var(--card2);border:1px solid var(--border);border-radius:5px;padding:2px 8px;font-family:monospace;font-size:11px;font-weight:600;color:var(--accent);white-space:nowrap}
+  .brand-badge{background:rgba(162,89,255,.12);border:1px solid rgba(162,89,255,.25);border-radius:5px;padding:2px 7px;font-size:10px;color:var(--accent2);font-weight:700}
+  .fornitore-badge{border-radius:5px;padding:2px 8px;font-size:10px;font-weight:700;white-space:nowrap;border:1px solid}
+  .fornitore-badge.IDIR{color:var(--idir);border-color:rgba(79,142,247,.3);background:rgba(79,142,247,.1)}
+  .fornitore-badge.AUTOLUCE{color:var(--autoluce);border-color:rgba(34,197,94,.3);background:rgba(34,197,94,.1)}
+  .fornitore-badge.DANCAR{color:var(--dancar);border-color:rgba(249,115,22,.3);background:rgba(249,115,22,.1)}
+  .fornitore-badge.FCAR{color:var(--fcar);border-color:rgba(162,89,255,.3);background:rgba(162,89,255,.1)}
+  .fornitore-badge.STAHLGRUBER{color:var(--stahlgruber);border-color:rgba(239,68,68,.3);background:rgba(239,68,68,.1)}
+  .stock-badge{background:rgba(249,115,22,.15);border:1px solid rgba(249,115,22,.35);border-radius:5px;padding:1px 6px;font-size:9px;color:var(--orange);font-weight:700;white-space:nowrap}
+  .desc-cell{max-width:260px}
+  .desc-with-badge{display:flex;align-items:flex-start;gap:6px;flex-wrap:wrap}
+  .desc-text{font-size:12px;line-height:1.4}
+  .prezzo-cell{text-align:right;white-space:nowrap;font-size:12px;color:var(--muted)}
+  .qty-cell{text-align:right;white-space:nowrap}
+  .qty-num{font-size:14px;font-weight:800}
+  .qty-bar-wrap{margin-top:3px;background:var(--card2);border-radius:3px;height:3px;width:40px;overflow:hidden;display:inline-block}
+  .qty-bar{height:3px;border-radius:3px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+  .ordini-num{color:var(--muted);font-size:12px;text-align:right}
+  .importo-num{color:var(--green);font-weight:600;font-size:12px;white-space:nowrap;text-align:right}
+  .empty-state{padding:50px;text-align:center;color:var(--muted)}
+  .table-scroll{max-height:580px;overflow-y:auto}
+  .table-scroll::-webkit-scrollbar{width:5px}
+  .table-scroll::-webkit-scrollbar-track{background:var(--card)}
+  .table-scroll::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+  .legend-row{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px}
+  .legend-item{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--muted)}
+  .legend-dot{width:10px;height:10px;border-radius:3px;flex-shrink:0}
 
-  .desc-cell { max-width: 300px; }
-  .desc-text { font-size: 12px; line-height: 1.4; }
-  .qty-cell { text-align: right; white-space: nowrap; }
-  .qty-num { font-size: 17px; font-weight: 800; }
-  .qty-bar-wrap { margin-top: 3px; background: var(--card2); border-radius: 3px; height: 3px; width: 60px; overflow: hidden; display: inline-block; }
-  .qty-bar { height: 3px; border-radius: 3px; background: linear-gradient(90deg, var(--accent), var(--accent2)); }
-  .ordini-num { color: var(--muted); font-size: 12px; }
-  .importo-num { color: var(--green); font-weight: 600; font-size: 12px; white-space: nowrap; }
-  .empty-state { padding: 50px; text-align: center; color: var(--muted); }
-  .table-scroll { max-height: 580px; overflow-y: auto; }
-  .table-scroll::-webkit-scrollbar { width: 5px; }
-  .table-scroll::-webkit-scrollbar-track { background: var(--card); }
-  .table-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-
-  @media (max-width: 1024px) { .charts-row { grid-template-columns: 1fr; } }
-  @media (max-width: 768px) {
-    .stats-grid { grid-template-columns: repeat(2, 1fr); }
-    .header { flex-direction: column; gap: 10px; align-items: flex-start; }
-    .main, .stats-grid, .supplier-strip { padding: 12px; }
-  }
+  @media(max-width:1100px){.charts-row{grid-template-columns:1fr 1fr}}
+  @media(max-width:900px){.charts-row{grid-template-columns:1fr}.stats-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:600px){.header{flex-direction:column;gap:10px;align-items:flex-start}.main,.stats-grid,.supplier-strip{padding:12px}}
 </style>
 </head>
 <body>
@@ -183,19 +149,18 @@
     <div class="login-logo"><img src="./logo.png" alt="Meccanica 360" onerror="this.style.display='none'"></div>
     <h2>Catalogo Interno</h2>
     <p>Meccanica 360 — Accesso riservato</p>
-    <input class="login-input" id="pwd-input" type="password" placeholder="••••••••" maxlength="20"
-           onkeydown="if(event.key==='Enter') doLogin()">
+    <input class="login-input" id="pwd-input" type="password" placeholder="••••••••" maxlength="20" onkeydown="if(event.key==='Enter')doLogin()">
     <button class="login-btn" onclick="doLogin()">Accedi</button>
     <div class="login-error" id="login-err">Password errata. Riprova.</div>
   </div>
 </div>
 
-<!-- CONTENT (nascosto finché non si fa login) -->
+<!-- CONTENT -->
 <div id="content" style="display:none">
 
 <div class="header">
   <div class="header-left">
-    <div class="logo"><img src="./logo.png" alt="Meccanica 360" onerror="this.parentElement.style.background='#4f8ef7'"></div>
+    <div class="logo"><img src="./logo.png" alt="M360" onerror="this.parentElement.style.background='#4f8ef7'"></div>
     <div class="header-title">
       <h1>Catalogo Ricambi — Tutti i Fornitori</h1>
       <p>Meccanica 360 — Gen 2025 → Nov 2026 — 120 fatture analizzate</p>
@@ -205,26 +170,10 @@
 </div>
 
 <div class="stats-grid">
-  <div class="stat-card" style="--bar-color:var(--accent)">
-    <div class="stat-label">Codici Unici</div>
-    <div class="stat-value" id="s-codici">—</div>
-    <div class="stat-sub">tipi di pezzi ordinati</div>
-  </div>
-  <div class="stat-card" style="--bar-color:var(--accent2)">
-    <div class="stat-label">Pezzi Totali</div>
-    <div class="stat-value" id="s-qty">—</div>
-    <div class="stat-sub">quantità acquistata</div>
-  </div>
-  <div class="stat-card" style="--bar-color:var(--green)">
-    <div class="stat-label">Fatture</div>
-    <div class="stat-value" id="s-fatture">—</div>
-    <div class="stat-sub">da 5 fornitori</div>
-  </div>
-  <div class="stat-card" style="--bar-color:var(--orange)">
-    <div class="stat-label">Spesa Totale</div>
-    <div class="stat-value" id="s-spesa" style="font-size:20px">—</div>
-    <div class="stat-sub">importo pagato</div>
-  </div>
+  <div class="stat-card" style="--bar-color:var(--accent)"><div class="stat-label">Codici Unici</div><div class="stat-value" id="s-codici">—</div><div class="stat-sub">tipi di pezzi ordinati</div></div>
+  <div class="stat-card" style="--bar-color:var(--accent2)"><div class="stat-label">Pezzi Totali</div><div class="stat-value" id="s-qty">—</div><div class="stat-sub">quantità acquistata</div></div>
+  <div class="stat-card" style="--bar-color:var(--green)"><div class="stat-label">Fatture</div><div class="stat-value" id="s-fatture">—</div><div class="stat-sub">da 5 fornitori</div></div>
+  <div class="stat-card" style="--bar-color:var(--orange)"><div class="stat-label">Spesa Totale</div><div class="stat-value" id="s-spesa" style="font-size:20px">—</div><div class="stat-sub">importo pagato</div></div>
 </div>
 
 <div class="supplier-strip" id="supplier-strip"></div>
@@ -232,18 +181,31 @@
 <div class="main">
   <div class="charts-row">
     <div class="chart-section">
-      <div class="section-title"><div class="dot" style="background:var(--accent2)"></div> Spesa per Fornitore</div>
+      <div class="section-title"><div class="dot" style="background:var(--accent2)"></div> Per Fornitore</div>
       <div class="chart-wrap-sm"><canvas id="chart-pie"></canvas></div>
     </div>
     <div class="chart-section">
-      <div class="section-title"><div class="dot"></div> Top 20 Pezzi per Importo</div>
+      <div class="section-title"><div class="dot" style="background:var(--green)"></div> Spesa Mensile (€)</div>
+      <div class="chart-wrap"><canvas id="chart-mesi"></canvas></div>
+    </div>
+    <div class="chart-section">
+      <div class="section-title"><div class="dot"></div> Top 20 per Importo</div>
       <div class="chart-wrap"><canvas id="chart-top20"></canvas></div>
     </div>
   </div>
 
-  <div class="filters-row">
+  <!-- CONFRONTO FORNITORI -->
+  <div class="confronto-section" id="confronto-section" style="display:none">
+    <div class="section-title"><div class="dot" style="background:var(--yellow)"></div> Stessi Codici da Più Fornitori — <span id="confronto-count" style="color:var(--yellow);margin-left:4px">—</span></div>
+    <div style="font-size:12px;color:var(--muted);margin-bottom:12px">Questi ricambi sono stati comprati da fornitori diversi. Potresti risparmiare concentrandoli su uno solo.</div>
+    <button class="confronto-toggle" id="confronto-toggle" onclick="toggleConfronto()">▼ Mostra dettaglio</button>
+    <div class="confronto-grid" id="confronto-grid" style="display:none"></div>
+  </div>
+
+  <div class="toolbar">
     <input class="search-box" id="search" placeholder="🔍  Cerca per codice, descrizione, brand o fornitore..." oninput="applyFilters()">
-    <div class="filter-wrap" id="supplier-filters"></div>
+    <div id="supplier-filters" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+    <button class="btn btn-export" onclick="exportCSV()">⬇ Export CSV</button>
   </div>
 
   <div class="table-wrap">
@@ -260,167 +222,226 @@
             <th onclick="sortBy('brand')">Brand</th>
             <th onclick="sortBy('fornitore_short')">Fornitore</th>
             <th>Descrizione</th>
-            <th onclick="sortBy('qta_totale')">Qty</th>
-            <th onclick="sortBy('n_ordini')">Ord.</th>
-            <th onclick="sortBy('importo_totale')">Spesa €</th>
+            <th onclick="sortBy('prezzoUnitario')" style="text-align:right">€/pz</th>
+            <th onclick="sortBy('qta_totale')" style="text-align:right">Qty</th>
+            <th onclick="sortBy('n_ordini')" style="text-align:right">Ord.</th>
+            <th onclick="sortBy('importo_totale')" style="text-align:right">Spesa €</th>
           </tr>
         </thead>
         <tbody id="table-body"></tbody>
       </table>
-      <div class="empty-state" id="empty-state" style="display:none">
-        <div>📦 Nessun risultato trovato</div>
-      </div>
+      <div class="empty-state" id="empty-state" style="display:none">📦 Nessun risultato trovato</div>
     </div>
+  </div>
+
+  <div class="legend-row">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--orange)"></div> 🔥 STOCK = ordinato 5+ volte, conviene tenerlo a magazzino</div>
   </div>
 </div>
 </div><!-- /content -->
 
 <script>
 const PASSWORD = 'IDIR2026';
-const SUPPLIER_COLORS = { IDIR:'#4f8ef7', AUTOLUCE:'#22c55e', DANCAR:'#f97316', FCAR:'#a259ff', STAHLGRUBER:'#ef4444' };
+const SUPPLIER_COLORS = {IDIR:'#4f8ef7',AUTOLUCE:'#22c55e',DANCAR:'#f97316',FCAR:'#a259ff',STAHLGRUBER:'#ef4444'};
 const SUPPLIERS = ['IDIR','AUTOLUCE','DANCAR','FCAR','STAHLGRUBER'];
+const STOCK_SOGLIA = 5;
 
-// Check session
-if (sessionStorage.getItem('idir_auth') === 'ok') unlock();
+if (sessionStorage.getItem('idir_auth')==='ok') unlock();
 
 function doLogin() {
   const pwd = document.getElementById('pwd-input').value;
-  if (pwd === PASSWORD) {
-    sessionStorage.setItem('idir_auth', 'ok');
-    unlock();
-  } else {
-    document.getElementById('login-err').style.display = 'block';
-    document.getElementById('pwd-input').value = '';
-    document.getElementById('pwd-input').focus();
-  }
+  if (pwd === PASSWORD) { sessionStorage.setItem('idir_auth','ok'); unlock(); }
+  else { document.getElementById('login-err').style.display='block'; document.getElementById('pwd-input').value=''; document.getElementById('pwd-input').focus(); }
 }
 
 function unlock() {
-  document.getElementById('login-overlay').style.display = 'none';
-  document.getElementById('content').style.display = 'block';
+  document.getElementById('login-overlay').style.display='none';
+  document.getElementById('content').style.display='block';
   loadData();
 }
 
-let allData = [], filtered = [], sortKey = 'importo_totale', sortDir = -1, activeSupplier = null, maxQty = 1;
+let allData=[], filtered=[], sortKey='importo_totale', sortDir=-1, activeSupplier=null, maxQty=1;
 
 function loadData() {
   fetch('./data_interno.json')
-    .then(r => r.json())
-    .then(data => {
-      allData = data.pezzi;
-      maxQty = Math.max(...allData.map(p => p.qta_totale)) || 1;
+    .then(r=>r.json())
+    .then(data=>{
+      allData=data.pezzi;
+      maxQty=Math.max(...allData.map(p=>p.qta_totale))||1;
 
-      document.getElementById('s-codici').textContent = data.stats.totale_codici.toLocaleString('it-IT');
-      document.getElementById('s-qty').textContent = data.stats.totale_qty.toLocaleString('it-IT');
-      document.getElementById('s-fatture').textContent = data.stats.totale_fatture;
-      document.getElementById('s-spesa').textContent = '€' + data.stats.spesa_totale.toLocaleString('it-IT',{minimumFractionDigits:0});
-      document.getElementById('count-total').textContent = allData.length;
-      document.getElementById('last-update').textContent = new Date().toLocaleDateString('it-IT');
+      const fmt = n => n.toLocaleString('it-IT');
+      document.getElementById('s-codici').textContent=fmt(data.stats.totale_codici);
+      document.getElementById('s-qty').textContent=fmt(data.stats.totale_qty);
+      document.getElementById('s-fatture').textContent=data.stats.totale_fatture;
+      document.getElementById('s-spesa').textContent='€'+fmt(data.stats.spesa_totale);
+      document.getElementById('count-total').textContent=allData.length;
+      document.getElementById('last-update').textContent=new Date().toLocaleDateString('it-IT');
 
       buildSupplierStrip(data.stats.per_fornitore);
       buildPieChart(data.stats.per_fornitore);
+      if (data.stats.spesa_per_mese) buildMesiChart(data.stats.spesa_per_mese);
       buildBarChart(allData);
       buildSupplierFilters();
+      buildConfronto(allData);
       applyFilters();
     })
-    .catch(e => console.error('Errore dati:', e));
+    .catch(e=>console.error('Errore dati:',e));
 }
 
 function buildSupplierStrip(pf) {
-  const strip = document.getElementById('supplier-strip');
-  SUPPLIERS.forEach(s => {
-    if (!pf[s]) return;
-    const d = pf[s], color = SUPPLIER_COLORS[s];
-    strip.innerHTML += `<div class="supplier-pill">
-      <div class="supplier-dot" style="background:${color}"></div>
-      <div><div class="supplier-name" style="color:${color}">${s}</div>
+  const strip=document.getElementById('supplier-strip');
+  SUPPLIERS.forEach(s=>{
+    if(!pf[s])return;
+    const d=pf[s],c=SUPPLIER_COLORS[s];
+    strip.innerHTML+=`<div class="supplier-pill">
+      <div class="supplier-dot" style="background:${c}"></div>
+      <div><div class="supplier-name" style="color:${c}">${s}</div>
       <div class="supplier-info">${d.codici} codici · ${Math.round(d.qty)} pz</div></div>
-      <div class="supplier-spesa" style="color:${color}">€${d.spesa.toLocaleString('it-IT',{minimumFractionDigits:0})}</div>
+      <div class="supplier-spesa" style="color:${c}">€${d.spesa.toLocaleString('it-IT',{minimumFractionDigits:0})}</div>
     </div>`;
   });
 }
 
 function buildPieChart(pf) {
-  const labels = SUPPLIERS.filter(s => pf[s]);
-  new Chart(document.getElementById('chart-pie'), {
-    type: 'doughnut',
-    data: { labels, datasets: [{ data: labels.map(s => pf[s].spesa), backgroundColor: labels.map(s => SUPPLIER_COLORS[s]), borderWidth: 2, borderColor: '#131620', hoverOffset: 6 }] },
-    options: { responsive:true, maintainAspectRatio:false, cutout:'65%',
-      plugins: { legend:{position:'bottom',labels:{color:'#8892a4',font:{size:10},padding:10,boxWidth:10}},
-        tooltip:{ callbacks:{label:ctx=>` €${ctx.parsed.toLocaleString('it-IT',{minimumFractionDigits:0})}`}, backgroundColor:'#1c2030',borderColor:'#232840',borderWidth:1,titleColor:'#e2e8f0',bodyColor:'#8892a4',padding:10 } } }
+  const labels=SUPPLIERS.filter(s=>pf[s]);
+  new Chart(document.getElementById('chart-pie'),{
+    type:'doughnut',
+    data:{labels,datasets:[{data:labels.map(s=>pf[s].spesa),backgroundColor:labels.map(s=>SUPPLIER_COLORS[s]),borderWidth:2,borderColor:'#131620',hoverOffset:6}]},
+    options:{responsive:true,maintainAspectRatio:false,cutout:'65%',
+      plugins:{legend:{position:'bottom',labels:{color:'#8892a4',font:{size:9},padding:8,boxWidth:8}},
+      tooltip:{callbacks:{label:ctx=>` €${ctx.parsed.toLocaleString('it-IT',{minimumFractionDigits:0})}`},backgroundColor:'#1c2030',borderColor:'#232840',borderWidth:1,titleColor:'#e2e8f0',bodyColor:'#8892a4',padding:10}}}
+  });
+}
+
+function mesiLabel(m) {
+  const it=['','Gen','Feb','Mar','Apr','Mag','Giu','Lug','Ago','Set','Ott','Nov','Dic'];
+  const [y,mo]=m.split('-');
+  return it[parseInt(mo)]+' '+y.slice(2);
+}
+
+function buildMesiChart(mesi) {
+  new Chart(document.getElementById('chart-mesi'),{
+    type:'bar',
+    data:{labels:mesi.map(m=>mesiLabel(m.mese)),datasets:[{label:'Spesa €',data:mesi.map(m=>m.spesa),backgroundColor:'rgba(34,197,94,.5)',borderColor:'#22c55e',borderWidth:1.5,borderRadius:3,borderSkipped:false}]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>' €'+ctx.parsed.y.toLocaleString('it-IT',{minimumFractionDigits:0})},backgroundColor:'#1c2030',borderColor:'#232840',borderWidth:1,titleColor:'#e2e8f0',bodyColor:'#8892a4',padding:10}},
+      scales:{x:{ticks:{color:'#8892a4',font:{size:8}},grid:{color:'#1a1e30'}},y:{ticks:{color:'#8892a4',callback:v=>'€'+v.toLocaleString('it-IT')},grid:{color:'#1a1e30'},beginAtZero:true}}}
   });
 }
 
 function buildBarChart(data) {
-  const top20 = [...data].sort((a,b)=>b.importo_totale-a.importo_totale).slice(0,20);
-  const colors = top20.map(p => SUPPLIER_COLORS[p.fornitore_short] || '#4f8ef7');
-  new Chart(document.getElementById('chart-top20'), {
+  const top20=[...data].sort((a,b)=>b.importo_totale-a.importo_totale).slice(0,20);
+  const colors=top20.map(p=>SUPPLIER_COLORS[p.fornitore_short]||'#4f8ef7');
+  new Chart(document.getElementById('chart-top20'),{
     type:'bar',
-    data:{ labels:top20.map(p=>p.codice||p.descrizione.substring(0,12)), datasets:[{label:'Spesa €',data:top20.map(p=>p.importo_totale),backgroundColor:colors.map(c=>c+'CC'),borderColor:colors,borderWidth:1,borderRadius:5}]},
-    options:{ responsive:true, maintainAspectRatio:false,
-      plugins:{legend:{display:false}, tooltip:{callbacks:{
-        title:ctx=>{ const p=top20[ctx[0].dataIndex]; return (p.codice||'—')+' — '+(p.fornitore_short||''); },
-        label:ctx=>{ const p=top20[ctx.dataIndex]; return [' €'+p.importo_totale.toFixed(2),' '+p.descrizione.substring(0,45)]; }},
+    data:{labels:top20.map(p=>p.codice||p.descrizione.substring(0,10)),datasets:[{label:'Spesa €',data:top20.map(p=>p.importo_totale),backgroundColor:colors.map(c=>c+'CC'),borderColor:colors,borderWidth:1,borderRadius:4}]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{
+        title:ctx=>{const p=top20[ctx[0].dataIndex];return (p.codice||'—')+' — '+(p.fornitore_short||'');},
+        label:ctx=>{const p=top20[ctx.dataIndex];return[' €'+p.importo_totale.toFixed(2),' '+p.descrizione.substring(0,40)];}},
         backgroundColor:'#1c2030',borderColor:'#232840',borderWidth:1,titleColor:'#e2e8f0',bodyColor:'#8892a4',padding:10}},
-      scales:{x:{ticks:{color:'#8892a4',font:{size:9}},grid:{color:'#1a1e30'}},y:{ticks:{color:'#8892a4',callback:v=>'€'+v.toLocaleString('it-IT')},grid:{color:'#1a1e30'},beginAtZero:true}} }
+      scales:{x:{ticks:{color:'#8892a4',font:{size:8}},grid:{color:'#1a1e30'}},y:{ticks:{color:'#8892a4',callback:v=>'€'+v.toLocaleString('it-IT')},grid:{color:'#1a1e30'},beginAtZero:true}}}
   });
 }
 
+function buildConfronto(data) {
+  const byCode = {};
+  data.forEach(p => {
+    if (!p.codice || p.codice.length < 3) return;
+    if (!byCode[p.codice]) byCode[p.codice] = [];
+    byCode[p.codice].push(p);
+  });
+  const duplicati = Object.entries(byCode)
+    .filter(([_, items]) => items.length > 1 && new Set(items.map(i=>i.fornitore_short)).size > 1)
+    .sort(([,a],[,b]) => b.reduce((s,i)=>s+i.importo_totale,0) - a.reduce((s,i)=>s+i.importo_totale,0));
+
+  if (duplicati.length === 0) return;
+
+  document.getElementById('confronto-section').style.display='';
+  document.getElementById('confronto-count').textContent = duplicati.length + ' codici';
+
+  const grid = document.getElementById('confronto-grid');
+  grid.innerHTML = duplicati.slice(0, 60).map(([codice, items]) => {
+    const desc = items[0].descrizione || codice;
+    const rows = items.map(item => {
+      const c = SUPPLIER_COLORS[item.fornitore_short] || '#8892a4';
+      return `<div class="confronto-item">
+        <div class="confronto-dot" style="background:${c}"></div>
+        <span style="color:${c};font-weight:700">${item.fornitore_short}</span>
+        <span style="color:var(--muted)">· €/pz ${item.prezzoUnitario ? item.prezzoUnitario.toFixed(2) : '—'}</span>
+        <span class="confronto-spesa">€${item.importo_totale.toFixed(0)}</span>
+      </div>`;
+    }).join('');
+    return `<div class="confronto-card">
+      <div class="confronto-code">${esc(codice)}</div>
+      <div class="confronto-desc">${esc(desc.substring(0,55))}</div>
+      <div class="confronto-items">${rows}</div>
+    </div>`;
+  }).join('');
+}
+
+function toggleConfronto() {
+  const grid=document.getElementById('confronto-grid');
+  const btn=document.getElementById('confronto-toggle');
+  const show=grid.style.display==='none';
+  grid.style.display=show?'':'none';
+  btn.textContent=show?'▲ Nascondi':'▼ Mostra dettaglio';
+}
+
 function buildSupplierFilters() {
-  const wrap = document.getElementById('supplier-filters');
-  const allBtn = document.createElement('button');
-  allBtn.className = 'filter-btn active';
-  allBtn.style.setProperty('--active-color','#4f8ef7');
-  allBtn.textContent = '🔧 Tutti';
-  allBtn.onclick = () => { activeSupplier=null; updateFilterBtns(allBtn); applyFilters(); };
+  const wrap=document.getElementById('supplier-filters');
+  const allBtn=document.createElement('button');
+  allBtn.className='btn active'; allBtn.style.setProperty('--active-color','#4f8ef7');
+  allBtn.textContent='🔧 Tutti';
+  allBtn.onclick=()=>{activeSupplier=null;updateFilterBtns(allBtn);applyFilters();};
   wrap.appendChild(allBtn);
-  SUPPLIERS.forEach(s => {
-    const color = SUPPLIER_COLORS[s];
-    const btn = document.createElement('button');
-    btn.className = 'filter-btn';
-    btn.style.setProperty('--active-color', color);
-    btn.innerHTML = `<span class="fbdot" style="background:${color}"></span>${s}`;
-    btn.onclick = () => { activeSupplier=s; updateFilterBtns(btn); applyFilters(); };
+  SUPPLIERS.forEach(s=>{
+    const c=SUPPLIER_COLORS[s];
+    const btn=document.createElement('button');
+    btn.className='btn'; btn.style.setProperty('--active-color',c);
+    btn.innerHTML=`<span class="fbdot" style="background:${c}"></span>${s}`;
+    btn.onclick=()=>{activeSupplier=s;updateFilterBtns(btn);applyFilters();};
     wrap.appendChild(btn);
   });
 }
 
 function updateFilterBtns(active) {
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('#supplier-filters .btn').forEach(b=>b.classList.remove('active'));
   active.classList.add('active');
 }
 
 function applyFilters() {
-  const q = document.getElementById('search').value.toLowerCase().trim();
-  filtered = allData.filter(p => {
-    const matchSearch = !q || (p.codice||'').toLowerCase().includes(q) || (p.descrizione||'').toLowerCase().includes(q) || (p.brand||'').toLowerCase().includes(q) || (p.fornitore_short||'').toLowerCase().includes(q);
-    return matchSearch && (!activeSupplier || p.fornitore_short === activeSupplier);
+  const q=document.getElementById('search').value.toLowerCase().trim();
+  filtered=allData.filter(p=>{
+    const ms=!q||(p.codice||'').toLowerCase().includes(q)||(p.descrizione||'').toLowerCase().includes(q)||(p.brand||'').toLowerCase().includes(q)||(p.fornitore_short||'').toLowerCase().includes(q);
+    return ms&&(!activeSupplier||p.fornitore_short===activeSupplier);
   });
   renderTable();
 }
 
 function sortBy(key) {
-  sortKey === key ? sortDir *= -1 : (sortKey=key, sortDir=['qta_totale','n_ordini','importo_totale'].includes(key)?-1:1);
+  sortKey===key?sortDir*=-1:(sortKey=key,sortDir=['qta_totale','n_ordini','importo_totale','prezzoUnitario'].includes(key)?-1:1);
   applyFilters();
 }
 
 function renderTable() {
-  const sorted = [...filtered].sort((a,b) => {
-    const av=a[sortKey]??'', bv=b[sortKey]??'';
-    return typeof av==='number' ? (av-bv)*sortDir : String(av).localeCompare(String(bv))*sortDir;
+  const sorted=[...filtered].sort((a,b)=>{
+    const av=a[sortKey]??(typeof a[sortKey]==='number'?0:''), bv=b[sortKey]??(typeof b[sortKey]==='number'?0:'');
+    return typeof av==='number'?(av-bv)*sortDir:String(av).localeCompare(String(bv))*sortDir;
   });
-  document.getElementById('count-shown').textContent = sorted.length;
-  document.getElementById('empty-state').style.display = sorted.length===0 ? '' : 'none';
-  const tbody = document.getElementById('table-body');
-  tbody.innerHTML = sorted.map((p,i) => {
-    const fShort = p.fornitore_short || 'ALTRO';
-    const barW = Math.round((p.qta_totale/maxQty)*100);
-    return `<tr>
+  document.getElementById('count-shown').textContent=sorted.length;
+  document.getElementById('empty-state').style.display=sorted.length===0?'':'none';
+  document.getElementById('table-body').innerHTML=sorted.map((p,i)=>{
+    const fS=p.fornitore_short||'ALTRO';
+    const barW=Math.round((p.qta_totale/maxQty)*100);
+    const isFreq=p.n_ordini>=STOCK_SOGLIA;
+    return `<tr class="${isFreq?'frequente':''}">
       <td><div class="rank-num ${i<3?'top3':''}">${i+1}</div></td>
       <td><span class="codice-badge">${esc(p.codice||'—')}</span></td>
       <td><span class="brand-badge">${esc(p.brand||'—')}</span></td>
-      <td><span class="fornitore-badge ${fShort}">${fShort}</span></td>
-      <td class="desc-cell"><div class="desc-text">${esc(p.descrizione||'')}</div></td>
+      <td><span class="fornitore-badge ${fS}">${fS}</span></td>
+      <td class="desc-cell"><div class="desc-with-badge">${isFreq?'<span class="stock-badge">🔥 STOCK</span>':''}<span class="desc-text">${esc(p.descrizione||'')}</span></div></td>
+      <td class="prezzo-cell">${p.prezzoUnitario?'€'+p.prezzoUnitario.toFixed(2):'—'}</td>
       <td class="qty-cell"><div class="qty-num">${p.qta_totale}</div><div class="qty-bar-wrap"><div class="qty-bar" style="width:${barW}%"></div></div></td>
       <td class="ordini-num">${p.n_ordini}</td>
       <td class="importo-num">€${p.importo_totale.toFixed(2)}</td>
@@ -428,7 +449,21 @@ function renderTable() {
   }).join('');
 }
 
-function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function exportCSV() {
+  const rows=[['#','Codice','Brand','Fornitore','Descrizione','€/pz','Qty','Ordini','Spesa €']];
+  const sorted=[...filtered].sort((a,b)=>{
+    const av=a[sortKey]??(typeof a[sortKey]==='number'?0:''), bv=b[sortKey]??(typeof b[sortKey]==='number'?0:'');
+    return typeof av==='number'?(av-bv)*sortDir:String(av).localeCompare(String(bv))*sortDir;
+  });
+  sorted.forEach((p,i)=>rows.push([i+1,p.codice||'',p.brand||'',p.fornitore_short||'',p.descrizione||'',p.prezzoUnitario||'',p.qta_totale,p.n_ordini,p.importo_totale]));
+  const csv=rows.map(r=>r.map(v=>`"${String(v||'').replace(/"/g,'""')}"`).join(',')).join('\n');
+  const a=document.createElement('a');
+  a.href='data:text/csv;charset=utf-8,\uFEFF'+encodeURIComponent(csv);
+  a.download='catalogo-interno-meccanica360.csv';
+  a.click();
+}
+
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 </script>
 </body>
 </html>

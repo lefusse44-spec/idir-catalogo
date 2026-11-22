@@ -7,127 +7,104 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
   :root {
-    --bg: #0a0c14;
-    --card: #131620;
-    --card2: #1c2030;
-    --accent: #4f8ef7;
-    --accent2: #a259ff;
-    --green: #22c55e;
-    --orange: #f97316;
-    --text: #e2e8f0;
-    --muted: #8892a4;
-    --border: #232840;
-    --radius: 14px;
+    --bg:#0a0c14; --card:#131620; --card2:#1c2030;
+    --accent:#4f8ef7; --accent2:#a259ff; --green:#22c55e;
+    --orange:#f97316; --red:#ef4444; --yellow:#eab308;
+    --text:#e2e8f0; --muted:#8892a4; --border:#232840; --radius:14px;
   }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;min-height:100vh}
 
-  .header {
-    background: linear-gradient(135deg, #131620 0%, #0d1020 100%);
-    border-bottom: 1px solid var(--border);
-    padding: 20px 32px;
-    display: flex; align-items: center; justify-content: space-between;
-  }
-  .header-left { display: flex; align-items: center; gap: 16px; }
-  .logo {
-    width: 52px; height: 52px;
-    border-radius: 12px; overflow: hidden; display: flex; align-items: center; justify-content: center;
-    background: white;
-  }
-  .logo img { width: 100%; height: 100%; object-fit: contain; }
-  .header-title h1 { font-size: 20px; font-weight: 700; }
-  .header-title p { color: var(--muted); font-size: 12px; margin-top: 2px; }
-  .header-badge { background: var(--card2); border: 1px solid var(--border); border-radius: 8px; padding: 7px 14px; font-size: 12px; color: var(--muted); }
-  .header-badge span { color: var(--green); font-weight: 700; }
+  .header{background:linear-gradient(135deg,#131620,#0d1020);border-bottom:1px solid var(--border);padding:18px 32px;display:flex;align-items:center;justify-content:space-between}
+  .header-left{display:flex;align-items:center;gap:16px}
+  .logo{width:52px;height:52px;border-radius:12px;overflow:hidden;background:white;flex-shrink:0}
+  .logo img{width:100%;height:100%;object-fit:contain}
+  .header-title h1{font-size:20px;font-weight:700}
+  .header-title p{color:var(--muted);font-size:12px;margin-top:2px}
+  .header-badge{background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:7px 14px;font-size:12px;color:var(--muted)}
+  .header-badge span{color:var(--green);font-weight:700}
 
-  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding: 20px 32px; }
-  .stat-card {
-    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 18px 22px; position: relative; overflow: hidden;
-  }
-  .stat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--bar-color, var(--accent)); }
-  .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
-  .stat-value { font-size: 28px; font-weight: 800; margin-top: 6px; }
-  .stat-sub { font-size: 11px; color: var(--muted); margin-top: 4px; }
+  .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:20px 32px}
+  .stat-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px 22px;position:relative;overflow:hidden}
+  .stat-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--bar-color,var(--accent))}
+  .stat-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+  .stat-value{font-size:28px;font-weight:800;margin-top:6px}
+  .stat-sub{font-size:11px;color:var(--muted);margin-top:4px}
 
-  .main { padding: 0 32px 32px; }
-  .chart-section { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-bottom: 20px; }
-  .section-title { font-size: 14px; font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
-  .section-title .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
-  .chart-wrap { height: 300px; }
+  .main{padding:0 32px 40px}
+  .charts-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+  .chart-section{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px}
+  .chart-full{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;margin-bottom:20px}
+  .section-title{font-size:14px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+  .section-title .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex-shrink:0}
+  .chart-wrap{height:280px}
+  .chart-wrap-lg{height:260px}
 
-  .filters-row { display: flex; gap: 10px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
-  .search-box {
-    flex: 1; min-width: 260px;
-    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
-    padding: 11px 16px; color: var(--text); font-size: 13px;
-    outline: none; transition: border-color 0.2s;
-  }
-  .search-box:focus { border-color: var(--accent); }
-  .search-box::placeholder { color: var(--muted); }
-  .sort-wrap { display: flex; gap: 6px; }
-  .sort-btn {
-    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
-    padding: 8px 12px; font-size: 11px; color: var(--muted); cursor: pointer; white-space: nowrap;
-    transition: all 0.15s;
-  }
-  .sort-btn.active { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .toolbar{display:flex;gap:10px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
+  .search-box{flex:1;min-width:260px;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:11px 16px;color:var(--text);font-size:13px;outline:none;transition:border-color .2s}
+  .search-box:focus{border-color:var(--accent)}
+  .search-box::placeholder{color:var(--muted)}
+  .btn{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:9px 14px;font-size:12px;color:var(--muted);cursor:pointer;white-space:nowrap;transition:all .15s;display:flex;align-items:center;gap:5px}
+  .btn:hover{border-color:var(--accent);color:var(--text)}
+  .btn.active{border-color:var(--accent);color:var(--accent);font-weight:600}
+  .btn-export{background:rgba(34,197,94,.12);border-color:rgba(34,197,94,.3);color:var(--green)}
+  .btn-export:hover{background:rgba(34,197,94,.2)}
 
-  .table-wrap { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
-  .table-header { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
-  .result-count { font-size: 12px; color: var(--muted); }
-  .result-count span { color: var(--text); font-weight: 600; }
-  table { width: 100%; border-collapse: collapse; }
-  thead th {
-    padding: 11px 14px; text-align: left; font-size: 10px; font-weight: 700;
-    color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;
-    background: var(--card2); border-bottom: 1px solid var(--border);
-    cursor: pointer; user-select: none; white-space: nowrap;
-  }
-  thead th:hover { color: var(--text); }
-  thead th.sort-asc::after { content: ' ↑'; color: var(--accent); }
-  thead th.sort-desc::after { content: ' ↓'; color: var(--accent); }
-  tbody tr { border-bottom: 1px solid var(--border); transition: background 0.1s; }
-  tbody tr:hover { background: var(--card2); }
-  tbody tr:last-child { border-bottom: none; }
-  td { padding: 11px 14px; font-size: 12px; vertical-align: middle; }
+  .table-wrap{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+  .table-header{padding:14px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+  .result-count{font-size:12px;color:var(--muted)}
+  .result-count span{color:var(--text);font-weight:600}
+  table{width:100%;border-collapse:collapse}
+  thead th{padding:10px 12px;text-align:left;font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;background:var(--card2);border-bottom:1px solid var(--border);cursor:pointer;user-select:none;white-space:nowrap}
+  thead th:hover{color:var(--text)}
+  thead th.sort-asc::after{content:' ↑';color:var(--accent)}
+  thead th.sort-desc::after{content:' ↓';color:var(--accent)}
+  tbody tr{border-bottom:1px solid var(--border);transition:background .1s}
+  tbody tr:hover{background:var(--card2)}
+  tbody tr.frequente{border-left:3px solid var(--orange)}
+  tbody tr:last-child{border-bottom:none}
+  td{padding:10px 12px;font-size:12px;vertical-align:middle}
 
-  .rank-num { font-size: 10px; color: var(--muted); font-weight: 700; }
-  .rank-num.top3 { color: var(--orange); }
-  .codice-badge { background: var(--card2); border: 1px solid var(--border); border-radius: 5px; padding: 2px 8px; font-family: monospace; font-size: 11px; font-weight: 600; color: var(--accent); white-space: nowrap; }
-  .brand-badge { background: rgba(162,89,255,0.12); border: 1px solid rgba(162,89,255,0.25); border-radius: 5px; padding: 2px 7px; font-size: 10px; color: var(--accent2); font-weight: 700; }
-  .desc-cell { max-width: 360px; }
-  .desc-text { color: var(--text); font-size: 12px; line-height: 1.4; }
-  .qty-cell { text-align: right; white-space: nowrap; }
-  .qty-num { font-size: 17px; font-weight: 800; }
-  .qty-bar-wrap { margin-top: 3px; background: var(--card2); border-radius: 3px; height: 3px; width: 60px; overflow: hidden; display: inline-block; }
-  .qty-bar { height: 3px; border-radius: 3px; background: linear-gradient(90deg, var(--accent), var(--accent2)); }
-  .ordini-num { color: var(--muted); font-size: 12px; }
-  .importo-num { color: var(--green); font-weight: 600; font-size: 12px; white-space: nowrap; }
-  .empty-state { padding: 50px; text-align: center; color: var(--muted); }
-  .table-scroll { max-height: 580px; overflow-y: auto; }
-  .table-scroll::-webkit-scrollbar { width: 5px; }
-  .table-scroll::-webkit-scrollbar-track { background: var(--card); }
-  .table-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+  .rank-num{font-size:10px;color:var(--muted);font-weight:700}
+  .rank-num.top3{color:var(--orange)}
+  .codice-badge{background:var(--card2);border:1px solid var(--border);border-radius:5px;padding:2px 8px;font-family:monospace;font-size:11px;font-weight:600;color:var(--accent);white-space:nowrap}
+  .brand-badge{background:rgba(162,89,255,.12);border:1px solid rgba(162,89,255,.25);border-radius:5px;padding:2px 7px;font-size:10px;color:var(--accent2);font-weight:700}
+  .stock-badge{background:rgba(249,115,22,.15);border:1px solid rgba(249,115,22,.35);border-radius:5px;padding:1px 6px;font-size:9px;color:var(--orange);font-weight:700;white-space:nowrap}
+  .desc-cell{max-width:320px}
+  .desc-text{font-size:12px;line-height:1.4}
+  .desc-with-badge{display:flex;align-items:flex-start;gap:6px;flex-wrap:wrap}
+  .prezzo-cell{text-align:right;white-space:nowrap;font-size:12px;color:var(--muted)}
+  .qty-cell{text-align:right;white-space:nowrap}
+  .qty-num{font-size:15px;font-weight:800}
+  .qty-bar-wrap{margin-top:3px;background:var(--card2);border-radius:3px;height:3px;width:50px;overflow:hidden;display:inline-block}
+  .qty-bar{height:3px;border-radius:3px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+  .ordini-num{color:var(--muted);font-size:12px}
+  .importo-num{color:var(--green);font-weight:600;font-size:12px;white-space:nowrap}
+  .empty-state{padding:50px;text-align:center;color:var(--muted)}
+  .table-scroll{max-height:580px;overflow-y:auto}
+  .table-scroll::-webkit-scrollbar{width:5px}
+  .table-scroll::-webkit-scrollbar-track{background:var(--card)}
+  .table-scroll::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 
-  @media (max-width: 768px) {
-    .stats-grid { grid-template-columns: repeat(2, 1fr); }
-    .header { flex-direction: column; gap: 10px; align-items: flex-start; }
-    .main, .stats-grid { padding: 12px; }
-  }
+  .legend-row{display:flex;gap:16px;flex-wrap:wrap;margin-top:8px}
+  .legend-item{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--muted)}
+  .legend-dot{width:10px;height:10px;border-radius:3px;flex-shrink:0}
+
+  @media(max-width:900px){.charts-row{grid-template-columns:1fr}.stats-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:600px){.header{flex-direction:column;gap:10px;align-items:flex-start}.main,.stats-grid{padding:12px}}
 </style>
 </head>
 <body>
 
 <div class="header">
   <div class="header-left">
-    <div class="logo"><img src="./logo.png" alt="Meccanica 360" onerror="this.parentElement.innerHTML='🔧'"></div>
+    <div class="logo"><img src="./logo.png" alt="M360" onerror="this.parentElement.innerHTML='🔧'"></div>
     <div class="header-title">
       <h1>Catalogo Ricambi</h1>
       <p>Meccanica 360 — Analisi acquisti 2025–2026</p>
     </div>
   </div>
-  <div class="header-badge">Meccanica 360 — <span>Report Interno</span></div>
+  <div class="header-badge">120 fatture · <span id="s-codici-h">—</span> codici · <span id="s-spesa-h">—</span></div>
 </div>
 
 <div class="stats-grid">
@@ -142,9 +119,9 @@
     <div class="stat-sub">pezzi montati in officina</div>
   </div>
   <div class="stat-card" style="--bar-color:var(--green)">
-    <div class="stat-label">Fatture</div>
+    <div class="stat-label">Fatture Analizzate</div>
     <div class="stat-value" id="s-fatture">—</div>
-    <div class="stat-sub">analizzate su 2 anni</div>
+    <div class="stat-sub">da Gen 2025 a Nov 2026</div>
   </div>
   <div class="stat-card" style="--bar-color:var(--orange)">
     <div class="stat-label">Spesa Totale</div>
@@ -154,19 +131,25 @@
 </div>
 
 <div class="main">
-  <div class="chart-section">
-    <div class="section-title"><div class="dot"></div> Top 20 Pezzi per Importo Speso</div>
-    <div class="chart-wrap"><canvas id="chart-top20"></canvas></div>
+
+  <div class="charts-row">
+    <div class="chart-section">
+      <div class="section-title"><div class="dot" style="background:var(--green)"></div> Spesa Mensile (€)</div>
+      <div class="chart-wrap"><canvas id="chart-mesi"></canvas></div>
+    </div>
+    <div class="chart-section">
+      <div class="section-title"><div class="dot"></div> Top 20 Pezzi per Importo</div>
+      <div class="chart-wrap"><canvas id="chart-top20"></canvas></div>
+    </div>
   </div>
 
-  <div class="filters-row">
+  <div class="toolbar">
     <input class="search-box" id="search" placeholder="🔍  Cerca per codice, descrizione o brand..." oninput="applyFilters()">
-    <div class="sort-wrap">
-      <button class="sort-btn" onclick="sortBy('importo_totale')">€ Spesa</button>
-      <button class="sort-btn" onclick="sortBy('qta_totale')">Qty</button>
-      <button class="sort-btn" onclick="sortBy('n_ordini')">Ordini</button>
-      <button class="sort-btn" onclick="sortBy('codice')">Codice A-Z</button>
-    </div>
+    <button class="btn" onclick="sortBy('importo_totale')" id="sort-importo">€ Spesa</button>
+    <button class="btn" onclick="sortBy('qta_totale')" id="sort-qty">Qty</button>
+    <button class="btn" onclick="sortBy('n_ordini')" id="sort-ordini">Ordini</button>
+    <button class="btn" onclick="sortBy('codice')" id="sort-codice">Codice A–Z</button>
+    <button class="btn btn-export" onclick="exportCSV()">⬇ Export CSV</button>
   </div>
 
   <div class="table-wrap">
@@ -182,32 +165,28 @@
             <th onclick="sortBy('codice')">Codice</th>
             <th onclick="sortBy('brand')">Brand</th>
             <th>Descrizione</th>
-            <th onclick="sortBy('qta_totale')" class="sort-desc">Qty</th>
-            <th onclick="sortBy('n_ordini')">Ord.</th>
-            <th onclick="sortBy('importo_totale')">Spesa €</th>
+            <th onclick="sortBy('prezzoUnitario')" style="text-align:right">€/pz</th>
+            <th onclick="sortBy('qta_totale')" style="text-align:right">Qty</th>
+            <th onclick="sortBy('n_ordini')" style="text-align:right">Ord.</th>
+            <th onclick="sortBy('importo_totale')" style="text-align:right">Spesa €</th>
           </tr>
         </thead>
         <tbody id="table-body"></tbody>
       </table>
-      <div class="empty-state" id="empty-state" style="display:none">
-        <div class="icon">📦</div>
-        <div>Nessun risultato trovato</div>
-      </div>
+      <div class="empty-state" id="empty-state" style="display:none">📦 Nessun risultato trovato</div>
     </div>
+  </div>
+
+  <div class="legend-row" style="margin-top:12px">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--orange)"></div> Ricambi ordinati 5+ volte — consigliato tenerli a magazzino</div>
   </div>
 </div>
 
 <script>
-let allData = [];
-let filtered = [];
-let sortKey = 'importo_totale';
-let sortDir = -1;
-let maxQty = 1;
+let allData = [], filtered = [], sortKey = 'importo_totale', sortDir = -1, maxQty = 1;
+const STOCK_SOGLIA = 5;
 
-// GitHub Pages: load from same directory
-const dataUrl = typeof window !== 'undefined' && window.location.hostname.includes('github')
-  ? './data.json'
-  : '/data.json';
+const dataUrl = window.location.hostname.includes('github') ? './data.json' : '/data.json';
 
 fetch(dataUrl)
   .then(r => r.json())
@@ -215,42 +194,80 @@ fetch(dataUrl)
     allData = data.pezzi;
     maxQty = Math.max(...allData.map(p => p.qta_totale)) || 1;
 
-    document.getElementById('s-codici').textContent = data.stats.totale_codici.toLocaleString('it-IT');
-    document.getElementById('s-qty').textContent = data.stats.totale_qty.toLocaleString('it-IT');
-    document.getElementById('s-fatture').textContent = data.stats.totale_fatture || 120;
-    document.getElementById('s-spesa').textContent = '€' + data.stats.spesa_totale.toLocaleString('it-IT',{minimumFractionDigits:0});
+    const fmt = n => n.toLocaleString('it-IT');
+    document.getElementById('s-codici').textContent = fmt(data.stats.totale_codici);
+    document.getElementById('s-qty').textContent = fmt(data.stats.totale_qty);
+    document.getElementById('s-fatture').textContent = data.stats.totale_fatture;
+    document.getElementById('s-spesa').textContent = '€' + fmt(data.stats.spesa_totale);
+    document.getElementById('s-codici-h').textContent = fmt(data.stats.totale_codici) + ' codici';
+    document.getElementById('s-spesa-h').textContent = '€' + fmt(data.stats.spesa_totale);
     document.getElementById('count-total').textContent = allData.length;
 
-    buildChart(allData);
+    if (data.stats.spesa_per_mese) buildMesiChart(data.stats.spesa_per_mese);
+    buildTop20Chart(allData);
+    document.getElementById('sort-importo').classList.add('active');
     applyFilters();
   })
   .catch(e => console.error('Errore:', e));
 
-function buildChart(data) {
-  const top20 = [...data].sort((a,b) => b.importo_totale - a.importo_totale).slice(0, 20);
-  const labels = top20.map(p => p.codice || p.descrizione.substring(0,12));
-  const values = top20.map(p => p.importo_totale);
-  const colors = top20.map((_, i) => `hsl(${220 + i * 7}, 75%, 60%)`);
+function mesiLabel(m) {
+  const it = ['','Gen','Feb','Mar','Apr','Mag','Giu','Lug','Ago','Set','Ott','Nov','Dic'];
+  const [y, mo] = m.split('-');
+  return it[parseInt(mo)] + ' ' + y.slice(2);
+}
 
-  new Chart(document.getElementById('chart-top20'), {
+function buildMesiChart(mesi) {
+  const labels = mesi.map(m => mesiLabel(m.mese));
+  const values = mesi.map(m => m.spesa);
+  const gradient = values.map((_, i) => `hsl(${142 + i * 2}, 70%, 50%)`);
+  new Chart(document.getElementById('chart-mesi'), {
     type: 'bar',
-    data: { labels, datasets: [{ label: 'Spesa €', data: values, backgroundColor: colors.map(c => c.replace('60%','60%')+'BB'), borderColor: colors, borderWidth: 1, borderRadius: 5, borderSkipped: false }] },
+    data: { labels, datasets: [{
+      label: 'Spesa €', data: values,
+      backgroundColor: 'rgba(34,197,94,.5)',
+      borderColor: '#22c55e',
+      borderWidth: 1.5, borderRadius: 4, borderSkipped: false
+    }]},
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: {
         legend: { display: false },
         tooltip: {
-          callbacks: {
-            title: ctx => { const p = top20[ctx[0].dataIndex]; return (p.codice||'—') + (p.brand ? ' · ' + p.brand : ''); },
-            label: ctx => { const p = top20[ctx.dataIndex]; return [' Spesa: €' + p.importo_totale.toFixed(2), ' ' + p.descrizione.substring(0,50)]; }
-          },
-          backgroundColor: '#1c2030', borderColor: '#232840', borderWidth: 1,
-          titleColor: '#e2e8f0', bodyColor: '#8892a4', padding: 10
+          callbacks: { label: ctx => ' €' + ctx.parsed.y.toLocaleString('it-IT', {minimumFractionDigits:0}) },
+          backgroundColor:'#1c2030', borderColor:'#232840', borderWidth:1,
+          titleColor:'#e2e8f0', bodyColor:'#8892a4', padding:10
         }
       },
       scales: {
-        x: { ticks: { color: '#8892a4', font: { size: 9 } }, grid: { color: '#1a1e30' } },
-        y: { ticks: { color: '#8892a4', callback: v => '€' + v.toLocaleString('it-IT') }, grid: { color: '#1a1e30' }, beginAtZero: true }
+        x: { ticks: { color:'#8892a4', font:{size:9} }, grid: { color:'#1a1e30' } },
+        y: { ticks: { color:'#8892a4', callback: v => '€'+v.toLocaleString('it-IT') }, grid: { color:'#1a1e30' }, beginAtZero: true }
+      }
+    }
+  });
+}
+
+function buildTop20Chart(data) {
+  const top20 = [...data].sort((a,b) => b.importo_totale - a.importo_totale).slice(0,20);
+  const labels = top20.map(p => p.codice || p.descrizione.substring(0,10));
+  const colors = top20.map((_, i) => `hsl(${220+i*7},75%,60%)`);
+  new Chart(document.getElementById('chart-top20'), {
+    type: 'bar',
+    data: { labels, datasets: [{ label:'Spesa €', data: top20.map(p=>p.importo_totale), backgroundColor: colors.map(c=>c+'BB'), borderColor: colors, borderWidth:1, borderRadius:4, borderSkipped:false }]},
+    options: {
+      responsive:true, maintainAspectRatio:false,
+      plugins: {
+        legend:{display:false},
+        tooltip:{
+          callbacks:{
+            title: ctx => { const p=top20[ctx[0].dataIndex]; return (p.codice||'—')+(p.brand?' · '+p.brand:''); },
+            label: ctx => { const p=top20[ctx.dataIndex]; return [' €'+p.importo_totale.toFixed(2),' '+p.descrizione.substring(0,45)]; }
+          },
+          backgroundColor:'#1c2030',borderColor:'#232840',borderWidth:1,titleColor:'#e2e8f0',bodyColor:'#8892a4',padding:10
+        }
+      },
+      scales:{
+        x:{ticks:{color:'#8892a4',font:{size:9}},grid:{color:'#1a1e30'}},
+        y:{ticks:{color:'#8892a4',callback:v=>'€'+v.toLocaleString('it-IT')},grid:{color:'#1a1e30'},beginAtZero:true}
       }
     }
   });
@@ -269,43 +286,54 @@ function applyFilters() {
 
 function sortBy(key) {
   if (sortKey === key) sortDir *= -1;
-  else { sortKey = key; sortDir = ['qta_totale','n_ordini','importo_totale'].includes(key) ? -1 : 1; }
-  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+  else { sortKey = key; sortDir = ['qta_totale','n_ordini','importo_totale','prezzoUnitario'].includes(key) ? -1 : 1; }
+  document.querySelectorAll('.btn:not(.btn-export)').forEach(b => b.classList.remove('active'));
+  const sortBtnMap = {importo_totale:'sort-importo',qta_totale:'sort-qty',n_ordini:'sort-ordini',codice:'sort-codice'};
+  if (sortBtnMap[key]) document.getElementById(sortBtnMap[key])?.classList.add('active');
   applyFilters();
 }
 
 function renderTable() {
   const sorted = [...filtered].sort((a, b) => {
-    const av = a[sortKey] ?? '', bv = b[sortKey] ?? '';
+    const av = a[sortKey] ?? (typeof a[sortKey]==='number'?0:''), bv = b[sortKey] ?? (typeof b[sortKey]==='number'?0:'');
     if (typeof av === 'number') return (av - bv) * sortDir;
     return String(av).localeCompare(String(bv)) * sortDir;
   });
-
   document.getElementById('count-shown').textContent = sorted.length;
   document.getElementById('empty-state').style.display = sorted.length === 0 ? '' : 'none';
-
   const tbody = document.getElementById('table-body');
   tbody.innerHTML = sorted.map((p, i) => {
     const barW = Math.round((p.qta_totale / maxQty) * 100);
-    const topClass = i < 3 ? 'top3' : '';
-    return `<tr>
-      <td><div class="rank-num ${topClass}">${i+1}</div></td>
-      <td><span class="codice-badge">${escHtml(p.codice||'—')}</span></td>
-      <td><span class="brand-badge">${escHtml(p.brand||'—')}</span></td>
-      <td class="desc-cell"><div class="desc-text">${escHtml(p.descrizione||'')}</div></td>
-      <td class="qty-cell">
-        <div class="qty-num">${p.qta_totale}</div>
-        <div class="qty-bar-wrap"><div class="qty-bar" style="width:${barW}%"></div></div>
-      </td>
-      <td class="ordini-num">${p.n_ordini}</td>
-      <td class="importo-num">€${p.importo_totale.toFixed(2)}</td>
+    const isFreq = p.n_ordini >= STOCK_SOGLIA;
+    const stockBadge = isFreq ? `<span class="stock-badge">🔥 STOCK</span>` : '';
+    return `<tr class="${isFreq?'frequente':''}">
+      <td><div class="rank-num ${i<3?'top3':''}">${i+1}</div></td>
+      <td><span class="codice-badge">${esc(p.codice||'—')}</span></td>
+      <td><span class="brand-badge">${esc(p.brand||'—')}</span></td>
+      <td class="desc-cell"><div class="desc-with-badge">${stockBadge}<span class="desc-text">${esc(p.descrizione||'')}</span></div></td>
+      <td class="prezzo-cell">${p.prezzoUnitario ? '€'+p.prezzoUnitario.toFixed(2) : '—'}</td>
+      <td class="qty-cell"><div class="qty-num">${p.qta_totale}</div><div class="qty-bar-wrap"><div class="qty-bar" style="width:${barW}%"></div></div></td>
+      <td class="ordini-num" style="text-align:right">${p.n_ordini}</td>
+      <td class="importo-num" style="text-align:right">€${p.importo_totale.toFixed(2)}</td>
     </tr>`;
   }).join('');
 }
 
-function escHtml(str) {
-  return String(str||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+function exportCSV() {
+  const rows = [['#','Codice','Brand','Descrizione','€/pz','Qty','Ordini','Spesa €']];
+  const sorted = [...filtered].sort((a,b) => {
+    const av=a[sortKey]??(typeof a[sortKey]==='number'?0:''), bv=b[sortKey]??(typeof b[sortKey]==='number'?0:'');
+    return typeof av==='number'?(av-bv)*sortDir:String(av).localeCompare(String(bv))*sortDir;
+  });
+  sorted.forEach((p,i) => rows.push([i+1,p.codice||'',p.brand||'',p.descrizione||'',p.prezzoUnitario||'',p.qta_totale,p.n_ordini,p.importo_totale]));
+  const csv = rows.map(r => r.map(v => `"${String(v||'').replace(/"/g,'""')}"`).join(',')).join('\n');
+  const a = document.createElement('a');
+  a.href = 'data:text/csv;charset=utf-8,\uFEFF' + encodeURIComponent(csv);
+  a.download = 'catalogo-ricambi-meccanica360.csv';
+  a.click();
 }
+
+function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 </script>
 </body>
 </html>
