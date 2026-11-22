@@ -3,106 +3,123 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Catalogo Ricambi IDIR — Meccanica 360</title>
+<title>Catalogo Ricambi — Tutti i Fornitori | Meccanica 360</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
   :root {
-    --bg: #0f1117;
-    --card: #1a1d2e;
-    --card2: #22263a;
+    --bg: #0a0c14;
+    --card: #131620;
+    --card2: #1c2030;
     --accent: #4f8ef7;
     --accent2: #a259ff;
     --green: #22c55e;
     --orange: #f97316;
+    --red: #ef4444;
+    --yellow: #eab308;
     --text: #e2e8f0;
     --muted: #8892a4;
-    --border: #2d3451;
+    --border: #232840;
     --radius: 14px;
+
+    --idir: #4f8ef7;
+    --autoluce: #22c55e;
+    --dancar: #f97316;
+    --fcar: #a259ff;
+    --stahlgruber: #ef4444;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; }
 
   /* HEADER */
   .header {
-    background: linear-gradient(135deg, #1a1d2e 0%, #12152a 100%);
+    background: linear-gradient(135deg, #131620 0%, #0d1020 100%);
     border-bottom: 1px solid var(--border);
-    padding: 24px 32px;
+    padding: 20px 32px;
     display: flex; align-items: center; justify-content: space-between;
   }
   .header-left { display: flex; align-items: center; gap: 16px; }
-  .logo { width: 48px; height: 48px; background: linear-gradient(135deg, var(--accent), var(--accent2)); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px; }
-  .header-title h1 { font-size: 22px; font-weight: 700; }
-  .header-title p { color: var(--muted); font-size: 13px; margin-top: 2px; }
-  .header-badge { background: var(--card2); border: 1px solid var(--border); border-radius: 8px; padding: 8px 16px; font-size: 12px; color: var(--muted); }
+  .logo {
+    width: 52px; height: 52px;
+    border-radius: 12px; overflow: hidden; display: flex; align-items: center; justify-content: center;
+    background: white;
+  }
+  .logo img { width: 100%; height: 100%; object-fit: contain; }
+  .header-title h1 { font-size: 20px; font-weight: 700; }
+  .header-title p { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .header-right { display: flex; align-items: center; gap: 12px; }
+  .header-badge { background: var(--card2); border: 1px solid var(--border); border-radius: 8px; padding: 7px 14px; font-size: 12px; color: var(--muted); }
   .header-badge span { color: var(--green); font-weight: 700; }
+  .logout-btn {
+    background: var(--card2); border: 1px solid var(--border); border-radius: 8px;
+    padding: 7px 14px; font-size: 12px; color: var(--muted); cursor: pointer;
+    text-decoration: none; transition: all 0.15s;
+  }
+  .logout-btn:hover { border-color: var(--red); color: var(--red); }
 
   /* STATS */
-  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding: 24px 32px; }
+  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding: 20px 32px 0; }
   .stat-card {
     background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 20px 24px; position: relative; overflow: hidden;
+    padding: 18px 22px; position: relative; overflow: hidden;
   }
-  .stat-card::before {
-    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
-    background: var(--accent-color, var(--accent));
+  .stat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--bar-color, var(--accent)); }
+  .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .stat-value { font-size: 28px; font-weight: 800; margin-top: 6px; }
+  .stat-sub { font-size: 11px; color: var(--muted); margin-top: 4px; }
+
+  /* SUPPLIER BREAKDOWN */
+  .supplier-strip { display: flex; gap: 8px; padding: 16px 32px 0; flex-wrap: wrap; }
+  .supplier-pill {
+    display: flex; align-items: center; gap: 8px;
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 8px 16px; flex: 1; min-width: 140px;
   }
-  .stat-card:nth-child(2)::before { background: var(--accent2); }
-  .stat-card:nth-child(3)::before { background: var(--green); }
-  .stat-card:nth-child(4)::before { background: var(--orange); }
-  .stat-label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
-  .stat-value { font-size: 32px; font-weight: 800; margin-top: 6px; }
-  .stat-sub { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .supplier-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .supplier-name { font-size: 12px; font-weight: 700; }
+  .supplier-info { font-size: 11px; color: var(--muted); }
+  .supplier-spesa { font-size: 13px; font-weight: 700; margin-left: auto; }
 
-  /* MAIN CONTENT */
-  .main { padding: 0 32px 32px; }
+  /* MAIN */
+  .main { padding: 20px 32px 32px; }
 
-  /* CHART SECTION */
+  /* CHARTS ROW */
+  .charts-row { display: grid; grid-template-columns: 1fr 2fr; gap: 16px; margin-bottom: 20px; }
   .chart-section {
-    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 24px; margin-bottom: 24px;
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px;
   }
-  .section-title { font-size: 16px; font-weight: 700; margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
-  .section-title .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
-  .chart-wrap { height: 320px; }
+  .section-title { font-size: 14px; font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+  .section-title .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+  .chart-wrap { height: 280px; }
+  .chart-wrap-sm { height: 200px; }
 
   /* FILTERS */
-  .filters-row {
-    display: flex; gap: 12px; align-items: center; margin-bottom: 20px; flex-wrap: wrap;
-  }
+  .filters-row { display: flex; gap: 10px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
   .search-box {
     flex: 1; min-width: 260px;
     background: var(--card); border: 1px solid var(--border); border-radius: 10px;
-    padding: 11px 16px; color: var(--text); font-size: 14px;
+    padding: 11px 16px; color: var(--text); font-size: 13px;
     outline: none; transition: border-color 0.2s;
   }
   .search-box:focus { border-color: var(--accent); }
   .search-box::placeholder { color: var(--muted); }
-
-  .filter-wrap { display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-wrap { display: flex; gap: 6px; flex-wrap: wrap; }
   .filter-btn {
     background: var(--card); border: 1px solid var(--border); border-radius: 8px;
     padding: 8px 14px; font-size: 12px; color: var(--muted); cursor: pointer;
-    transition: all 0.15s; white-space: nowrap;
+    transition: all 0.15s; white-space: nowrap; display: flex; align-items: center; gap: 5px;
   }
-  .filter-btn:hover, .filter-btn.active {
-    background: var(--accent); border-color: var(--accent); color: white; font-weight: 600;
-  }
+  .filter-btn .fbdot { width: 7px; height: 7px; border-radius: 50%; }
+  .filter-btn:hover { border-color: var(--accent); color: var(--text); }
+  .filter-btn.active { border-color: var(--active-color, var(--accent)); background: rgba(79,142,247,0.12); color: var(--text); font-weight: 600; }
 
   /* TABLE */
-  .table-wrap {
-    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
-    overflow: hidden;
-  }
-  .table-header {
-    padding: 16px 24px; border-bottom: 1px solid var(--border);
-    display: flex; align-items: center; justify-content: space-between;
-  }
-  .result-count { font-size: 13px; color: var(--muted); }
+  .table-wrap { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+  .table-header { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+  .result-count { font-size: 12px; color: var(--muted); }
   .result-count span { color: var(--text); font-weight: 600; }
-
   table { width: 100%; border-collapse: collapse; }
   thead th {
-    padding: 12px 16px; text-align: left; font-size: 11px; font-weight: 600;
+    padding: 11px 14px; text-align: left; font-size: 10px; font-weight: 700;
     color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;
     background: var(--card2); border-bottom: 1px solid var(--border);
     cursor: pointer; user-select: none; white-space: nowrap;
@@ -110,57 +127,56 @@
   thead th:hover { color: var(--text); }
   thead th.sort-asc::after { content: ' ↑'; color: var(--accent); }
   thead th.sort-desc::after { content: ' ↓'; color: var(--accent); }
-
   tbody tr { border-bottom: 1px solid var(--border); transition: background 0.1s; }
   tbody tr:hover { background: var(--card2); }
   tbody tr:last-child { border-bottom: none; }
-  td { padding: 13px 16px; font-size: 13px; vertical-align: middle; }
+  td { padding: 11px 14px; font-size: 12px; vertical-align: middle; }
 
-  .rank-num { font-size: 11px; color: var(--muted); font-weight: 700; min-width: 28px; }
+  .rank-num { font-size: 10px; color: var(--muted); font-weight: 700; min-width: 24px; }
   .rank-num.top3 { color: var(--orange); }
 
   .codice-badge {
     background: var(--card2); border: 1px solid var(--border);
-    border-radius: 6px; padding: 3px 10px; font-family: monospace;
-    font-size: 12px; font-weight: 600; color: var(--accent); white-space: nowrap;
+    border-radius: 5px; padding: 2px 8px; font-family: monospace;
+    font-size: 11px; font-weight: 600; color: var(--accent); white-space: nowrap;
   }
-
   .brand-badge {
-    background: rgba(162,89,255,0.15); border: 1px solid rgba(162,89,255,0.3);
-    border-radius: 6px; padding: 2px 8px; font-size: 11px;
-    color: var(--accent2); font-weight: 600;
+    background: rgba(162,89,255,0.12); border: 1px solid rgba(162,89,255,0.25);
+    border-radius: 5px; padding: 2px 7px; font-size: 10px; color: var(--accent2); font-weight: 700;
   }
-
-  .desc-cell { max-width: 320px; }
-  .desc-text { color: var(--text); font-size: 13px; }
-  .veicoli-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 4px; }
-  .veicolo-tag {
-    background: rgba(79,142,247,0.1); border: 1px solid rgba(79,142,247,0.2);
-    border-radius: 4px; padding: 1px 6px; font-size: 10px; color: var(--accent);
+  .fornitore-badge {
+    border-radius: 5px; padding: 2px 8px; font-size: 10px; font-weight: 700;
+    white-space: nowrap; border: 1px solid;
   }
+  .fornitore-badge.IDIR { color: var(--idir); border-color: rgba(79,142,247,0.3); background: rgba(79,142,247,0.1); }
+  .fornitore-badge.AUTOLUCE { color: var(--autoluce); border-color: rgba(34,197,94,0.3); background: rgba(34,197,94,0.1); }
+  .fornitore-badge.DANCAR { color: var(--dancar); border-color: rgba(249,115,22,0.3); background: rgba(249,115,22,0.1); }
+  .fornitore-badge.FCAR { color: var(--fcar); border-color: rgba(162,89,255,0.3); background: rgba(162,89,255,0.1); }
+  .fornitore-badge.STAHLGRUBER { color: var(--stahlgruber); border-color: rgba(239,68,68,0.3); background: rgba(239,68,68,0.1); }
 
-  .qty-cell { text-align: right; }
-  .qty-num { font-size: 20px; font-weight: 800; color: var(--text); }
-  .qty-bar-wrap { margin-top: 4px; background: var(--card2); border-radius: 4px; height: 4px; width: 80px; overflow: hidden; }
-  .qty-bar { height: 4px; border-radius: 4px; background: linear-gradient(90deg, var(--accent), var(--accent2)); }
+  .desc-cell { max-width: 300px; }
+  .desc-text { color: var(--text); font-size: 12px; line-height: 1.4; }
 
-  .ordini-num { color: var(--muted); font-size: 13px; }
-  .importo-num { color: var(--green); font-weight: 600; font-size: 13px; }
+  .qty-cell { text-align: right; white-space: nowrap; }
+  .qty-num { font-size: 17px; font-weight: 800; }
+  .qty-bar-wrap { margin-top: 3px; background: var(--card2); border-radius: 3px; height: 3px; width: 60px; overflow: hidden; display: inline-block; }
+  .qty-bar { height: 3px; border-radius: 3px; background: linear-gradient(90deg, var(--accent), var(--accent2)); }
 
-  /* EMPTY */
-  .empty-state { padding: 60px; text-align: center; color: var(--muted); }
-  .empty-state .icon { font-size: 48px; margin-bottom: 12px; }
+  .ordini-num { color: var(--muted); font-size: 12px; }
+  .importo-num { color: var(--green); font-weight: 600; font-size: 12px; white-space: nowrap; }
 
-  /* SCROLL */
-  .table-scroll { max-height: 600px; overflow-y: auto; }
-  .table-scroll::-webkit-scrollbar { width: 6px; }
+  .empty-state { padding: 50px; text-align: center; color: var(--muted); }
+  .empty-state .icon { font-size: 40px; margin-bottom: 10px; }
+  .table-scroll { max-height: 580px; overflow-y: auto; }
+  .table-scroll::-webkit-scrollbar { width: 5px; }
   .table-scroll::-webkit-scrollbar-track { background: var(--card); }
   .table-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 
+  @media (max-width: 1024px) { .charts-row { grid-template-columns: 1fr; } }
   @media (max-width: 768px) {
     .stats-grid { grid-template-columns: repeat(2, 1fr); }
-    .header { flex-direction: column; gap: 12px; align-items: flex-start; }
-    .main, .stats-grid { padding: 16px; }
+    .header { flex-direction: column; gap: 10px; align-items: flex-start; }
+    .main, .stats-grid, .supplier-strip { padding: 12px; }
   }
 </style>
 </head>
@@ -168,48 +184,59 @@
 
 <div class="header">
   <div class="header-left">
-    <div class="logo">🔧</div>
+    <div class="logo"><img src="/logo.png" alt="Meccanica 360" onerror="this.parentElement.innerHTML='🔧'"></div>
     <div class="header-title">
-      <h1>Catalogo Ricambi IDIR</h1>
-      <p>Meccanica 360 — Analisi acquisti maggio–novembre 2026</p>
+      <h1>Catalogo Ricambi — Tutti i Fornitori</h1>
+      <p>Meccanica 360 — Gen 2025 → Nov 2026 — 120 fatture analizzate</p>
     </div>
   </div>
-  <div class="header-badge">Ultimo aggiornamento: <span id="last-update">—</span></div>
+  <div class="header-right">
+    <div class="header-badge">Aggiornato: <span id="last-update">—</span></div>
+    <a href="/login.html" class="logout-btn">Esci</a>
+  </div>
 </div>
 
 <div class="stats-grid">
-  <div class="stat-card">
+  <div class="stat-card" style="--bar-color: var(--accent)">
     <div class="stat-label">Codici Unici</div>
     <div class="stat-value" id="s-codici">—</div>
-    <div class="stat-sub">pezzi diversi ordinati</div>
+    <div class="stat-sub">tipi di pezzi ordinati</div>
   </div>
-  <div class="stat-card">
-    <div class="stat-label">Quantità Totale</div>
+  <div class="stat-card" style="--bar-color: var(--accent2)">
+    <div class="stat-label">Pezzi Totali</div>
     <div class="stat-value" id="s-qty">—</div>
-    <div class="stat-sub">pezzi acquistati</div>
+    <div class="stat-sub">quantità acquistata</div>
   </div>
-  <div class="stat-card">
-    <div class="stat-label">Ordini IDIR</div>
-    <div class="stat-value" id="s-ordini">—</div>
-    <div class="stat-sub">negli ultimi 6 mesi</div>
+  <div class="stat-card" style="--bar-color: var(--green)">
+    <div class="stat-label">Fatture Analizzate</div>
+    <div class="stat-value" id="s-fatture">—</div>
+    <div class="stat-sub">da 5 fornitori</div>
   </div>
-  <div class="stat-card">
+  <div class="stat-card" style="--bar-color: var(--orange)">
     <div class="stat-label">Spesa Totale</div>
-    <div class="stat-value" id="s-spesa">—</div>
+    <div class="stat-value" id="s-spesa" style="font-size:22px">—</div>
     <div class="stat-sub">importo pagato</div>
   </div>
 </div>
 
+<div class="supplier-strip" id="supplier-strip"></div>
+
 <div class="main">
 
-  <div class="chart-section">
-    <div class="section-title"><div class="dot"></div> Top 20 Pezzi Più Ordinati</div>
-    <div class="chart-wrap"><canvas id="chart-top20"></canvas></div>
+  <div class="charts-row">
+    <div class="chart-section">
+      <div class="section-title"><div class="dot" style="background:var(--accent2)"></div> Spesa per Fornitore</div>
+      <div class="chart-wrap-sm"><canvas id="chart-pie"></canvas></div>
+    </div>
+    <div class="chart-section">
+      <div class="section-title"><div class="dot"></div> Top 20 Pezzi per Importo</div>
+      <div class="chart-wrap"><canvas id="chart-top20"></canvas></div>
+    </div>
   </div>
 
   <div class="filters-row">
     <input class="search-box" id="search" placeholder="🔍  Cerca per codice, descrizione o brand..." oninput="applyFilters()">
-    <div class="filter-wrap" id="veicolo-filters"></div>
+    <div class="filter-wrap" id="supplier-filters"></div>
   </div>
 
   <div class="table-wrap">
@@ -224,9 +251,10 @@
             <th>#</th>
             <th onclick="sortBy('codice')">Codice</th>
             <th onclick="sortBy('brand')">Brand</th>
+            <th onclick="sortBy('fornitore_short')">Fornitore</th>
             <th>Descrizione</th>
             <th onclick="sortBy('qta_totale')" class="sort-desc">Qty ↓</th>
-            <th onclick="sortBy('n_ordini')">Ordini</th>
+            <th onclick="sortBy('n_ordini')">Ord.</th>
             <th onclick="sortBy('importo_totale')">Spesa €</th>
           </tr>
         </thead>
@@ -238,151 +266,174 @@
       </div>
     </div>
   </div>
+
 </div>
 
 <script>
+const SUPPLIER_COLORS = {
+  IDIR:        '#4f8ef7',
+  AUTOLUCE:    '#22c55e',
+  DANCAR:      '#f97316',
+  FCAR:        '#a259ff',
+  STAHLGRUBER: '#ef4444',
+};
+const SUPPLIERS = ['IDIR','AUTOLUCE','DANCAR','FCAR','STAHLGRUBER'];
+
 let allData = [];
 let filtered = [];
-let sortKey = 'qta_totale';
+let sortKey = 'importo_totale';
 let sortDir = -1;
-let activeVeicolo = null;
+let activeSupplier = null;
 let maxQty = 1;
+let statsData = null;
 
-fetch('/data.json')
+fetch('/data_interno.json')
   .then(r => r.json())
   .then(data => {
+    statsData = data.stats;
     allData = data.pezzi;
-    maxQty = allData[0]?.qta_totale || 1;
+    maxQty = Math.max(...allData.map(p => p.qta_totale)) || 1;
 
-    // Stats
-    document.getElementById('s-codici').textContent = data.stats.totale_codici;
-    document.getElementById('s-qty').textContent = data.stats.totale_qty;
-    document.getElementById('s-ordini').textContent = data.stats.totale_ordini;
-    document.getElementById('s-spesa').textContent = '€' + data.stats.spesa_totale.toLocaleString('it-IT', {minimumFractionDigits:2});
+    // Header stats
+    document.getElementById('s-codici').textContent = data.stats.totale_codici.toLocaleString('it-IT');
+    document.getElementById('s-qty').textContent = data.stats.totale_qty.toLocaleString('it-IT');
+    document.getElementById('s-fatture').textContent = data.stats.totale_fatture;
+    document.getElementById('s-spesa').textContent = '€' + data.stats.spesa_totale.toLocaleString('it-IT',{minimumFractionDigits:2});
     document.getElementById('count-total').textContent = allData.length;
     document.getElementById('last-update').textContent = new Date().toLocaleDateString('it-IT');
 
-    buildChart(allData.slice(0, 20));
-    buildVeicoloFilters(allData);
+    buildSupplierStrip(data.stats.per_fornitore);
+    buildPieChart(data.stats.per_fornitore);
+    buildBarChart(allData);
+    buildSupplierFilters();
     applyFilters();
-  });
+  })
+  .catch(e => { console.error(e); document.body.innerHTML += '<div style="padding:40px;color:red">Errore caricamento dati: ' + e + '</div>'; });
 
-function buildChart(top20) {
-  const labels = top20.map(p => p.codice);
-  const values = top20.map(p => p.qta_totale);
-  const colors = top20.map((_, i) => {
-    const hue = 220 + i * 8;
-    return `hsl(${hue}, 80%, 65%)`;
+function buildSupplierStrip(pf) {
+  const strip = document.getElementById('supplier-strip');
+  SUPPLIERS.forEach(s => {
+    if (!pf[s]) return;
+    const d = pf[s];
+    const color = SUPPLIER_COLORS[s];
+    strip.innerHTML += `
+      <div class="supplier-pill">
+        <div class="supplier-dot" style="background:${color}"></div>
+        <div>
+          <div class="supplier-name" style="color:${color}">${s}</div>
+          <div class="supplier-info">${d.codici} codici · ${Math.round(d.qty)} pz</div>
+        </div>
+        <div class="supplier-spesa" style="color:${color}">€${d.spesa.toLocaleString('it-IT',{minimumFractionDigits:0})}</div>
+      </div>`;
   });
+}
 
-  new Chart(document.getElementById('chart-top20'), {
-    type: 'bar',
-    data: {
-      labels,
-      datasets: [{
-        label: 'Quantità ordinata',
-        data: values,
-        backgroundColor: colors,
-        borderRadius: 6,
-        borderSkipped: false,
-      }]
-    },
+function buildPieChart(pf) {
+  const labels = SUPPLIERS.filter(s => pf[s]);
+  const values = labels.map(s => pf[s].spesa);
+  const colors = labels.map(s => SUPPLIER_COLORS[s]);
+
+  new Chart(document.getElementById('chart-pie'), {
+    type: 'doughnut',
+    data: { labels, datasets: [{ data: values, backgroundColor: colors, borderWidth: 2, borderColor: '#131620', hoverOffset: 6 }] },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
+      responsive: true, maintainAspectRatio: false, cutout: '65%',
       plugins: {
-        legend: { display: false },
+        legend: { position: 'bottom', labels: { color: '#8892a4', font: { size: 10 }, padding: 10, boxWidth: 10 } },
         tooltip: {
           callbacks: {
-            title: ctx => {
-              const item = top20[ctx[0].dataIndex];
-              return item.codice + ' — ' + item.brand;
-            },
-            label: ctx => {
-              const item = top20[ctx.dataIndex];
-              return [
-                ' Qty: ' + item.qta_totale,
-                ' ' + item.descrizione.substring(0, 50)
-              ];
-            }
+            label: ctx => ` €${ctx.parsed.toLocaleString('it-IT',{minimumFractionDigits:0})} (${Math.round(ctx.parsed / values.reduce((a,b)=>a+b,0) * 100)}%)`
           },
-          backgroundColor: '#1a1d2e',
-          borderColor: '#2d3451',
-          borderWidth: 1,
-          titleColor: '#e2e8f0',
-          bodyColor: '#8892a4',
-          padding: 12
-        }
-      },
-      scales: {
-        x: {
-          ticks: { color: '#8892a4', font: { size: 10 } },
-          grid: { color: '#1e2235' }
-        },
-        y: {
-          ticks: { color: '#8892a4' },
-          grid: { color: '#1e2235' },
-          beginAtZero: true
+          backgroundColor: '#1c2030', borderColor: '#232840', borderWidth: 1,
+          titleColor: '#e2e8f0', bodyColor: '#8892a4', padding: 10
         }
       }
     }
   });
 }
 
-function buildVeicoloFilters(data) {
-  const veicoliCount = {};
-  data.forEach(p => {
-    p.veicoli.forEach(v => {
-      veicoliCount[v] = (veicoliCount[v] || 0) + 1;
-    });
-  });
-  const sorted = Object.entries(veicoliCount).sort((a,b) => b[1]-a[1]).slice(0, 12);
-  const wrap = document.getElementById('veicolo-filters');
+function buildBarChart(data) {
+  const top20 = [...data].sort((a,b) => b.importo_totale - a.importo_totale).slice(0, 20);
+  const labels = top20.map(p => p.codice || p.descrizione.substring(0,12));
+  const values = top20.map(p => p.importo_totale);
+  const colors = top20.map(p => SUPPLIER_COLORS[p.fornitore_short] || '#4f8ef7');
 
+  new Chart(document.getElementById('chart-top20'), {
+    type: 'bar',
+    data: { labels, datasets: [{ label: 'Spesa €', data: values, backgroundColor: colors.map(c => c + 'CC'), borderColor: colors, borderWidth: 1, borderRadius: 5 }] },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            title: ctx => { const p = top20[ctx[0].dataIndex]; return (p.codice || '-') + ' — ' + (p.fornitore_short || ''); },
+            label: ctx => { const p = top20[ctx.dataIndex]; return [' Spesa: €' + p.importo_totale.toFixed(2), ' Desc: ' + p.descrizione.substring(0,45)]; }
+          },
+          backgroundColor: '#1c2030', borderColor: '#232840', borderWidth: 1,
+          titleColor: '#e2e8f0', bodyColor: '#8892a4', padding: 10
+        }
+      },
+      scales: {
+        x: { ticks: { color: '#8892a4', font: { size: 9 } }, grid: { color: '#1a1e30' } },
+        y: { ticks: { color: '#8892a4', callback: v => '€' + v.toLocaleString('it-IT') }, grid: { color: '#1a1e30' }, beginAtZero: true }
+      }
+    }
+  });
+}
+
+function buildSupplierFilters() {
+  const wrap = document.getElementById('supplier-filters');
   const allBtn = document.createElement('button');
   allBtn.className = 'filter-btn active';
-  allBtn.textContent = '🔧 Tutti';
-  allBtn.onclick = () => { activeVeicolo = null; document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); allBtn.classList.add('active'); applyFilters(); };
+  allBtn.style.setProperty('--active-color', '#4f8ef7');
+  allBtn.innerHTML = '🔧 Tutti';
+  allBtn.onclick = () => { activeSupplier = null; updateFilterBtns(allBtn); applyFilters(); };
   wrap.appendChild(allBtn);
 
-  sorted.forEach(([v, cnt]) => {
+  SUPPLIERS.forEach(s => {
+    const color = SUPPLIER_COLORS[s];
     const btn = document.createElement('button');
     btn.className = 'filter-btn';
-    btn.textContent = v + ' (' + cnt + ')';
-    btn.onclick = () => {
-      activeVeicolo = v;
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      applyFilters();
-    };
+    btn.style.setProperty('--active-color', color);
+    btn.innerHTML = `<span class="fbdot" style="background:${color}"></span>${s}`;
+    btn.onclick = () => { activeSupplier = s; updateFilterBtns(btn); applyFilters(); };
     wrap.appendChild(btn);
   });
+}
+
+function updateFilterBtns(active) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  active.classList.add('active');
 }
 
 function applyFilters() {
   const q = document.getElementById('search').value.toLowerCase().trim();
   filtered = allData.filter(p => {
     const matchSearch = !q ||
-      p.codice.toLowerCase().includes(q) ||
-      p.descrizione.toLowerCase().includes(q) ||
-      p.brand.toLowerCase().includes(q);
-    const matchVeicolo = !activeVeicolo || p.veicoli.some(v => v === activeVeicolo);
-    return matchSearch && matchVeicolo;
+      (p.codice||'').toLowerCase().includes(q) ||
+      (p.descrizione||'').toLowerCase().includes(q) ||
+      (p.brand||'').toLowerCase().includes(q) ||
+      (p.fornitore_short||'').toLowerCase().includes(q);
+    const matchSupplier = !activeSupplier || p.fornitore_short === activeSupplier;
+    return matchSearch && matchSupplier;
   });
   renderTable();
 }
 
 function sortBy(key) {
   if (sortKey === key) sortDir *= -1;
-  else { sortKey = key; sortDir = key === 'qta_totale' || key === 'n_ordini' || key === 'importo_totale' ? -1 : 1; }
+  else { sortKey = key; sortDir = ['qta_totale','n_ordini','importo_totale'].includes(key) ? -1 : 1; }
+  const ths = document.querySelectorAll('thead th');
+  ths.forEach(th => { th.classList.remove('sort-asc','sort-desc'); });
   applyFilters();
 }
 
 function renderTable() {
   const sorted = [...filtered].sort((a, b) => {
-    const av = a[sortKey], bv = b[sortKey];
+    const av = a[sortKey] ?? '', bv = b[sortKey] ?? '';
     if (typeof av === 'number') return (av - bv) * sortDir;
-    return av.localeCompare(bv) * sortDir;
+    return String(av).localeCompare(String(bv)) * sortDir;
   });
 
   document.getElementById('count-shown').textContent = sorted.length;
@@ -393,28 +444,26 @@ function renderTable() {
     const rank = i + 1;
     const barW = Math.round((p.qta_totale / maxQty) * 100);
     const topClass = rank <= 3 ? 'top3' : '';
-    const veicTags = p.veicoli.slice(0,3).map(v => `<span class="veicolo-tag">${v}</span>`).join('');
-    return `
-      <tr>
-        <td><div class="rank-num ${topClass}">${rank}</div></td>
-        <td><span class="codice-badge">${p.codice}</span></td>
-        <td><span class="brand-badge">${p.brand}</span></td>
-        <td class="desc-cell">
-          <div class="desc-text">${escHtml(p.descrizione)}</div>
-          ${veicTags ? `<div class="veicoli-tags">${veicTags}</div>` : ''}
-        </td>
-        <td class="qty-cell">
-          <div class="qty-num">${p.qta_totale}</div>
-          <div class="qty-bar-wrap"><div class="qty-bar" style="width:${barW}%"></div></div>
-        </td>
-        <td class="ordini-num">${p.n_ordini}</td>
-        <td class="importo-num">€${p.importo_totale.toFixed(2)}</td>
-      </tr>`;
+    const fShort = p.fornitore_short || 'ALTRO';
+    return `<tr>
+      <td><div class="rank-num ${topClass}">${rank}</div></td>
+      <td><span class="codice-badge">${escHtml(p.codice || '—')}</span></td>
+      <td><span class="brand-badge">${escHtml(p.brand || '—')}</span></td>
+      <td><span class="fornitore-badge ${fShort}">${fShort}</span></td>
+      <td class="desc-cell"><div class="desc-text">${escHtml(p.descrizione || '')}</div></td>
+      <td class="qty-cell">
+        <div class="qty-num">${p.qta_totale}</div>
+        <div class="qty-bar-wrap"><div class="qty-bar" style="width:${barW}%"></div></div>
+      </td>
+      <td class="ordini-num">${p.n_ordini}</td>
+      <td class="importo-num">€${p.importo_totale.toFixed(2)}</td>
+    </tr>`;
   }).join('');
 }
 
 function escHtml(str) {
-  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  if (!str) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 </script>
 </body>
